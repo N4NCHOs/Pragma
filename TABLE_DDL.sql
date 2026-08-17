@@ -22,4 +22,7 @@ USING hnsw (embedding vector_cosine_ops);
 SELECT id, title, description, url, is_redundant, novelty_label, embedding, created_at
 FROM public.news_articles;
 
-truncate table public.news_articles restart IDENTITY
+SELECT id, title, url, is_redundant, novelty_label, created_at
+FROM public.news_articles;
+
+truncate table public.news_articles restart identity

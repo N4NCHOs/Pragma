@@ -25,9 +25,9 @@ import trafilatura
 
 RSS_URL = "https://www.coindesk.com/arc/outboundfeeds/rss/"
 RSS_LIMIT = 25
-RSS_TEMP_FILE = Path("rss_temp.json")
-RSS_HISTORY_FILE = Path("rss_history.json")
-SCRAPED_NEWS_FILE = Path("scraped_news.json")
+RSS_TEMP_FILE = Path("output/rss_temp.json")
+RSS_HISTORY_FILE = Path("output/rss_history.json")
+SCRAPED_NEWS_FILE = Path("output/scraped_news.json")
 DELAY_BETWEEN_REQUESTS = 2.0
 
 BROWSER_HEADERS = {

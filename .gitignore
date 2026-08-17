@@ -7,3 +7,10 @@ __pycache__/
 *.pyo
 *.pyd
 .DS_Store
+
+# Outputs and Data
+output/
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
