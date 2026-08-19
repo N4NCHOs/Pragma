@@ -11,6 +11,12 @@ CREATE TABLE news_articles (
     novelty_label VARCHAR(10) DEFAULT 'High',
     -- 384 dimensions matches the output size of all-MiniLM-L6-v2
     embedding VECTOR(384), 
+    extracted_assets JSONB,
+    category VARCHAR(50),
+    impact VARCHAR(20),
+    sentiment VARCHAR(20),
+    target_investor VARCHAR(50),
+    summary TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -22,7 +28,7 @@ USING hnsw (embedding vector_cosine_ops);
 SELECT id, title, description, url, is_redundant, novelty_label, embedding, created_at
 FROM public.news_articles;
 
-SELECT id, title, url, is_redundant, novelty_label, created_at
+SELECT *
 FROM public.news_articles;
 
 truncate table public.news_articles restart identity

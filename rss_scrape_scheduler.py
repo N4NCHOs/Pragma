@@ -28,7 +28,7 @@ RSS_LIMIT = 25
 RSS_TEMP_FILE = Path("output/rss_temp.json")
 RSS_HISTORY_FILE = Path("output/rss_history.json")
 SCRAPED_NEWS_FILE = Path("output/scraped_news.json")
-DELAY_BETWEEN_REQUESTS = 2.0
+DELAY_BETWEEN_REQUESTS = 5.0
 
 BROWSER_HEADERS = {
     "User-Agent": (

@@ -3,6 +3,7 @@ from rss_scrape_scheduler import run_scheduler
 from database import SessionLocal
 from ai_models.filters import is_top_10_news
 from ai_models.novelty_detection import process_incoming_news
+from ai_models.crypto_ner import extract_and_link_entities
 
 def run_pipeline():
     print("\n==========================================")
@@ -36,20 +37,46 @@ def run_pipeline():
         
         # 3. Process each article
         for i, article in enumerate(news_batch, 1):
-            # Skip failed scrapes from the scraper script
-            if article.get("scrape_status") != "success":
-                continue
-                
             print(f"[{i}/{total}] {article.get('title')}")
+            
+            # If the scraper failed (e.g. Rate Limit), it will naturally fall back 
+            # to the RSS summary below.
             
             # 4. Use the imported filter function
             if not is_top_10_news(article):
                 print(" -> [DROPPED] Not a Top 10 asset\n")
                 continue
                 
-            # 5. Use the imported novelty function
-            saved_article = process_incoming_news(article, db)
-            print(f" -> [PROCESSED] Saved to DB with ID: {saved_article.id}\n")
+            # 5. AI Novelty Detection
+            uncommitted_article = process_incoming_news(article, db)
+            
+            # 6. AI Inference (Only for Unique Articles)
+            if uncommitted_article.is_redundant == False:
+                title = article.get("title", "")
+                body = article.get("full_body") or article.get("rss_summary") or article.get("description") or ""
+                full_text = f"{title}. {body}"
+                
+                # Run NLP Models
+                extracted_entities = extract_and_link_entities(full_text)
+                
+                # Aggregate all AI results into memory
+                uncommitted_article.extracted_assets = extracted_entities
+                
+                if extracted_entities:
+                    found_texts = [e['matched_text'] for e in extracted_entities]
+                    print(f" -> Found Entities: {found_texts}\n")
+                else:
+                    print(f" -> Found Entities: None")
+                    
+            # 7. Final Save to Database
+            db.add(uncommitted_article)
+            db.commit()
+            db.refresh(uncommitted_article) 
+            
+            if uncommitted_article.is_redundant == True:
+                print(f" -> [PROCESSED] Saved to DB with ID: {uncommitted_article.id} (Redundant)\n")
+            else:
+                print(f" -> [PROCESSED] Saved to DB with ID: {uncommitted_article.id} (Unique)\n")
     finally:
         db.close()
 

@@ -45,7 +45,7 @@ def process_incoming_news(news_data: dict, db_session):
         is_redundant = False
         novelty_label = "High"
         
-    # Create DB entry
+    # Create DB entry (Uncommitted)
     new_article = NewsArticle(
         title=title,
         description=body,
@@ -54,9 +54,5 @@ def process_incoming_news(news_data: dict, db_session):
         novelty_label=novelty_label,
         embedding=vector_list
     )
-    
-    db_session.add(new_article)
-    db_session.commit()
-    db_session.refresh(new_article)
     
     return new_article

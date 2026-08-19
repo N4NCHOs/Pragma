@@ -2,6 +2,7 @@ import os
 from sqlalchemy import create_engine, Column, Integer, Text, Boolean, String
 from sqlalchemy.orm import declarative_base, sessionmaker
 from pgvector.sqlalchemy import Vector
+from sqlalchemy.dialects.postgresql import JSONB
 
 # ==========================================
 # 1. Database Connection & ORM Setup
@@ -24,6 +25,16 @@ class NewsArticle(Base):
     is_redundant = Column(Boolean, default=False)
     novelty_label = Column(String(10), default="High")
     embedding = Column(Vector(384)) # 384-dimensional vector column
+    extracted_assets = Column(JSONB) # Stores the list of cryptoNER extracted entities
+    
+    # DeBERTa-v3 Multi-Task Classification
+    category = Column(String(50))
+    impact = Column(String(20))
+    sentiment = Column(String(20))
+    target_investor = Column(String(50))
+    
+    # FLAN-T5 Summarization
+    summary = Column(Text)
 
 # Ensure tables are created
 Base.metadata.create_all(bind=engine)
