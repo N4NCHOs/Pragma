@@ -75,7 +75,7 @@ def extract_and_link_entities(news_text: str):
         confidence = round(float(entity['score']), 4)
         
         # Only process high-confidence extractions
-        if confidence > 0.80:
+        if confidence > 0.3:
             # Match the extracted word against our internal dictionary
             unique_id = ASSET_DICTIONARY.get(word)
             
