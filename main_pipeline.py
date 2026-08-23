@@ -4,6 +4,7 @@ from database import SessionLocal
 from ai_models.filters import is_top_10_news
 from ai_models.novelty_detection import process_incoming_news
 from ai_models.crypto_ner import extract_and_link_entities
+from ai_models.flan_t5 import flan_service
 
 def run_pipeline():
     print("\n==========================================")
@@ -58,15 +59,26 @@ def run_pipeline():
                 
                 # Run NLP Models
                 extracted_entities = extract_and_link_entities(full_text)
+                summary_result = flan_service.summarize_with_metrics(full_text)
                 
                 # Aggregate all AI results into memory
                 uncommitted_article.extracted_assets = extracted_entities
+                uncommitted_article.summary = summary_result.summary
                 
                 if extracted_entities:
                     found_texts = [e['matched_text'] for e in extracted_entities]
                     print(f" -> Found Entities: {found_texts}\n")
                 else:
                     print(f" -> Found Entities: None")
+
+                print(f" -> FLAN-T5 Summary: {summary_result.summary}")
+                print(
+                    " -> FLAN-T5 Metrics: "
+                    f"{summary_result.inference_seconds:.3f}s, "
+                    f"{summary_result.input_token_count} input tokens, "
+                    f"{summary_result.output_token_count} output tokens, "
+                    f"truncated={summary_result.input_was_truncated}\n"
+                )
                     
             # 7. Final Save to Database
             db.add(uncommitted_article)
