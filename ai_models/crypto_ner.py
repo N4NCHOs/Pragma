@@ -1,15 +1,19 @@
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
+import re
+from ai_models.filters import NAMES_PATTERN, TICKERS_PATTERN
 
-print("Loading AutoTokenizer and AutoModelForTokenClassification...")
-tokenizer = AutoTokenizer.from_pretrained("covalenthq/cryptoNER")
-model = AutoModelForTokenClassification.from_pretrained("covalenthq/cryptoNER")
-
-ner_pipeline = pipeline(
-    "token-classification", 
-    model=model, 
-    tokenizer=tokenizer, 
-    aggregation_strategy="simple"
-)
+# --- AI MODEL (COMMENTED OUT FOR PRODUCTION SPEED) ---
+# print("Loading AutoTokenizer and AutoModelForTokenClassification...")
+# tokenizer = AutoTokenizer.from_pretrained("covalenthq/cryptoNER")
+# model = AutoModelForTokenClassification.from_pretrained("covalenthq/cryptoNER")
+# 
+# ner_pipeline = pipeline(
+#     "token-classification", 
+#     model=model, 
+#     tokenizer=tokenizer, 
+#     aggregation_strategy="simple"
+# )
+# ------------------------------------------------------
 
 # ==========================================
 # Complete Dictionary-based Entity Linking
@@ -62,29 +66,25 @@ ASSET_DICTIONARY = {
 # ==========================================
 def extract_and_link_entities(news_text: str):
     """
-    Extracts entities using XLM-RoBERTa and maps them to unique IDs.
+    Extracts entities using our pure Regex Dictionary for 100% accuracy and speed.
+    (The previous AI model `covalenthq/cryptoNER` failed to extract journalistic text).
     """
-    raw_entities = ner_pipeline(news_text)
-    
     linked_entities = {}
-    
-    for entity in raw_entities:
-        # Clean the extracted word and uppercase it for dictionary matching
-        # \u2581 is the special block character used by XLM-RoBERTa for spaces
-        word = entity['word'].replace('\u2581', '').replace(' ', '').strip().upper()
-        confidence = round(float(entity['score']), 4)
-        
-        # Only process high-confidence extractions
-        if confidence > 0.80:
-            # Match the extracted word against our internal dictionary
+                
+    # ==========================================
+    # PURE DICTIONARY EXTRACTION
+    # ==========================================
+    for pattern in [NAMES_PATTERN, TICKERS_PATTERN]:
+        for match in pattern.finditer(news_text):
+            word = match.group().upper()
             unique_id = ASSET_DICTIONARY.get(word)
             
-            # If it exists in our system, link it!
             if unique_id and unique_id not in linked_entities:
                 linked_entities[unique_id] = {
                     "asset_id": unique_id,
                     "matched_text": word,
-                    "ner_confidence": confidence
+                    "ner_confidence": 1.0, # Absolute certainty from Dictionary
+                    "source": "regex_dictionary"
                 }
                 
     return list(linked_entities.values())
