@@ -15,7 +15,7 @@ CREATE TABLE news_articles (
     category VARCHAR(50),
     impact VARCHAR(20),
     sentiment VARCHAR(20),
-    target_investor VARCHAR(50),
+    target_investor JSONB,
     summary TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
