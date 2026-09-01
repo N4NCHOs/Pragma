@@ -5,6 +5,7 @@ from ai_models.filters import is_top_10_news
 from ai_models.novelty_detection import process_incoming_news
 from ai_models.crypto_ner import extract_and_link_entities
 from ai_models.flan_t5 import flan_service
+from ai_models.deberta_classifier import deberta_service
 
 def run_pipeline():
     print("\n==========================================")
@@ -60,11 +61,16 @@ def run_pipeline():
                 # Run NLP Models
                 extracted_entities = extract_and_link_entities(full_text)
                 summary_result = flan_service.summarize_with_metrics(full_text)
-                
+                classification_result = deberta_service.classify(full_text)
+
                 # Aggregate all AI results into memory
                 uncommitted_article.extracted_assets = extracted_entities
                 uncommitted_article.summary = summary_result.summary
-                
+                uncommitted_article.category = classification_result.category
+                uncommitted_article.impact = classification_result.impact
+                uncommitted_article.sentiment = classification_result.sentiment
+                uncommitted_article.target_investor = classification_result.target_investor
+
                 if extracted_entities:
                     found_texts = [e['matched_text'] for e in extracted_entities]
                     print(f" -> Found Entities: {found_texts}\n")
@@ -79,7 +85,22 @@ def run_pipeline():
                     f"{summary_result.output_token_count} output tokens, "
                     f"truncated={summary_result.input_was_truncated}\n"
                 )
-                    
+
+                print(
+                    " -> DeBERTa Classification: "
+                    f"category={classification_result.category} "
+                    f"({classification_result.category_confidence}), "
+                    f"impact={classification_result.impact} "
+                    f"({classification_result.impact_confidence}), "
+                    f"sentiment={classification_result.sentiment} "
+                    f"({classification_result.sentiment_confidence})"
+                )
+                print(f" -> DeBERTa Target Investor: {classification_result.target_investor}")
+                print(
+                    " -> DeBERTa Metrics: "
+                    f"{classification_result.inference_seconds:.3f}s\n"
+                )
+
             # 7. Final Save to Database
             db.add(uncommitted_article)
             db.commit()

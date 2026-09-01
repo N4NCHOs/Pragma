@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #14161f;
+  --color-bg-soft: #1a1d29;
+  --color-surface: #23273459;
+  --color-surface-solid: #232734;
+  --color-surface-hover: #2a2f40;
+  --color-border: #333949;
+  --color-accent: #f5b93f;
+  --color-accent-soft: #f5b93f1a;
+  --color-text: #f4f5f7;
+  --color-text-muted: #9aa0b4;
+  --color-text-faint: #6b7182;
+  --color-bullish: #4ade80;
+  --color-bearish: #f87171;
+  --color-neutral: #fbbf24;
+
+  --animate-fade-in: fade-in 0.4s ease-out both;
+  --animate-shimmer: shimmer 1.6s ease-in-out infinite;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -400px 0;
+    }
+    100% {
+      background-position: 400px 0;
+    }
+  }
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle, static radial glow behind the page — not animated, kept faint so
+   it reads as depth rather than a "gradient hero" effect. */
+.ambient-glow {
+  background:
+    radial-gradient(60rem 30rem at 20% -10%, #f5b93f0f, transparent 60%),
+    radial-gradient(50rem 26rem at 100% 0%, #4ade8009, transparent 55%);
+}
+
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-surface-solid);
+}
+
+.skeleton::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    #ffffff0a,
+    transparent
+  );
+  background-size: 400px 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+}

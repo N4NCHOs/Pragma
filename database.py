@@ -1,5 +1,5 @@
 import os
-from sqlalchemy import create_engine, Column, Integer, Text, Boolean, String
+from sqlalchemy import create_engine, Column, Integer, Text, Boolean, String, DateTime, func
 from sqlalchemy.orm import declarative_base, sessionmaker
 from pgvector.sqlalchemy import Vector
 from sqlalchemy.dialects.postgresql import JSONB
@@ -31,10 +31,12 @@ class NewsArticle(Base):
     category = Column(String(50))
     impact = Column(String(20))
     sentiment = Column(String(20))
-    target_investor = Column(String(50))
+    target_investor = Column(JSONB) # Stores the list of DeBERTa target-investor labels
     
     # FLAN-T5 Summarization
     summary = Column(Text)
+
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
 
 # Ensure tables are created
 Base.metadata.create_all(bind=engine)
