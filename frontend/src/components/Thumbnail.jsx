@@ -10,7 +10,12 @@ const SENTIMENT_TINTS = {
  * over the card surface, plus a faint line-chart glyph. Same article always
  * renders the same way; no network fetch, no stock-photo service.
  */
-export default function Thumbnail({ sentiment, className = "" }) {
+
+/**ADDITION
+ * Displays the article image when available.
+ * The sentiment illustration remains as a fallback.
+ */
+export default function Thumbnail({ imageUrl, sentiment, className = "" }) {
   const tint = SENTIMENT_TINTS[sentiment] || "#6b718233";
 
   return (
@@ -20,6 +25,18 @@ export default function Thumbnail({ sentiment, className = "" }) {
         backgroundImage: `linear-gradient(135deg, ${tint}, transparent 65%)`,
       }}
     >
+      {imageUrl && (
+        <img
+          src={imageUrl}
+          alt=""
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover"
+          onError={(event) => {
+            event.currentTarget.style.display = "none";
+          }}
+        />
+      )}
+
       <svg
         viewBox="0 0 100 40"
         className="absolute inset-0 h-full w-full opacity-20"

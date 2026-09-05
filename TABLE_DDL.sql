@@ -7,6 +7,7 @@ CREATE TABLE news_articles (
     title TEXT NOT NULL,
     description TEXT,
     url TEXT,
+    image_url TEXT,
     is_redundant BOOLEAN DEFAULT FALSE,
     novelty_label VARCHAR(10) DEFAULT 'High',
     -- 384 dimensions matches the output size of all-MiniLM-L6-v2

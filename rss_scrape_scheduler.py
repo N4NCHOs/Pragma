@@ -42,6 +42,18 @@ BROWSER_HEADERS = {
 PAGINATION_RUN = re.compile(r"(?:\s*[-*\u2022]\s*\d+\b){2,}")
 TRACKING_PARAMETERS = {"fbclid", "gclid", "mc_cid", "mc_eid"}
 
+def extract_rss_image_url(entry: dict[str, Any]) -> str | None:
+    """Return the first valid image URL provided by the RSS entry."""
+
+    for media_item in entry.get("media_content", []):
+        image_url = str(media_item.get("url") or "").strip()
+        parsed_url = urlsplit(image_url)
+
+        if parsed_url.scheme in {"http", "https"} and parsed_url.netloc:
+            return image_url
+
+    return None
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -118,6 +130,7 @@ def fetch_latest_rss(session: requests.Session, limit: int = RSS_LIMIT) -> list[
     for entry in feed.entries[:limit]:
         url = entry.get("link", "").strip()
         guid = str(entry.get("id") or url).strip()
+        image_url = extract_rss_image_url(entry)
         if not guid and not url:
             continue
         articles.append(
@@ -127,6 +140,7 @@ def fetch_latest_rss(session: requests.Session, limit: int = RSS_LIMIT) -> list[
                 "title": entry.get("title", "").strip(),
                 "rss_summary": entry.get("summary", "").strip(),
                 "url": url,
+                "image_url": image_url,
                 "published_at": entry.get("published", ""),
                 "categories": [tag.get("term", "") for tag in entry.get("tags", [])],
                 "rss_fetched_at": fetched_at,

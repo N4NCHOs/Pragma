@@ -50,6 +50,7 @@ def process_incoming_news(news_data: dict, db_session):
         title=title,
         description=body,
         url=news_data.get("url"),
+        image_url=news_data.get("image_url"),
         is_redundant=is_redundant,
         novelty_label=novelty_label,
         embedding=vector_list
