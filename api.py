@@ -76,6 +76,7 @@ class NewsListItem(BaseModel):
 
     id: int
     title: str
+    image_url: Optional[str] = None
     summary: Optional[str] = None
     sentiment: Optional[str] = None
     impact: Optional[str] = None
@@ -90,6 +91,7 @@ class NewsDetail(BaseModel):
     title: str
     description: Optional[str] = None
     url: Optional[str] = None
+    image_url: Optional[str] = None
     summary: Optional[str] = None
     category: Optional[str] = None
     impact: Optional[str] = None

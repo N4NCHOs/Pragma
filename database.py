@@ -22,6 +22,7 @@ class NewsArticle(Base):
     title = Column(Text, nullable=False)
     description = Column(Text)
     url = Column(Text)
+    image_url = Column(Text, nullable=True)
     is_redundant = Column(Boolean, default=False)
     novelty_label = Column(String(10), default="High")
     embedding = Column(Vector(384)) # 384-dimensional vector column

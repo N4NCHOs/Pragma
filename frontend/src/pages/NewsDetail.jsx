@@ -47,7 +47,11 @@ export default function NewsDetail() {
         ← Back to news
       </Link>
 
-      <Thumbnail sentiment={article.sentiment} className="mt-6 h-72 w-full rounded-2xl border border-border" />
+      <Thumbnail
+        imageUrl={article.image_url}
+        sentiment={article.sentiment}
+        className="mt-6 h-72 w-full rounded-2xl border border-border"
+      />
 
       <h1 className="mt-6 text-3xl font-bold leading-tight text-text sm:text-4xl">{article.title}</h1>
       <p className="mt-2 text-sm font-medium text-accent">{formatNewsTimestamp(article.created_at)}</p>
