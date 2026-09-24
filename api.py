@@ -7,9 +7,15 @@ than opening a second connection.
 
 from __future__ import annotations
 
+import asyncio
+import sys
+import logging
+import threading
+from contextlib import asynccontextmanager
 from datetime import date, datetime, time, timezone
 from typing import Optional
 
+from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from fastapi import Depends, FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, ConfigDict
@@ -17,32 +23,78 @@ from sqlalchemy.orm import Session
 
 from database import NewsArticle, SessionLocal
 
-# ==========================================
-# Fixed top-10 asset catalog
-# ==========================================
-# Display metadata for the same top-10 assets ai_models/crypto_ner.py links
-# entities to (ASSET_DICTIONARY there maps name/ticker variants -> asset_id;
-# this is the one canonical display record per asset_id).
-ASSET_CATALOG = [
-    {"asset_id": "asset_btc", "name": "Bitcoin", "ticker": "BTC"},
-    {"asset_id": "asset_eth", "name": "Ethereum", "ticker": "ETH"},
-    {"asset_id": "asset_usdt", "name": "Tether", "ticker": "USDT"},
-    {"asset_id": "asset_bnb", "name": "BNB", "ticker": "BNB"},
-    {"asset_id": "asset_xrp", "name": "XRP", "ticker": "XRP"},
-    {"asset_id": "asset_usdc", "name": "USD Coin", "ticker": "USDC"},
-    {"asset_id": "asset_sol", "name": "Solana", "ticker": "SOL"},
-    {"asset_id": "asset_trx", "name": "TRON", "ticker": "TRX"},
-    {"asset_id": "asset_doge", "name": "Dogecoin", "ticker": "DOGE"},
-    {"asset_id": "asset_hype", "name": "Hyperliquid", "ticker": "HYPE"},
-]
-ASSET_CATALOG_IDS = {asset["asset_id"] for asset in ASSET_CATALOG}
+logger = logging.getLogger("uvicorn.error")
 
-# Vite's default dev server port.
+# ==========================================
+# Scheduler & Background Execution
+# ==========================================
+scheduler = AsyncIOScheduler()
+pipeline_is_running = False
+
+
+def run_pipeline_worker():
+  """Runs the CPU/GPU heavy pipeline in an isolated thread to avoid locking FastAPI."""
+  global pipeline_is_running
+  if pipeline_is_running:
+    logger.warning("[Scheduler] Pipeline is already running; skipping trigger.")
+    return
+
+  pipeline_is_running = True
+  logger.info("[Scheduler] Starting scheduled news ingestion...")
+  try:
+    # Temporarily mask sys.argv so main_pipeline's argparse doesn't see uvicorn's flags
+    original_argv = sys.argv
+    sys.argv = ["main_pipeline.py", "--mode", "sequential"]
+
+    import main_pipeline
+
+    if hasattr(main_pipeline, "run"):
+      main_pipeline.run(mode="sequential")
+    elif hasattr(main_pipeline, "main"):
+      main_pipeline.main()
+
+    # Restore argv
+    sys.argv = original_argv
+    logger.info("[Scheduler] Scheduled pipeline run completed.")
+  except Exception as exc:
+    logger.error(f"[Scheduler] Pipeline run failed: {exc}", exc_info=True)
+  finally:
+    pipeline_is_running = False
+
+def trigger_pipeline_thread():
+    """Spawns a detached daemon thread so the event loop never blocks."""
+    worker = threading.Thread(target=run_pipeline_worker, daemon=True)
+    worker.start()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Register background pipeline to run every 15 minutes
+    scheduler.add_job(
+        trigger_pipeline_thread,
+        trigger="interval",
+        minutes=15,
+        id="crypto_rss_scraper",
+        replace_existing=True,
+    )
+    scheduler.start()
+    logger.info("APScheduler initialized: scheduled pipeline set to 15-minute interval.")
+
+    yield
+
+    scheduler.shutdown(wait=False)
+    logger.info("APScheduler shut down.")
+
+
+# ==========================================
+# FastAPI App Setup & CORS
+# ==========================================
+app = FastAPI(title="Crypto News API", lifespan=lifespan)
+
 CORS_ORIGINS = [
     "http://localhost:5173",
 ]
 
-app = FastAPI(title="Crypto News API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=CORS_ORIGINS,
@@ -59,6 +111,24 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+# ==========================================
+# Fixed top-10 asset catalog
+# ==========================================
+ASSET_CATALOG = [
+    {"asset_id": "asset_btc", "name": "Bitcoin", "ticker": "BTC"},
+    {"asset_id": "asset_eth", "name": "Ethereum", "ticker": "ETH"},
+    {"asset_id": "asset_usdt", "name": "Tether", "ticker": "USDT"},
+    {"asset_id": "asset_bnb", "name": "BNB", "ticker": "BNB"},
+    {"asset_id": "asset_xrp", "name": "XRP", "ticker": "XRP"},
+    {"asset_id": "asset_usdc", "name": "USD Coin", "ticker": "USDC"},
+    {"asset_id": "asset_sol", "name": "Solana", "ticker": "SOL"},
+    {"asset_id": "asset_trx", "name": "TRON", "ticker": "TRX"},
+    {"asset_id": "asset_doge", "name": "Dogecoin", "ticker": "DOGE"},
+    {"asset_id": "asset_hype", "name": "Hyperliquid", "ticker": "HYPE"},
+]
+ASSET_CATALOG_IDS = {asset["asset_id"] for asset in ASSET_CATALOG}
 
 
 # ==========================================
@@ -119,7 +189,6 @@ def _today_start_utc() -> datetime:
 @app.get("/assets", response_model=list[AssetSummary])
 def list_assets(db: Session = Depends(get_db)):
     """Fixed top-10 asset list, each with a count of today's unique articles."""
-
     today_start = _today_start_utc()
     summaries = []
     for asset in ASSET_CATALOG:
@@ -139,7 +208,6 @@ def list_assets(db: Session = Depends(get_db)):
 @app.get("/assets/{asset_id}/news", response_model=list[NewsListItem])
 def asset_news(asset_id: str, db: Session = Depends(get_db)):
     """All unique articles whose extracted_assets includes this asset_id."""
-
     if asset_id not in ASSET_CATALOG_IDS:
         raise HTTPException(status_code=404, detail=f"Unknown asset_id '{asset_id}'")
 
@@ -162,7 +230,6 @@ def list_news(
     db: Session = Depends(get_db),
 ):
     """Most recent unique articles, paginated."""
-
     base_query = db.query(NewsArticle).filter(NewsArticle.is_redundant.is_(False))
     total = base_query.count()
     items = (
@@ -173,10 +240,7 @@ def list_news(
 
 @app.get("/news/{news_id}", response_model=NewsDetail)
 def news_detail(news_id: int, db: Session = Depends(get_db)):
-    """Full detail for one unique article. 404s on redundant articles too,
-    for consistency with the list endpoints above, which only ever surface
-    unique ones."""
-
+    """Full detail for one unique article. 404s on redundant articles."""
     article = (
         db.query(NewsArticle)
         .filter(NewsArticle.id == news_id, NewsArticle.is_redundant.is_(False))

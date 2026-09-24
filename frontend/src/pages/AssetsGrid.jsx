@@ -5,9 +5,17 @@ import AssetCard from "../components/AssetCard.jsx";
 import LoadingState from "../components/LoadingState.jsx";
 import ErrorState from "../components/ErrorState.jsx";
 
+const POLL_INTERVAL = 15 * 60 * 1000; // 15 minutes
+
 export default function AssetsGrid() {
   const fetchAssets = useCallback(() => getAssets(), []);
-  const { data: assets, loading, error, refetch } = useApi(fetchAssets, [fetchAssets]);
+  
+  // Pass POLL_INTERVAL as the 3rd argument
+  const { data: assets, loading, error, refetch } = useApi(
+    fetchAssets, 
+    [fetchAssets], 
+    POLL_INTERVAL
+  );
 
   if (loading) return <LoadingState count={10} variant="asset" />;
   if (error) return <ErrorState message="Couldn't load assets." onRetry={refetch} />;

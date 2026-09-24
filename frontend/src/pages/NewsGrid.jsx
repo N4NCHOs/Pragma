@@ -5,6 +5,7 @@ import LoadingState from "../components/LoadingState.jsx";
 import ErrorState from "../components/ErrorState.jsx";
 
 const PAGE_SIZE = 30;
+const POLL_INTERVAL = 15 * 60 * 1000; // 15 minutes
 
 export default function NewsGrid() {
   const [items, setItems] = useState([]);
@@ -17,6 +18,7 @@ export default function NewsGrid() {
     return getNews({ skip, limit: PAGE_SIZE });
   }, []);
 
+  // Initial fetch
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
@@ -36,6 +38,20 @@ export default function NewsGrid() {
     };
   }, [loadPage]);
 
+  // Periodic polling for new articles
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      loadPage(0)
+        .then((page) => {
+          setItems(page.items);
+          setTotal(page.total);
+        })
+        .catch((err) => console.error("Background news refresh failed:", err));
+    }, POLL_INTERVAL);
+
+    return () => clearInterval(intervalId);
+  }, [loadPage]);
+
   const handleLoadMore = () => {
     setLoadingMore(true);
     loadPage(items.length)
@@ -50,13 +66,19 @@ export default function NewsGrid() {
   if (loading) return <LoadingState count={9} variant="card" />;
   if (error) {
     return (
-      <ErrorState
+      <ErrorState 
         message="Couldn't load the latest news."
-        onRetry={() => loadPage(0).then((page) => {
-          setItems(page.items);
-          setTotal(page.total);
-          setError(null);
-        })}
+        onRetry={() => {
+          setLoading(true);
+          loadPage(0)
+            .then((page) => {
+              setItems(page.items);
+              setTotal(page.total);
+              setError(null);
+            })
+            .catch((err) => setError(err))
+            .finally(() => setLoading(false));
+        }}
       />
     );
   }
