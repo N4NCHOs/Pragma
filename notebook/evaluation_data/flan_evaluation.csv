@@ -1,0 +1,1297 @@
+id,title,full_body,summary,reference_summary
+1,"Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange","Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange
+Kraken parent Payward is unifying trading, payments, asset management and institutional services on common rails, co-CEO Arjun Sethi said.
+- Payward is unifying trading, banking, asset management and institutional services on a common infrastructure stack.
+- The Kraken parent builds products internally, acquires capabilities that would take too long to develop and partners with established institutions.
+- Sethi said Payward is profitable and in no rush to pursue an IPO as it expands its platform.
+Kraken spent most of its 15 years building a crypto exchange. Over the past two years, its parent company has been buying and building the pieces of something much bigger.
+Payward, its Wyoming-based parent company, spent billions on acquisitions that expanded its reach into futures and derivatives, pushed into tokenized stocks, and pursued additional banking capabilities in the U.S. and Europe.
+The moves are part of a bigger goal to turn Payward into a unified financial platform where trading, banking, asset management and services for other businesses can operate under the same infrastructure.
+“We’re not a holding company,” he said. “It’s one platform, one balance sheet, one regulatory stack,” its co-CEO Arjun Sethi told CoinDesk in an interview.
+At the center of the strategy is what Sethi calls “one ledger,” which allows money and assets to move between products without the patchwork of intermediaries that sits behind most of traditional finance.
+Payward is not alone in pursuing a broader financial platform. Coinbase is building an “Everything Exchange” spanning crypto, stocks, derivatives and prediction markets, while Binance is combining trading, payments, investing and yield products into a single platform.
+But Payward is pursuing a different model than Coinbase, according to Architect Partners, a digital-assets investment bank. Rather than concentrating all of its products inside a single Kraken-branded platform, the company is building infrastructure that can support multiple brands and be used by outside financial companies.
+“Payward appears to be choosing a different aggregation layer: the regulated infrastructure stack that can power financial products across multiple brands, customer segments, and partner channels,” Architect Partners said.
+“In our view, Payward is helping define the next evolution beyond the ‘Everything Exchange’: an ‘Everything Financial Infrastructure’ model.”
+Kraken remains smaller by exchange volume: CoinGecko data show it averaged about $1.1 billion in daily spot trading during the first four months of 2026, while Binance controlled 38.7% of top-10 centralized-exchange spot volume in the second quarter and Coinbase reported an 8.6% share of overall crypto trading volume in the first quarter.
+One ledger, four businesses
+Payward’s thesis is that much of the legacy financial system remains constrained by decades-old technology and market conventions. Securities take time to settle, markets close overnight and on weekends and banks, brokers, custodians and clearing houses maintain separate records that must be reconciled.
+Each boundary creates another intermediary, delay and fee, Sethi said. Blockchain systems, in his view, offer an alternative by allowing assets to function as investments, collateral and programmable instruments on shared infrastructure.
+Payward has divided that vision into four pillars: trading through Kraken, banking, asset management and Payward Services, its business-to-business infrastructure division.
+Kraken has about 6.6 million funded accounts holding between $40 billion and $50 billion of assets, according to Sethi, across more than 190 countries and territories.
+To grow its vision of a unified financial platform, Payward is now adding services around those accounts, including cards, lending, derivatives and tokenized equities, as well as products that allow customers to borrow against assets or deploy them in decentralized-finance applications. Kraken Financial, its Wyoming-chartered special-purpose depository institution, also forms part of the stack.
+Build, buy or partner
+That thesis is also shaping what the company is buying.
+While Payward builds some capabilities internally, it also acquires others that would take years to replicate and partners with institutions whose position cannot simply be bought.
+Payward paid $1.5 billion for the acquisition of NinjaTrader to build a U.S. futures brokerage, including its technology and regulatory permissions, which would have been costly and time-consuming, Sethi said. It followed that with a $550 million deal for Bitnomial, adding regulated derivatives infrastructure, including an exchange, clearinghouse and futures brokerage.
+The firm is also “about to buy a bank in Europe,” Sethi said, without disclosing who the target was. Bloomberg reported in July that Payward was planning to buy a Lithuanian bank as part of its strategy to expand on the continent.
+The company does not maintain a shopping list or broadly solicit pitches from bankers. Instead, it uses a quantitative framework to determine whether a target fills an infrastructure gap and provides capabilities customers want, Sethi said.
+However, not every piece of the financial system can be bought. Some of Payward's most consequential recent moves have involved partnering with the incumbent institutions that blockchain technology was once supposed to displace.
+Nasdaq, for example, agreed this month to invest $100 million in Payward while expanding its work on Nasdaq Equity Tokens and market surveillance technology. The companies expect to launch the tokens in the second quarter of 2027, with Payward providing distribution, trading and post-trade infrastructure.
+Meanwhile, the London Stock Exchange has separately partnered with Payward to explore tokenized public equities. Subject to regulatory approval, it plans to list xStocks, tokenized representations of publicly traded shares, on its forthcoming LSE 24 venue in 2027.
+For Payward, those relationships reflect an acknowledgment that blockchain infrastructure doesn't eliminate everything established exchanges have spent decades building.
+“Trust is their currency,” Sethi said, arguing that Payward can complement rather than displace established exchanges’ listing and regulatory infrastructure.
+And to continue to chase its vision, Payward isn’t waiting for lawmakers to pave the way first.
+Sethi does not see stalled U.S. crypto legislation as an obstacle. The company supported the Clarity Act and has spent years educating policymakers, but he said legislation formalizes industries rather than creating them.
+“Bitcoin has been around for 17 years without a market-structure bill,” he said. “Rights come first and laws come later and legislation comes downstream.”
+Opening its infrastructure to other companies
+Payward is also turning infrastructure originally built for Kraken into a business of its own.
+Payward Services offers banks, fintech companies, brokerages and crypto platforms through a common set of APIs. At least 25 companies are building products using the infrastructure and are expected to launch this year, Sethi said. Hyperliquid is among its partners.
+The division emerged from infrastructure Payward had already built for itself, including custody, liquidity, compliance, risk management, payments and settlement. It now packages those capabilities for external companies through a single integration.
+That could give Payward a distribution channel that doesn't depend on directly bringing customers to Kraken, Architect Partners said. Banks, fintechs, brokers and other companies can instead use Payward's infrastructure within products that carry their own brands.
+“Payward’s model can work even when the end customer never interacts with Kraken directly,” Architect Partners said.
+That strategy gives Payward another potential revenue stream beyond customers trading on Kraken while also putting the company in competition with the growing number of crypto firms selling infrastructure to banks and fintechs.
+Bringing asset management onchain
+The company is making a similar move with investment products.
+Payward has long offered custody, staking and yield products but is now formalizing this activity into an asset-management platform that can accommodate additional managers, strategies and asset classes.
+Rather than seeking conventional investment mandates, it wants to provide the execution and distribution layer through which customers can access structured products, tokenized equities, credit and multi-asset strategies while keeping assets on Payward’s platform.
+The initial focus is on tokenized equities, followed by structured products that can be divided into smaller units and distributed globally. Payward recently partnered with Bitwise on an institutional investment product and expects to add more managers and strategies.
+The products would resemble traditional asset management from the outside but be tokenized and administered on Payward’s rails, reducing costs and counterparty exposure, Sethi said.
+No rush to go public
+The expansion is taking place as Payward prepares for an eventual public listing. Although Sethi says the company isn't relying on an IPO to finance its ambitions.
+Payward confidentially filed for an IPO in November 2025, though CoinDesk reported earlier this month that it does not plan to go public before the second quarter of 2027 at the earliest.
+Sethi declined to discuss the timetable beyond what is public, saying Payward remains profitable and revenue continues to grow. A listing will happen when it is right for the business, shareholders and regulators, he said.
+Payward also does not need outside money to fund operations and can finance investments from its balance sheet, Sethi said.
+Recent capital raises have instead brought in strategic partners, including Citadel Securities and Nasdaq, whose expertise can help extend the platform.
+Payward reported $508 million in adjusted revenue for the second quarter of 2026, marking a 17% increase year-over-year.
+Ultimately, Paywards’s goal is to simplify the financial system through blockchain technology, giving individuals access to the same financial infrastructure used by sophisticated trading firms such as Jump Trading and Jane Street.
+“Fix money, fix the world,” Sethi said.
+Read more: Kraken parent Payward delays IPO to second quarter of 2027 at earliest
+As stablecoins move into regulated finance, APAC is becoming a key proving ground. This report maps the region’s rules, use cases, and RLUSD’s role.
+Why it matters:","Payward is unifying trading, banking, asset management and institutional services on a common infrastructure stack.","Kraken parent Payward is investing billions in acquisitions and partnerships to combine trading, banking, asset management, and services for other firms on shared infrastructure. The strategy could expand revenue beyond Kraken’s exchange, while the company says it is profitable and in no rush to go public."
+2,"Binance deal gives Circle a boost in stablecoin race with Tether, analysts say","Binance deal gives Circle a boost in stablecoin race with Tether, analysts say
+The five-year deal could strengthen USDC’s reach in emerging markets, though Tether’s liquidity advantage remains hard to dislodge, analysts told CoinDesk.
+- Binance's $100 million stake and tie-up gives Circle a powerful distribution channel in markets where USDT is deeply entrenched, analysts said.
+- USDC trading on Binance has already surged since the companies first partnered in 2024, Kaiko data shows.
+- Tether still benefits from deeper local liquidity and long-standing user habits, limiting how quickly market share could shift, CEO of market maker Gravity Labs noted.
+Circle’s expanded deal with Binance could give USDC 
+Binance invested $100 million in Circle 
+“This optimizes the relationship and further aligns Binance's interests with Circle's, echoing Circle-Coinbase's distributor-shareholder model,” Clear Street analyst Owen Lau told CoinDesk.
+Binance has already become a major USDC venue
+The companies’ first partnership, announced in December 2024, has already changed how USDC trades on Binance.
+The exchange offered 140 USDC-quoted spot markets when the partnership began. It now has 329, according to Kaiko. That compares with a much slower increase from 39 markets in 2021 to 140 by late 2024.
+Monthly USDC trading volume on Binance has also roughly doubled, rising from the $20 billion-$40 billion range before the partnership to consistently above $80 billion.
+“Throughout 2026, Binance has consistently captured the largest share of USDC spot trading activity, processing $5 million-$10 billion in daily volume, roughly 10-20 times more than most other trading venues, which typically stay below $0.5 billion,” said Anastasia Melachrinos, head of research at Kaiko.
+Other major exchanges have remained broadly within their previous USDC trading ranges, according to Kaiko, suggesting Binance itself has driven much of the increase.
+“As Binance accelerates USDC's reach in emerging markets, that dominance is likely to grow even further,” Melachrinos said.
+More pressure on Tether
+USDC has a market capitalization of about $74 billion, making it the second-largest U.S. dollar stablecoin behind Tether’s roughly $140 billion USDT.
+“There is a clear incentive on both sides to grow USDC through Binance’s user base and infrastructure,” said Martins Benkitis, co-founder and CEO of Gravity Team.
+Circle has also been building beyond stablecoin issuance. Its Circle Payments Network is designed to connect financial institutions for stablecoin payments, while its recently announced $400 million acquisition of Singapore-based Tazapay would add local banking relationships and payment rails across emerging markets.
+The strategy comes as stablecoin competition broadens beyond Circle and Tether. Banks and payment companies including Visa, Mastercard and Stripe have been pushing further into stablecoin payments and infrastructure.
+Circle also has a close commercial relationship with Coinbase, which distributes USDC and shares in its economics. Lau said the Binance agreement does not give Circle additional leverage over Coinbase, noting that Circle recently renewed that partnership.
+Binance can put USDC in front of more users, but Tether’s long-established trading and payment network will make market share difficult to shift quickly.
+“That puts more pressure on USDT, particularly in global trading and emerging markets, where it has built a very strong position over many years,” Benkitis said. “But distribution alone won’t change that overnight. USDT has deep trading pairs, local liquidity and, importantly, people are already used to using it.”
+As stablecoins move into regulated finance, APAC is becoming a key proving ground. This report maps the region’s rules, use cases, and RLUSD’s role.
+Why it matters:","The five-year deal could strengthen USDC’s reach in emerging markets, though Tether’s liquidity advantage remains hard to dislodge, analysts said.","Binance’s $100 million investment and expanded partnership give Circle’s USDC a larger distribution channel, particularly in emerging markets. Analysts say Tether’s established liquidity and user habits may slow any shift in stablecoin market share."
+3,Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze,"Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze
+Two wallets have been almost emptied and a third is being drained, with about $75 million remaining across the five original holding accounts.
+- The hacker behind Bitget’s $387.5 million breach moved about $83 million in stolen XRP from three holding wallets, while roughly $75 million remains in accounts that cannot be frozen under the XRP Ledger’s rules.
+- Exchanges can restrict accounts that receive the stolen XRP, but Ripple cannot block transactions from wallets controlled by the attacker; Circle and Tether have separately frozen about $320,000 in related stablecoins.
+- Bitget said its protection fund will cover the losses and customer balances are unaffected, with withdrawals scheduled to resume in stages from Sept. 28 through Oct. 2.
+The hacker behind crypto exchange Bitget’s $388 million breach has moved about $83 million in stolen XRP out of three holding wallets, leaving another $75 million in accounts that cannot be frozen under the network’s existing rules.
+Nearly 103 million XRP was taken from Bitget on Thursday and divided among five accounts. By 12:41 UTC Saturday, two accounts that initially held 20 million XRP each had been reduced to about 23 and 55 tokens, according to CoinDesk’s review of XRP Ledger records. A third was down to about 5.8 million XRP.
+XRP is the currency built into the XRP Ledger, the blockchain used by payments company Ripple. The network lets companies freeze tokens they issue on it, but that power does not extend to XRP itself. Ripple has no built-in way to block the attacker from spending those coins.
+That leaves recovery efforts dependent in part on where the money goes next. An exchange receiving stolen XRP can restrict the recipient’s account and prevent withdrawals. It cannot freeze coins while they remain in a wallet controlled by the attacker.
+Circle and Tether, the companies behind dollar-linked tokens USDC and USDT, have already frozen about $320,000 in stablecoins connected to the breach. Their tokens contain controls that allow the companies to blacklist addresses.
+Read More: Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist
+The XRP transfers accelerated overnight. At 04:32 UTC Saturday, about 70 million tokens remained in the original five accounts. Roughly eight hours later, that balance had fallen to 49 million.
+Some payments followed routes already used by the first wallet. After an attempted transfer of about 521,000 XRP failed because that account lacked sufficient funds, the second sent an identical amount to the intended recipient roughly an hour later.
+About 54 million XRP has now left the original holding accounts. The transfers show the attacker distributing the stolen funds across more wallets, although they do not reveal how much has been sold.
+XRP traded around $1.54 on Saturday, down about 4% over 24 hours while retaining a weekly gain of about 9%, according to CoinGecko.
+At that price, the original XRP haul was worth roughly $160 million, or equivalent to about 4% of the token’s $4.4 billion in reported daily trading volume. How much a sale would move the price depends on the buy orders available when it happens.
+Bitget raised its estimate of the overall theft to $387.5 million on Friday after including Zcash and TRON transfers missed in its initial accounting. It said the higher figure reflected assets taken during the original breach, rather than another attack.
+Meanwhile, the exchange has since confimed its protection fund covers the loss and customer balances remain unaffected. Bitcoin withdrawals are scheduled to resume Sept. 28, followed by ether on Sept. 29, USDT on Sept. 30 and other tokens on Oct. 2.
+As stablecoins move into regulated finance, APAC is becoming a key proving ground. This report maps the region’s rules, use cases, and RLUSD’s role.
+Why it matters:","Exchanges can restrict accounts that receive the stolen XRP, but Ripple cannot block transactions from wallets controlled by the attacker; Circle and Tether have separately frozen about $320,000 in related stablecoins.","The attacker in Bitget’s roughly $388 million breach moved about $83 million in stolen XRP, while about $75 million remained in the original wallets. Ripple cannot freeze native XRP on the ledger, so recovery depends partly on exchanges restricting accounts that receive the funds."
+4,Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules,"Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules
+Researchers have mapped out private bitcoin-denominated transfers that run alongside Bitcoin, but the system still lacks a finished way to lock up real BTC and release it again.
+- Researchers proposed Shielded Bitcoin, a system modeled on Zcash that could conceal payment amounts, senders and recipients without changing Bitcoin’s network rules.
+- The proposal would store encrypted transfers on Bitcoin but rely on separate software to verify them, meaning a Bitcoin transaction could be confirmed even if the private payment failed its own checks.
+- The research remains preliminary, with no launch date or mechanism for depositing and withdrawing bitcoin, while critics also cite visible fees, higher transaction costs and reliance on a trusted cryptographic setup.
+A group of researchers floated a way to make bitcoin payments more private without changing the network’s rules, as privacy-focused cryptocurrencies led by Zcash attract renewed investor interest.
+The Shielded Bitcoin paper, published on Thursday by Clara Shikhelman, Mikhail Komarov and Aleksei Moskvin of cryptography firm [alloc] init, borrows the encrypted payment design used by Zcash.
+Inside the proposed system, bitcoin-denominated value would be held in encrypted records called notes. Spending one would publish a marker showing it had been used, along with a mathematical proof that the sender owned the funds and had not created new ones. The amount, sender and recipient would remain hidden.
+Zcash’s blockchain checks those proofs itself. Shielded Bitcoin would publish the transfer data on Bitcoin and leave the checks to separate software that anyone could run. A Bitcoin transaction could therefore be confirmed while the private payment recorded inside it failed Shielded Bitcoin’s checks.
+Privacy has become a practical concern in recent months as developers try to make cryptocurrencies useful for payroll, business payments and everyday spending. Ordinary bitcoin transactions permanently expose amounts and addresses, but once an address is linked to a company or person, other payments associated with it become easier to follow.
+Ethereum is also reviewing a proposal for a shared private pool that would let people transfer ether and other tokens without publicly revealing payment details. Its authors cite payroll, treasury management and donations among the uses poorly served by fully public transactions.
+How Zcash works
+Zcash lets users choose between transparent payments, whose addresses and amounts are public, and shielded payments that encrypt those details. Its shielded pools held about 4.9 million ZEC on Friday, up 14% from July 30, according to CoinDesk calculations using ZecStats data. That represents roughly 29% of issued coins, worth about $7.8 billion following the rally.
+Zcash recorded roughly 63,000 shielded transactions last week, its busiest week for private transfers since 2022 and fourth-highest on record. Across the network, reported transfer volume exceeded $23 billion, the largest weekly total since 2021 and second-highest in its history.
+Zcash has attracted both investor money and attention amid those metrics. By early September, ZEC had gained more than 2,300% over the preceding year and crossed $1,000. It extended the rally above $1,600 on Wednesday.
+The connection to Zcash goes back further than Thursday’s paper. Zerocoin was proposed as a privacy extension to Bitcoin in 2013, the subsequent Zerocash research developed into Zcash, which launched as a separate cryptocurrency in 2016.
+Shielded Bitcoin would keep the encrypted transfer data on Bitcoin so users could reconstruct accepted payments from the public record using their wallet keys. Separate viewing keys would allow them to disclose transactions to an accountant or auditor without handing over permission to spend their funds.
+Unanswered questions
+The 56-page specification does not explain how ordinary BTC would enter that system or be released when someone wanted to withdraw. The authors reserve those mechanisms for a separate paper using PIPEs, a technique designed to lock a Bitcoin signing key until specified conditions are met. Their claim that users retain control of their funds covers transfers inside the system and explicitly excludes deposits and withdrawals.
+Meanwhile, the omissions have drawn criticism from developers and Zcash supporters.
+Mert Mumtaz, cofounder of Helius, which provides infrastructure for Solana developers, and a Zcash proponent, described the proposal on X as “a synthetic ledger with significant tradeoffs.”
+He pointed to “a trusted setup” and “no fee anonymization,” meaning the Bitcoin wallet paying to publish a private transfer could still be visible. He also criticized the absence of a deposit and withdrawal mechanism, writing that there was “no in-protocol mechanism for getting actual BTC in or out (which means you are holding synthetics).”
+“I respect that people are working on this and taking notes from zcash finally,” he wrote, adding that the proposal would require years of additional research and development.
+Cypherpunk, a company that holds and mines Zcash, welcomed the research but did not perceive it as competition for the existing network. “Privacy works best when built into the base layer. Not requiring Bitcoin changing is this design's biggest selling point, and also its biggest drawback,” the company wrote.
+“More privacy on Bitcoin is good for everyone,” it added.
+Meanwhile, [alloc] init acknowledges several of those limits. Their reference design used in the paper requires a cryptographic setup whose security depends on at least one participant acting honestly. Transfer timing and fee payments remain visible, while an efficient way for lightweight wallets to verify the reconstructed payment history is listed as future work.
+Komarov estimated a private transfer at roughly 700 virtual bytes, against 100 to 200 for an ordinary bitcoin transaction, putting miner fees at about four times as much at an equivalent fee rate.
+There is no launch date for the system as of Friday.
+Read More: Zcash seals $1.7 billion shielded pool as Ironwood upgrade activates
+As stablecoins move into regulated finance, APAC is becoming a key proving ground. This report maps the region’s rules, use cases, and RLUSD’s role.
+Why it matters:","Shielded Bitcoin, a system modeled on Zcash that could conceal payment amounts, senders and recipients without changing Bitcoin’s network rules.","Researchers proposed Shielded Bitcoin to enable private bitcoin-denominated transfers without changing Bitcoin’s network rules, using separate software to verify encrypted payments. The design remains preliminary because deposits and withdrawals are unresolved and fees could be higher than ordinary bitcoin transactions."
+5,Solana’s 150-millisecond settlement upgrade reaches second public test network,"Solana’s 150-millisecond settlement upgrade reaches second public test network
+Alpenglow is running on both public test networks, giving application teams a place to check their software before the live blockchain switches.
+- Solana’s Alpenglow upgrade, which aims to cut transaction settlement time to about 150 milliseconds from 12.8 seconds, is now active on its devnet and testnet.
+- The upgrade changes how validators reach agreement and will remove validator votes from blocks, reducing reported transaction totals even if user activity remains unchanged.
+- Alpenglow’s mainnet launch has not been scheduled, and its speed target has yet to be sustained under live-market conditions.
+Solana’s planned upgrade to make payments final in a fraction of a second has reached its public developer network, giving application teams a place to test before it reaches the blockchain carrying real money.
+Called Alpenglow, the upgrade targets roughly 150 milliseconds for finality, the point at which a transaction can no longer be reversed, compared with about 12.8 seconds under the existing system.
+That could shorten the wait for an exchange to release deposited funds or a payment app to tell a merchant a sale is complete.
+Anza, the company building Solana’s core software, announced the developer-network switch on Sept. 25, a day after the separate testnet completed its transition. The Solana Foundation’s upgrade page lists Alpenglow as active on both networks.
+Developers use the developer network, or devnet, to check applications with tokens that have no real value. The separate testnet is used primarily to stress-test network software and validator operations.
+Read More: Solana starts testing upgrade that could cut finality from 12.8 seconds to 150 milliseconds
+Alpenglow changes how validators, the computers that check transactions, agree on the network’s records. They will exchange votes directly instead of recording those votes as transactions inside blocks, the batches of transactions added to the blockchain. Agreement can then take one or two voting rounds.
+Removing those votes will also make some Solana activity charts fall. Transaction totals that include validator votes will shrink even if users make just as many payments and trades. The Foundation has told data providers to adjust their comparisons.
+Services that build transaction histories also need to keep competing candidate blocks separate until the network selects one. Mixing their contents could produce an incorrect record.
+Applications that simply send transactions and read account balances require no migration, according to the Foundation’s guide.
+The speed figure remains a target derived from simulations, rather than a demonstrated result under live-market conditions. Wallet processing and exchanges’ own deposit checks can add further waiting time.
+No firm launch date has been announced for the live network. Anza’s software schedule tentatively allows feature activations to resume Sept. 28, but does not identify that date as Alpenglow’s launch.
+As stablecoins move into regulated finance, APAC is becoming a key proving ground. This report maps the region’s rules, use cases, and RLUSD’s role.
+Why it matters:","Solana’s planned upgrade to make payments final in a fraction of a second has reached its public developer network, giving application teams a place to test before it reaches the blockchain carrying real money.","Solana’s Alpenglow upgrade is active on devnet and testnet, targeting transaction finality of about 150 milliseconds instead of 12.8 seconds. Developers can test applications before an unscheduled mainnet launch, and the speed target has not been proven under live conditions."
+6,XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets,"XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets
+The feature would let users bundle up to eight transactions, including asset-and-payment transfers, but a brief drop below the network’s 80% support threshold restarted its two-week activation clock.
+- The XRP Ledger’s Batch upgrade was delayed by at least 10 days after validator support briefly fell below the required threshold, putting its earliest activation at Oct. 9 if support holds.
+- Batch would allow users to submit up to eight transactions together, including all-or-nothing exchanges that could enable simultaneous payment and delivery of tokenized assets.
+- A separate upgrade allowing account owners to delegate specific tasks without sharing signing keys was also delayed and could activate as early as Oct. 8.
+An XRP Ledger upgrade expected to activate Sept. 29 has been pushed back by at least 10 days after validator support briefly fell below the level required to turn it on.
+The feature, called Batch, would let users submit up to eight transactions together. Its all-or-nothing option could let a buyer pay for a tokenized asset and receive it in one operation, preventing either side of the trade from completing alone.
+RippleX’s head of engineering, Ayo Akinyele, previously told CoinDesk that projects were being built around Batch and that Ripple would share more about work with asset managers once the feature went live.
+“Some projects are already being built with Batch in mind, so activation would allow that work to move closer to production,” he said. He did not name the partners or give launch dates.
+The corrected upgrade, formally named BatchV1_1, regained support from 30 of 35 trusted validators on Sept. 25, according to the XRPL amendment dashboard. That started a fresh two-week countdown, putting its earliest activation at Oct. 9 around 14:46 UTC if support holds.
+Validators are operators that check transactions and vote on changes to the network. XRPL upgrades must retain support from more than 80% of trusted validators for two consecutive weeks. Losing that support wipes out the accumulated time, even if the votes return shortly afterward.
+Batch had been counting down since Sept. 15. It is already a second attempt at introducing the feature, after developers withdrew the original version over a critical signature-checking flaw before activation. The corrected implementation shipped in August with version 3.3.0 of the software that runs the ledger.
+A separate upgrade that lets account owners delegate specific tasks also lost the support needed to complete its countdown.
+The so-termed PermissionDelegationV1_1 would allow a business to authorize another account to perform approved actions without sharing the signing keys that control its funds. A token issuer could assign payment and compliance duties to different operational accounts.
+Read More: XRP Ledger retries upgrade that lets banks split payment and compliance duties
+That upgrade lost its qualifying support on Sept. 23 and regained it a day later, moving its earliest activation from Oct. 5 to Oct. 8 around 21:25 UTC.
+As stablecoins move into regulated finance, APAC is becoming a key proving ground. This report maps the region’s rules, use cases, and RLUSD’s role.
+Why it matters:","The feature would let users bundle up to eight transactions, including asset-and-payment transfers, but a brief drop below the network’s 80% support threshold restarted its two-week activation clock.","The XRP Ledger’s Batch upgrade was delayed after validator support briefly fell below the required threshold, making Oct. 9 its earliest activation date if support holds. The feature would bundle up to eight transactions, including simultaneous payment and delivery of tokenized assets."
+7,Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist,"Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist
+The stablecoin issuer blacklisted a wallet holding about $318,000 in USDT and USDC. Most of the stolen funds sit in ether, which can't be frozen.
+Make  preferred on 
+Share this article","The stablecoin issuer blacklisted a wallet holding $318,000 in USDT and USDC. Most of the stolen funds sit in ether, which can't be frozen.","Circle and Tether moved to freeze a hacker wallet holding about $318,000 in USDT and USDC after the Bitget theft. Most of the stolen funds were held in ether, which the issuers cannot freeze."
+8,Tokenization is moving faster than Washington,"Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+Opinion
+Tokenization is moving faster than Washington
+Regulatory clarity is not simply a legal or political issue, argues former New York Governor Andrew Cuomo. It is an economic one.
+By
+Andrew Cuomo
+|
+Edited by
+Cheyenne Ligon
+Sep 25, 2026, 10:37 a.m. EDT
+5 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+Crypto
+Stocks
+CD20
+$2,495.66
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,885.05
+BTC up 0.86 percent
+0.86%
+ETH
+$2,709.80
+ETH up 0.77 percent
+0.77%
+XRP
+$1.54
+XRP down 0.74 percent
+0.74%
+SOL
+$123.97
+SOL up 2.25 percent
+2.25%",News Markets Finance Tech Policy Focus Bitcoin News Ethereum News Solana News Prices Latest Crypto Prices Bitcoin (BTC) Ethereum (ETH) XRP (XRP) SOL (SOL) Hyperliquid (HYPE) See all crypto prices Latest US Stock Prices S&P 500 (SPY) Bull,Former New York Governor Andrew Cuomo argues that tokenization is advancing faster than U.S. policymaking and that regulatory clarity is an economic issue as well as a legal and political one.
+9,Tether confirms minimal EQIBank exposure following $89M US asset seizure,"Tether confirms minimal EQIBank exposure following $89M US asset seizure
+While Tether's stated ceiling places its maximum exposure under $64 million, the incident underscores lingering counterparty risks in fiat gateway networks.
+Make  preferred on 
+Share this article",Tether confirms minimal EQIBank exposure following $89M US asset seizure.,"Tether said its EQIBank exposure was minimal following an $89 million U.S. asset seizure, with its stated ceiling putting maximum exposure below $64 million. The incident highlights counterparty risks in fiat gateway networks."
+10,Strategy proposes daily dividends to bring STRC back toward $100,"Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+Strategy proposes daily dividends to bring STRC back toward $100
+STRC has remained below $100 since May, despite a 12% dividend rate and roughly $1 billion in preferred share buybacks.
+By
+James Van Straten
+|
+Edited by
+Jamie Crawley
+Sep 25, 2026, 10:22 a.m. EDT
+2 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+STRC YTD (CoinDesk Data)
+Crypto
+Stocks
+CD20
+$2,495.66
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,885.05
+BTC up 0.86 percent
+0.86%
+ETH
+$2,709.80
+ETH up 0.77 percent
+0.77%
+XRP
+$1.54
+XRP down 0.74 percent
+0.74%
+SOL
+$123.97
+SOL up 2.25 percent
+2.25%","Bitcoin, Ethereum, XRP, and Solana are all crypto news headlines.",Strategy proposed daily dividends to help bring its STRC preferred stock back toward $100. STRC has traded below that level since May despite a 12% dividend rate and about $1 billion in preferred share buybacks.
+12,"Bitcoin holders are cashing out, just not the way they did at prior market tops","Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+Bitcoin holders are cashing out, just not the way they did at prior market tops
+Your day-ahead look for Sept. 25, 2026
+By
+Omkar Godbole
+|
+Edited by
+Jamie Crawley
+Sep 25, 2026, 7:29 a.m. EDT
+3 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+(Kevin Schneider/Pixabay)
+Crypto
+Stocks
+CD20
+$2,495.67
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,893.00
+BTC up 0.87 percent
+0.87%
+ETH
+$2,709.95
+ETH up 0.78 percent
+0.78%
+XRP
+$1.54
+XRP down 0.73 percent
+SOL
+$123.97
+SOL up 2.25 percent
+2.25%","Bitcoin, Ethereum, and Solana.","Bitcoin holders are cashing out, but the article says the pattern differs from previous market tops."
+13,"Altcoins rally across the board as bitcoin consolidates near $84,000","Altcoins rally across the board as bitcoin consolidates near $84,000
+Quant jumped 39% over 24 hours and 93 of 100 CoinDesk 100 constituents rose, with the altcoin season index at its highest in more than three months.
+Make  preferred on 
+Share this article","Altcoins rallie across the board as bitcoin consolidates near $84,000. Quant jumped 39% over 24 hours and 93 of 100 CoinDesk 100 constituents rose.","Altcoins rallied as bitcoin held near $84,000, with Quant up 39% in 24 hours and 93 of 100 CoinDesk 100 constituents rising."
+14,Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit,"Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit
+At one point in July, ETFs were down $5.8 billion in net outflows for the year. Now, that’s turned into $800 million in net inflows.
+By
+Omkar Godbole
+|
+Edited by
+Oliver Knight
+Updated
+Sep 25, 2026, 8:38 a.m. EDT
+Published
+Sep 25, 2026, 5:13 a.m. EDT
+2 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+BTC ETFs: Net annual flows. (CoinDesk, SoSoValue)
+Crypto
+Stocks
+CD20
+$2,495.67
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,893.00
+BTC up 0.87 percent
+0.87%
+ETH
+$2,709.95
+ETH up 0.78 percent
+0.78%
+XRP
+$1.54
+XRP down 0.73 percent
+SOL
+$123.97
+SOL up 2.25 percent
+2.25%",Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit. See all crypto prices Latest US Stock Prices S&P 500 (SPY) Bullish (BLSH) Circle (CRCL) Coinbase (COIN) Strategy (MSTR) See all US stock prices Data,"Bitcoin ETF flows turned positive for 2026, moving from a $5.8 billion year-to-date deficit in July to about $800 million in net inflows."
+15,"Live updates: Bitcoin moves to $84,000, oil slides on latest report of Middle East progress","A gun firing backwards: Hedge funder Hugh Hendry says Fed's rate hike sets up rate cut
+“The Federal Reserve may have just raised interest rates in order to cut them,” wrote Hugh Hendry on Friday.
+The iconoclast former hedge fund manager argued that “oil is the complication because it attacks from both directions."" It raises the headline price level in a way that’s easy for all to see, while at the same time removing spending power from the economy.
+“The Warsh mandate makes [the rate hike] legitimate,” he continued. The result, however, “is a monetary brake applied on top of an energy tax, with both forces pressing on the same household.”
+The “gun fires backwards,” said Hendry, as the rate hike is aimed at inflation, but lands on demand that the higher oil price is already squeezing.
+“It bought Warsh permission to cut without appearing to be captured by the White House … The weapon aimed at inflation would have produced the conditions for lower rates, and the recoil becomes the policy.”
+Oil quickly slides on reports of Middle East progress
+Iran has submitted terms to the U.S. via Qatar-based mediators for reopening the Strait of Hormuz, Axios reports.
+CBS, meanwhile, reports that talks between Iran and the U.S. have entered a “technical phase” following initial diplomatic contacts. “Sources in Tehran [describe] the atmosphere as increasingly positive.”
+Investors have surely lost count of the number of “peace in our time” headlines over the past few months, but are nevertheless reacting quickly.
+The price of WTI crude oil has tumbled more than $2 per barrel in the past few minutes, now lower by 3% for the day at $91.74.
+Stocks have moved to session highs, the Nasdaq up 0.7%. Bitcoin has reclaimed the $84,000 level.
+The 10-year U.S. Treasury yield has dipped five basis points to 5.16%.
+Why isn't Fed mulling 50 basis point move, asks analyst
+“Does the Fed ever consider a 50 basis point rate hike,” asked macro analyst Ben Cowen on Friday. “The long end is getting away from them.”
+“Warsh has talked a big talk about bringing inflation back down, but are they actually willing to do what needs to be done?”
+Cowen’s comments come as the U.S. 10-year and 30-year yields made fresh near-two-decade highs Friday morning.
+Interestingly, the odds of just a 25-basis-point rate hike at the Fed’s next meeting in October have drifted lower over the past 24 hours to 66% from 72%. The odds of a 50-basis-point move are nil.
+Bond market continues to crack, sending bitcoin lower
+After a brief pause, U.S. yields have resumed higher in early trading Friday, the 10-year Treasury up five basis points to a session high 5.211%.
+That’s dinging risk assets, where U.S. stocks have swung from small gains to small losses, and bitcoin has dipped 3% from overnight highs to the current $83,400, down 1% over the past 24 hours.
+Sequans sells off remaining bitcoin, fully exiting BTC treasury business
+The headline might read bearish, but bitcoin bulls will see it as nature continuing to heal.
+Paris, France-based semiconductor company Sequans (SQNS) yesterday disclosed the sale of its remaining 314 bitcoin as of June 30.
+The firm joined the digital asset treasury company mania in the summer of 2025. At the market peak in October 2025, Sequans had built a treasury of more than 3,200 bitcoin.
+There was the issue of convertible debt, though, and the company in May sold off the majority of its BTC to redeem that paper.
+Sequans joins others, including Satsuma and Empery Digital, who entered that speculative frenzy in 2025, only to have to fully reverse course roughly one year later.
+Michael Saylor's Strategy proposes daily dividends on its preferred stock
+“Strategy is proposing daily dividends on STRF, STRC, STRK, and STRD accruing every calendar day, including weekends and holidays, and paid the next business day, with economics unchanged,” wrote Michael Saylor Friday morning.
+“The proposed changes aim to support price stability, liquidity, and demand.”
+The proposal will be put to a shareholder vote, which concludes on Oct. 28. STRC daily dividends would begin on Nov 1, while the others would commence in January.
+The much-smaller Strive’s ASST$29.43·Market Closed high-yielding preferred stock SATA moved to daily dividends several weeks ago.
+Cipher Mining higher after more than doubling revenue at Barber Lake data center
+CIpher Mining CIFR$17.73·Market Closedhas inked deals with Google-backed Fluidstack extending to 20 years from 10 years the lease duration at its Barber Lake data center in Texas. Total contracted revenue is now $9 billion versus $3.8 billion prior.
+Risk assets are higher ahead of Friday’s U.S. open
+Risk assets are higher ahead of Friday’s U.S. open. Bitcoin briefly touched $85,000, up more than 0.5% over the past 24 hours, before slipping back below that level. Gold has risen nearly 1% to above $4,300 an ounce, while Invesco QQQ is up almost 1% in premarket trading.
+The dollar index has edged below 101, WTI crude has fallen to $92.50 a barrel, and the US 10-year Treasury yield is down 0.7% to 5.171%.
+Japanese yen heading for its best day in more than two weeks against the dollar
+The Japanese yen rose as much as 0.6% to 158 per dollar, heading for its best day in more than two weeks, according to Bloomberg.
+Finance Minister Satsuki Katayama said President Trump shared Japan’s concerns about yen weakness and pledged coordination with U.S. Treasury Secretary Scott Bessent. The yen has weakened by about 3.5% against the U.S. dollar since Sept. 8.
+Goldman Sachs earned about $200 million in fees from Situational Awareness
+According to the Financial Times, Goldman Sachs earned about $200 million in fees this year from Situational Awareness, the hedge fund founded by Leopold Aschenbrenner. The fund grew rapidly through leveraged bets on AI stocks, with assets peaking at around $30 billion.
+A sell-off in AI stocks in mid-July forced a major unwind, including a large sale to Citadel. The fund subsequently shrank and reduced its leverage.
+FxPro sees bitcoin's slide as a pause in the uptrend, even if it reaches $70,000
+Bitcoin traded just above $84,000 on Friday, flat over 24 hours after falling below that level on Wednesday, CoinDesk data show. Most major tokens moved less than 2%. Smaller names did the running, with ONDO up 27% to about 54 cents and Quant up 39% to nearly $100.
+Bonds found a floor in Asia. The 10-year Treasury yield slipped two basis points to 5.17% after jumping more than 20 basis points over the previous two sessions, and Brent fell 1% to about $105 a barrel on reports that Washington and Tehran are exploring a phased deal to reopen the Strait of Hormuz.
+FxPro chief market analyst Alex Kuptsikevich reads bitcoin's drop as a stall short of the target technical traders had projected for the rally that began in mid-August.
+""As with the overall market capitalisation, the leading cryptocurrency encountered resistance near a previously significant support level. However, BTC failed to complete the Fibonacci extension pattern to 161.8% of the impulse that began in mid-August in a single move. Despite the pullback, the ongoing, unfinished nature of the uptrend suggests it may be a temporary pause on the way up,"" he said in a note.
+""It is worth remembering that in 2021, Bitcoin lost over 50% from its peak before reaching new highs. Similarly, today, a decline to $70K may be painful for short-term speculators, but it does not undermine the bullish outlook,"" he added.
+Bitcoin heads into Friday's Deribit expiry below $85,000, the strike carrying one of the largest blocks of call options.","“The Federal Reserve may have just raised interest rates in order to cut them,” wrote Hugh Hendry on Friday. The iconoclast former hedge fund manager argued that “oil is the complication because it attacks from both directions.” It raises the headline price level in a way that","Bitcoin reclaimed about $84,000 as oil prices fell following reports of progress in U.S.–Iran talks over reopening the Strait of Hormuz. The update also reported rising stocks and lower U.S. Treasury yields as markets reacted."
+16,"New York sues Polymarket, alleging it is running an illegal gambling operation","Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+New York sues Polymarket, alleging it is running an illegal gambling operation
+The state wants to block Polymarket from operating without a gambling license and recover allegedly illegal gains.
+By
+Helene Braun
+|
+Edited by
+Nikhilesh De
+Sep 24, 2026, 6:41 p.m. EDT
+2 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+Polymarket founder and CEO Shayne Coplan (Eugene Gologursky/Getty Images for The New York Times)
+Crypto
+Stocks
+CD20
+$2,495.67
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,893.00
+BTC up 0.87 percent
+0.87%
+ETH
+$2,709.95
+ETH up 0.78 percent
+0.78%
+XRP
+$1.54
+XRP down 0.73 percent
+SOL
+$123.97
+SOL up 2.25 percent
+2.25%",Crypto news for a beginner investor.,"New York sued Polymarket, alleging that it operates an illegal gambling business and seeking to block unlicensed operations and recover allegedly unlawful gains."
+17,"Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'","Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'
+Bitget CEO Gracy Chen announced the hack shortly after independent researchers flagged unusual wallet movements.
+By
+Aoyon Ashraf
+,
+Nikhilesh De
+Updated
+Sep 24, 2026, 6:11 p.m. EDT
+Published
+Sep 24, 2026, 5:59 p.m. EDT
+2 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+Bitget CEO Gracy Chen (CoinDesk)
+Crypto
+Stocks
+CD20
+$2,495.67
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,893.00
+BTC up 0.87 percent
+0.87%
+ETH
+$2,709.95
+ETH up 0.78 percent
+0.78%
+XRP
+$1.54
+XRP down 0.73 percent
+SOL
+$123.97
+SOL up 2.25 percent
+2.25%","Bitcoin, Ethereum, XRP, Solana, and other crypto news.",Crypto exchange Bitget said a hack affected $352 million while claiming customer funds remained safe. CEO Gracy Chen announced the incident after independent researchers flagged unusual wallet movements.
+18,Someone was trying to sell Ondo Finance after founder Nathan Allman's death,"Skip to main content
+News
+Markets
+Finance
+Tech
+Policy
+Focus
+Bitcoin News
+Ethereum News
+XRP News
+Solana News
+Prices
+Latest Crypto Prices
+Bitcoin (BTC)
+Ethereum (ETH)
+XRP (XRP)
+SOL (SOL)
+Hyperliquid (HYPE)
+See all crypto prices
+Latest US Stock Prices
+S&P 500 (SPY)
+Bullish (BLSH)
+Circle (CRCL)
+Coinbase (COIN)
+Strategy (MSTR)
+See all US stock prices
+Data & Indices
+Market Data
+Index Offering
+API
+Research Insights
+Documentation and Governance
+Research
+Research Hub
+Exchange Benchmark
+Events
+Consensus Hong Kong 2027
+Consensus Miami 2027
+Sponsored
+Thought Leadership
+Media & Partnership Opportunities
+Videos
+CoinDesk Daily
+Public Keys at NYSE
+The Policy Protocol
+Markets Outlook
+Gen C
+CoinDesk Spotlight
+Blockspace Media
+Shorts
+Podcasts
+CoinDesk Podcast Network
+Newsletters
+CoinDesk Headlines
+Crypto Daybook Americas
+State of Crypto
+Crypto Long & Short
+Crypto for Advisors
+Language
+EN
+English
+en
+Deutsch
+de
+Español
+es
+Filipino
+fil
+Français
+fr
+Bahasa Indonesia
+id
+Italiano
+it
+日本語
+ja
+한국어
+ko
+Nederlands
+nl
+Português
+pt-br
+Русский
+ru
+Türkçe
+tr
+Українська
+uk
+中文
+zh
+Sign Up
+Sign In
+Search
+/
+Stories
+See all news articles
+See all newsletters
+Crypto News
+Video
+See all videos
+See all podcasts
+Bespoke research, primers, and quarterly updates trusted by allocators and protocol teams.
+The institutional standard for evaluating exchange transparency, market integrity, and risk.
+Unrivaled digital asset data for institutional analysis and insights.
+Discover our index offerings with $49 billion in benchmarked assets, trusted by 100+ global partners.
+Institutional-grade crypto data streamed live from 300+ exchanges.
+Data-driven analysis of key digital asset trends.
+Index methodologies, policies, announcements and updates.
+More
+Expert perspectives from our partners
+Reach the architects of the digital economy
+Someone was trying to sell Ondo Finance after founder Nathan Allman's death
+The company has vehemently denied that it was shopping for buyers. Allman’s estate declined to comment.
+By
+Will Canny
+|
+Edited by
+Aoyon Ashraf
+,
+Cheyenne Ligon
+Nikhilesh De
+Sep 24, 2026, 4:13 p.m. EDT
+3 min read
+Make preferred on
+Share
+Share this article
+Copy link
+X (Twitter)
+LinkedIn
+Facebook
+Email
+Ondo Finance was shopped to potential buyers after founder Nathan Allman’s death. (CoinDesk)
+Crypto
+Stocks
+CD20
+$2,495.67
+CD20 up 0.73 percent
+0.73%
+BTC
+$84,893.00
+BTC up 0.87 percent
+0.87%
+ETH
+$2,710.52
+ETH up 0.80 percent
+0.80%
+XRP
+$1.54
+XRP down 0.58 percent
+0.58%
+SOL
+$124.11
+SOL up 2.37 percent
+2.37%","Bitcoin, Ethereum, XRP, and Solana news.","Ondo Finance was reportedly offered to potential buyers following founder Nathan Allman’s death, but the company denied that it was seeking a sale. Allman’s estate declined to comment."
