@@ -1,3 +1,4 @@
+# Virtual environments & Python cache
 .venv/
 venv/
 env/
@@ -8,9 +9,19 @@ __pycache__/
 *.pyd
 .DS_Store
 
-# Outputs and Data
+# Node / Frontend
+node_modules/
+.dist/
+dist/
+
+# Outputs and Generated Data
 output/
+
+# .json without ignoring project config files
 *.json
+!package.json
+!package-lock.json
+!tsconfig*.json
 
 # Jupyter
 .ipynb_checkpoints/
