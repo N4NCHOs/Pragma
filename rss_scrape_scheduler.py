@@ -21,10 +21,23 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import feedparser
 import requests
 import trafilatura
+from pathlib import Path
+
+
+def main():
+    output_dir = Path(__file__).resolve().parent / "output"
+    output_dir.mkdir(exist_ok=True)
+    for name in ("rss_temp.json", "rss_history.json", "scraped_news.json"):
+        (output_dir / name).write_text("[]\n", encoding="utf-8")
+        print(f"Reset output/{name}")
+
+
+if __name__ == "__main__":
+    main()
 
 
 RSS_URL = "https://www.coindesk.com/arc/outboundfeeds/rss/"
-RSS_LIMIT = 25
+RSS_LIMIT = 100
 RSS_TEMP_FILE = Path("output/rss_temp.json")
 RSS_HISTORY_FILE = Path("output/rss_history.json")
 SCRAPED_NEWS_FILE = Path("output/scraped_news.json")
