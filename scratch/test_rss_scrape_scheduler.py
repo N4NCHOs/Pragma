@@ -86,5 +86,20 @@ class PruningTests(unittest.TestCase):
         self.assertIsNone(result["full_body"])
 
 
+class RssLimitTests(unittest.TestCase):
+    def test_only_three_newest_entries_are_read(self):
+        items = "".join(
+            f"<item><title>Story {i}</title><link>https://example.com/{i}</link>"
+            f"<guid>g{i}</guid></item>" for i in range(1, 6)
+        )
+        feed = f'<?xml version="1.0"?><rss version="2.0"><channel>{items}</channel></rss>'
+        response = Mock(content=feed.encode("utf-8"))
+        response.raise_for_status = Mock()
+        session = Mock(get=Mock(return_value=response))
+        articles = scheduler.fetch_latest_rss(session)
+        self.assertEqual(scheduler.RSS_LIMIT, 3)
+        self.assertEqual([a["guid"] for a in articles], ["g1", "g2", "g3"])
+
+
 if __name__ == "__main__":
     unittest.main()

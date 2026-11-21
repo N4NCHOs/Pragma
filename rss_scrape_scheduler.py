@@ -26,7 +26,7 @@ import trafilatura
 
 
 RSS_URL = "https://www.coindesk.com/arc/outboundfeeds/rss/"
-RSS_LIMIT = 100
+RSS_LIMIT = 3  # CoinDesk allows about 3 full articles per session; older new items are skipped
 RSS_TEMP_FILE = Path("output/rss_temp.json")
 RSS_HISTORY_FILE = Path("output/rss_history.json")
 SCRAPED_NEWS_FILE = Path("output/scraped_news.json")
