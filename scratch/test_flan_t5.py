@@ -8,6 +8,7 @@ from time import perf_counter
 
 from ai_models.flan_t5 import (
     DEFAULT_MAX_INPUT_TOKENS,
+    DEFAULT_MAX_NEW_TOKENS,
     DEFAULT_MODEL_NAME,
     DeviceName,
     FlanSummaryResult,
@@ -119,7 +120,7 @@ def main() -> None:
 
     print(f"Checkpoint: {service.model_name}")
     print(f"Resolved device: {service.device}")
-    print("Generation: deterministic beam search (4 beams, max 64 new tokens)")
+    print(f"Generation: deterministic beam search (4 beams, max {DEFAULT_MAX_NEW_TOKENS} new tokens)")
 
     if not args.skip_edge_cases:
         run_empty_text_case(service)
