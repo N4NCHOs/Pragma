@@ -12,20 +12,19 @@ from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 
 DEFAULT_MODEL_NAME = "google/flan-t5-base"
-DEFAULT_MAX_INPUT_TOKENS = 512
+DEFAULT_MAX_INPUT_TOKENS = 3072
+DEFAULT_MAX_NEW_TOKENS = 192
 
-SUMMARY_PROMPT = """Summarize the following cryptocurrency news for a beginner investor.
-
-Explain the main event and relevant implication in 1-2 concise sentences.
-Remain objective and factual.
-Preserve important asset names, organizations, numbers, and events.
-Do not give investment advice.
-Do not predict future prices.
-Do not add information that is not stated in the article.
-
+# Short beginner prompt selected on 2026-11-08 (see OUTLINE_REVISION_REFERENCE.md,
+# section 6). Kept byte-identical to the experiment in run_flan_rs_output_lengths.py.
+SUMMARY_PROMPT = """Summarize the following cryptocurrency news for readers with no knowledge of cryptocurrency, blockchain, or finance.
+Write 2–3 short sentences that clearly explain what happened, who was involved, and the most important facts.
+Use simple everyday language. Briefly explain unfamiliar technical concepts when necessary for understanding.
+Preserve important names, numbers, and facts. Distinguish confirmed information from claims or possibilities.
+Only include information supported by the article. Do not invent explanations, speculate about consequences, or provide investment advice.
+Output only the summary.
 Article:
 {article_text}
-
 Summary:"""
 
 DeviceName = Literal["auto", "cpu", "cuda", "mps"]
@@ -162,7 +161,7 @@ class FlanT5Service:
                     **model_inputs,
                     do_sample=False,
                     num_beams=4,
-                    max_new_tokens=64,
+                    max_new_tokens=DEFAULT_MAX_NEW_TOKENS,
                     early_stopping=True,
                     no_repeat_ngram_size=3,
                 )
