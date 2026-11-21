@@ -1,0 +1,19 @@
+{
+  "decision_date": "2026-10-25",
+  "timezone": "Asia/Jakarta",
+  "recorded_at_utc": "2026-10-24T18:25:54.773Z",
+  "authorization": "User explicitly chose: Gunakan seluruh 73 artikel apa adanya",
+  "source_policy": "include all 73 unchanged, including six pilots and ten description/navigation-limited extracts",
+  "reference_policy": "use existing references unchanged, accepting known review limitations for articles 16, 18, 48, 58",
+  "article_count": 73,
+  "pilot_count": 6,
+  "human_quality_certification": false,
+  "reference_csv_sha256": "071492b220b2f0a394300a101a4b549b58f24cae27594f4760e177ceaae9ba06",
+  "source_audit_before_sha256": "ecef16564abcbffee09899b361d920de8ac330c7d3037884cf05c22e52f6f992",
+  "source_audit_after_sha256": "e8208dcf88d3ab4501ab25827d5ed5348d847746843bb2ce8ad0bb618b261179",
+  "reference_provenance_unknowns": [
+    "exact GPT model/version",
+    "reference generation date",
+    "human reviewer"
+  ]
+}

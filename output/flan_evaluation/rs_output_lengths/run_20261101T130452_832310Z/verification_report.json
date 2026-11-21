@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-01T13:10:31.367215+00:00",
+  "article_count": 73,
+  "source_article_id_order_and_full_body_preserved": true,
+  "exact_user_prompt_saved": true,
+  "prompt_sha256": "f8a534a627fd2bf50b12f34a3f8ecefa08391bdbd018d55f2ac6a2fc734e442a",
+  "source_checksums_unchanged": true,
+  "same_model_revision_and_decoding_controls_as_prior": true,
+  "all_input_counts_recomputed": true,
+  "input_truncated_count": 1,
+  "input_truncated_articles": [
+    {
+      "source_index": 29,
+      "id": "7037e738fd040b42bb3a806bd3066c59a904f30a4dc1247d8f67fea1bcc024c0",
+      "complete_input_tokens": 3266,
+      "consumed_input_tokens": 3072,
+      "removed_input_tokens": 194
+    }
+  ],
+  "all_selected_token_ids_eos_counts_and_decoded_summaries_verified": true,
+  "csv_json_parity": true,
+  "generation_attempts": 73,
+  "initial_eos_before_limit_count": 73,
+  "higher_ceiling_reruns": 0,
+  "errors": 0,
+  "generated_tokens_including_eos": {
+    "minimum": 13,
+    "mean": 38.52054794520548,
+    "median": 36,
+    "p90_nearest_rank": 51,
+    "p95_nearest_rank": 79,
+    "maximum": 93,
+    "total": 2812
+  },
+  "content_token_maximum": 92,
+  "longest_output": {
+    "source_index": 28,
+    "id": "d3e9bcc0baa595381ffce6ea8a1db48861951719f8d8a13208c75c8e2cf624cf",
+    "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did",
+    "generated_new_tokens_including_eos": 93,
+    "output_token_count": 92,
+    "stop_reason": "eos_before_limit"
+  },
+  "previous_prompt_comparison": {
+    "identical_summary_strings": 55,
+    "changed_summary_strings": 18,
+    "article_texts_and_id_order_identical": true,
+    "new_prompt_input_truncation_affects_record": 29
+  },
+  "notes": [
+    "EOS before a ceiling verifies absence of selected-output length cutoff, not completeness or adherence to 2–3 short sentences.",
+    "Record29 now loses194 input tokens at the fixed3072 ceiling. Other72 inputs remain whole."
+  ]
+}

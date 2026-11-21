@@ -1,0 +1,9 @@
+Summarize the following cryptocurrency news for readers with no knowledge of cryptocurrency, blockchain, or finance.
+Write 2–3 short sentences that clearly explain what happened, who was involved, and the most important facts.
+Use simple everyday language. Briefly explain unfamiliar technical concepts when necessary for understanding.
+Preserve important names, numbers, and facts. Distinguish confirmed information from claims or possibilities.
+Only include information supported by the article. Do not invent explanations, speculate about consequences, or provide investment advice.
+Output only the summary.
+Article:
+{article_text}
+Summary:

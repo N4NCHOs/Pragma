@@ -1,0 +1,40 @@
+{
+  "article_count": 73,
+  "audit_file": "source_audit.csv",
+  "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+  "created_at_utc": "2026-10-24T12:00:27.436298+00:00",
+  "flagged_article_count": 29,
+  "flan_source": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/ai_models/flan_t5.py",
+  "flan_source_sha256": "3a5e9457f2291ee78a912b99464cd27ab4cb204efba469aec24fe712f4582958",
+  "frozen_articles_hash": "dc41f9f931ab41f6cdd1cfb2e588f37537f76fc6acce337666052b599dffe318",
+  "generation_kwargs": {
+    "do_sample": false,
+    "early_stopping": true,
+    "max_new_tokens": 64,
+    "no_repeat_ngram_size": 3,
+    "num_beams": 4
+  },
+  "input_limits": [
+    512,
+    1024,
+    2048,
+    3072
+  ],
+  "model_checkpoint": "google/flan-t5-base",
+  "pilot_count": 6,
+  "prompt_sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+  "quality_note": "Review observations only; no auto exclusions; no flagged issue does not establish completeness.",
+  "realtime_preprocessing_integration": "HIGH PRIORITY / PENDING",
+  "reference_file": "gpt_reference_summaries.csv",
+  "reference_note": "Manual AI-generated silver references; same full source/prompt, independent of FLAN outputs; not human gold.",
+  "reference_provenance": {
+    "generated_at": "",
+    "model": "",
+    "notes": "",
+    "reviewer": ""
+  },
+  "schema_version": 1,
+  "source_dataset_hash": "df75f090f1c6839b4aac7f73958616a893cd57fca51795b0babf4e64a40725ec",
+  "source_snapshot": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/preprocessed_v1_20261024",
+  "status": "complete"
+}

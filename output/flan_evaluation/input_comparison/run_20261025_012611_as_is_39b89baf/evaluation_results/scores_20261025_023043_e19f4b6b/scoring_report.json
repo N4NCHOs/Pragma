@@ -1,0 +1,149 @@
+{
+  "article_count_per_limit": 73,
+  "bertscore": {
+    "actual_tokenizer_class": "RobertaTokenizer",
+    "all_layers": false,
+    "batch_size": 4,
+    "cached_revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+    "device": "cpu",
+    "idf": false,
+    "lang": "en",
+    "model_type": "roberta-large",
+    "num_layers": 17,
+    "rescale_with_baseline": false,
+    "use_fast_tokenizer": false
+  },
+  "bertscore_elapsed_seconds": 19.137087500013877,
+  "bertscore_hashes": {
+    "512": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.14.1)",
+    "1024": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.14.1)",
+    "2048": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.14.1)",
+    "3072": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.14.1)"
+  },
+  "comparison_csv_hashes": {
+    "512": "62786cba1bd6df01cfc2441e4984e03f4643db8cf884f4b542b87f2e842cb02a",
+    "1024": "9c045df00efe7efefd6c16d99e93f75aca69867691c467d40229d89ad8354a9c",
+    "2048": "f79c3bb1585054445e442131b6cad6961125132586da4d54c95325fbdec8f254",
+    "3072": "17c4cd3247656a0b13653b93e72dfea0035eedfc06fac81db156a44c81de1be4"
+  },
+  "completed_phase": "bertscore",
+  "cpu_threads": 4,
+  "created_at_utc": "2026-10-24T19:30:43.840207+00:00",
+  "elapsed_seconds": 19.773226749966852,
+  "execution_note": "Existing notebook cells 10 and 12 executed without edits; scoring opt-in True only in memory; saved defaults remain False. CSV export uses verified Artifact Tool cell readback with the notebook column schemas.",
+  "finished_at_utc": "2026-10-24T19:31:03.617756+00:00",
+  "generation_run": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf",
+  "input_limits": [
+    512,
+    1024,
+    2048,
+    3072
+  ],
+  "limitations": [
+    "GPT silver references, not human gold",
+    "Known reference/source defects retained",
+    "Six development pilots included",
+    "12 FLAN outputs reached 64 without EOS",
+    "Current whole-prompt input truncation can remove Summary cue",
+    "Exact GPT reference model/date/reviewer are unrecorded",
+    "Reference agreement is not factual accuracy or beginner readability"
+  ],
+  "network_policy": "offline Hugging Face cache only; cached roberta-large main revision checked before/after",
+  "notebook_sha256_at_execution": "f23c88f04766697b6ba46fe728eac6e55119917368336da5e75d1338024051db",
+  "output_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b",
+  "reference_csv_sha256": "071492b220b2f0a394300a101a4b549b58f24cae27594f4760e177ceaae9ba06",
+  "reference_policy": "Exact frozen GPT silver references from the generation run; known source/reference issues accepted as-is.",
+  "rouge": {
+    "metrics": [
+      "rouge1",
+      "rouge2",
+      "rougeL"
+    ],
+    "statistic": "F1",
+    "use_stemmer": true
+  },
+  "rouge_elapsed_seconds": 0.4801422499585897,
+  "scoring_cells_sha256": "02d6128c156d1ad7496bb8da3e80ca9639de3ebedc13a6b78fa23aee73c8cf81",
+  "seed": 0,
+  "status": "complete",
+  "tokenization_check": {
+    "inputs_truncated_by_evaluator": 0,
+    "max_candidate_tokens": 67,
+    "max_reference_tokens": 99,
+    "tokenizer_model_max_length": 512
+  },
+  "versions": {
+    "bert-score": "0.3.13",
+    "nltk": "3.10.3",
+    "pandas": "3.0.5",
+    "rouge-score": "0.1.2",
+    "torch": "2.13.0",
+    "transformers": "5.14.1"
+  },
+  "exported_at_utc": "2026-10-24T19:32:42.248Z",
+  "csv_hashes": {
+    "input_limit_comparison.csv": "7552b36842ab8c9f6ae057f906e2810a2a5764fe71f8644937999892f6daf741",
+    "input_512/rouge_scores.csv": "fb13ce67c19bcc4b2eb3bfe290017a6a1ce754195a4eff9fab1ccd65c81fbac3",
+    "input_512/bertscore_scores.csv": "7b3df3a29e8e6515b15b8298a3b21f7beed5b7d8ed152ac68ab76cca9fdc8ffc",
+    "input_1024/rouge_scores.csv": "70fda7e7c138a4caa3df80bf786e41991f0dd13826bd886f2d7b17ddd679fca0",
+    "input_1024/bertscore_scores.csv": "535ac4c68db3474c9abfab5a4c352b95d36e79827f9c9349fcc9424d7507204c",
+    "input_2048/rouge_scores.csv": "f5acc1148604e82b28c61e2059cef307b4abf269ede6bf5da9e52a7e832c2115",
+    "input_2048/bertscore_scores.csv": "50607e7a5f6230b186d9b6acfc63c0f789e2fb09eaeb986bdc2b15ff7c362267",
+    "input_3072/rouge_scores.csv": "283c3bc4e1f8e6aa41c06d0a39e3d60097e69228d8fe054f807905c42c3e05f9",
+    "input_3072/bertscore_scores.csv": "d69215fde7d33a4b3cd92a63ff38693cb53d25566b31ee3a85df6a703151e15b"
+  },
+  "comparison_means": [
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8832491636276245,
+      "bertscore_precision": 0.9050195813179016,
+      "bertscore_recall": 0.8627253770828247,
+      "max_input_tokens": 512,
+      "rouge1_f1": 0.3211972003880229,
+      "rouge2_f1": 0.13258749608773898,
+      "rougeL_f1": 0.2516809157633108
+    },
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8831420540809631,
+      "bertscore_precision": 0.9030634164810181,
+      "bertscore_recall": 0.8644150495529175,
+      "max_input_tokens": 1024,
+      "rouge1_f1": 0.33436800240608505,
+      "rouge2_f1": 0.14640458862725605,
+      "rougeL_f1": 0.25998849218542375
+    },
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8851867318153381,
+      "bertscore_precision": 0.9051528573036194,
+      "bertscore_recall": 0.866336464881897,
+      "max_input_tokens": 2048,
+      "rouge1_f1": 0.34415958914921424,
+      "rouge2_f1": 0.14723625762845385,
+      "rougeL_f1": 0.26769391005756876
+    },
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8846989274024963,
+      "bertscore_precision": 0.9044188261032104,
+      "bertscore_recall": 0.8660895228385925,
+      "max_input_tokens": 3072,
+      "rouge1_f1": 0.34279193203408836,
+      "rouge2_f1": 0.14723625762845385,
+      "rougeL_f1": 0.2672196418644203
+    }
+  ],
+  "export_validation": {
+    "artifact_cell_readback": "exact for all 9 datasets",
+    "csv_count": 9,
+    "numeric_values": "full computed precision; display formatting only rounded",
+    "csv_encoding": "UTF-8 BOM, quoted fields, CRLF",
+    "independent_saved_csv_verification": "passed: exact staged values, IDs, titles, row order, generation and reference hashes",
+    "mean_aggregation": "Unchanged notebook pandas means; BERTScore columns are float32",
+    "max_float64_recomputed_mean_difference": 1.4043834106747255e-7,
+    "offline_tests_passed": 175,
+    "safe_default_notebook": "Verified from root and notebook folders with generation/scoring/database imports blocked",
+    "visual_review": "All 9 dataset previews reviewed"
+  }
+}

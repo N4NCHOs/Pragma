@@ -1,0 +1,242 @@
+# textstat.backend.metrics._flesch_kincaid_grade.flesch_kincaid_grade
+@typed_cache
+def flesch_kincaid_grade(text: str, lang: str) -> float:
+    r"""Calculate the Flesh-Kincaid Grade for `text`.
+
+    Parameters
+    ----------
+    text : str
+        A text string.
+    lang : str
+        The language of the text.
+
+    Returns
+    -------
+    float
+        The Flesh-Kincaid Grade for `text`.
+
+    Notes
+    -----
+    The Flesh-Kincaid Grade is calculated as:
+
+    .. math::
+
+        (.39*avg\ sentence\ length)+(11.8*avg\ syllables\ per\ word)-15.59
+
+    """
+    sentence_length = words_per_sentence(text)
+    syllables = syllables_per_word(text, lang)
+
+    if sentence_length == 0 or syllables == 0:
+        return 0.0
+
+    return (0.39 * sentence_length) + (11.8 * syllables) - 15.59
+
+
+# textstat.backend.counts._count_words.count_words
+@typed_cache
+def count_words(
+    text: str,
+    rm_punctuation: bool = True,
+    split_contractions: bool = False,
+    split_hyphens: bool = False,
+) -> int:
+    """Count the number of words in a text.
+
+    By default, English contractions (e.g. "aren't") and hyphenated words are counted
+    as one word. If `split_contractions` is set to True, contractions are counted as
+    multiple words. If `split_hyphens` is set to True, hyphenated words are counted
+    as multiple words. If `rm_punctuation` is set to False, "words" with no letters
+    (e.g. " .? ") are counted as words.
+
+    Parameters
+    ----------
+    text : str
+        A text string.
+    rm_punctuation : bool, optional
+        Remove punctuation. The default is True.
+    split_contractions : bool, optional
+        Split contractions. The default is False.
+    split_hyphens : bool, optional
+        Split hyphenated words. The default is False.
+
+    Returns
+    -------
+    count : int
+        Number of words.
+
+    """
+    return len(
+        list_words(
+            text,
+            rm_punctuation=rm_punctuation,
+            split_contractions=split_contractions,
+            split_hyphens=split_hyphens,
+        )
+    )
+
+
+# textstat.backend.counts._count_sentences.count_sentences
+@typed_cache
+def count_sentences(text: str) -> int:
+    """Count the sentences of the text.
+
+    Parameters
+    ----------
+    text : str
+        A text string.
+
+    Returns
+    -------
+    int
+        Number of sentences in the text. Will be 0 for empty string, otherwise >= 1.
+
+    """
+    if len(text) == 0:
+        return 0
+
+    ignore_count = 0
+    sentences = re.findall(r"\b[^.!?]+[.!?]*", text, re.UNICODE)
+    for sentence in sentences:
+        if count_words(sentence) <= 2:
+            ignore_count += 1
+    return max(1, len(sentences) - ignore_count)
+
+
+# textstat.backend.counts._count_syllables.count_syllables
+@typed_cache
+def count_syllables(text: str, lang: str) -> int:
+    """Estimate the total number of syllables in a text.
+    Parameters
+    ----------
+    text : str
+        A text string.
+    lang : str
+        The language of the text.
+    Returns
+    -------
+    int
+        Number of syllables in the text.
+    """
+    if not text:
+        return 0
+    cmu_dict = get_cmudict(lang)
+    pyphen = get_pyphen(lang)
+    count = 0
+    for word in list_words(text, lowercase=True):
+        try:
+            cmu_phones = cmu_dict[word][0]
+            count += sum(1 for p in cmu_phones if p[-1].isdigit())
+        except (TypeError, IndexError, KeyError):
+            count += len(pyphen.positions(word)) + 1
+    return count
+
+
+# textstat.backend.selections._list_words.list_words
+@typed_cache
+def list_words(
+    text: str,
+    rm_punctuation: bool = True,
+    rm_apostrophe: bool = False,
+    lowercase: bool = False,
+    split_contractions: bool = False,
+    split_hyphens: bool = False,
+) -> list[str]:
+    """Get a list of all words in the text. If specified by args, words can be
+    lowercased and punctuation removed. By default apostrophes are not removed with
+    other punctuation but they can be by using `rm_apostrophe=True`. If
+    `split_contractions` is set to True, contractions are counted as multiple words.
+    If `rm_punctuation`, `rm_apostrophe`, and `split_contractions` are all set to
+    True, `split_contractions` is ignored. If `split_hyphens` is set to True,
+    hyphenated words are counted as multiple words (regardless of `rm_punctuation`).
+
+    Parameters
+    ----------
+    text : str
+        A text string.
+    rm_punctuation : bool, optional
+        Remove punctuation. The default is True.
+    rm_apostrophe : bool, optional
+        Remove apostrophes. The default is False.
+    lowercase : bool, optional
+        Lowercase words. The default is False.
+    split_contractions : bool, optional
+        Split contractions. The default is False.
+    split_hyphens : bool, optional
+        Split hyphens. The default is False.
+
+    Returns
+    -------
+    List[str]
+        A list of the words.
+
+    """
+    if split_hyphens:
+        text = re.sub(r"-", " ", text)
+    if rm_punctuation:
+        text = remove_punctuation(text, rm_apostrophe=rm_apostrophe)
+    if lowercase:
+        text = text.lower()
+    if split_contractions:
+        text = re.sub(RE_CONTRACTION_APOSTROPHE, " ", text)
+    return text.split()
+
+
+# textstat.backend.transformations._remove_punctuation.remove_punctuation
+@typed_cache
+def remove_punctuation(
+    text: str,
+    rm_apostrophe: bool,
+) -> str:
+    """Get a copy of the text with punctuation removed.
+
+    If the parameter `rm_apostrophe` is set to True, all punctuation is removed,
+    including apostrophes.
+    If the parameter `rm_apostrophe` is set to False, punctuation is removed with
+    the exception of apostrophes in common English contractions.
+    Hyphens are always removed.
+
+    Parameters
+    ----------
+    text : str
+        A text string.
+
+    Returns
+    -------
+    text : str
+        A copy of the input text with punctuation removed.
+
+    """
+    if rm_apostrophe:
+        # remove all punctuation
+        punctuation_regex = r"[^\w\s]"
+    else:
+        # remove non-apostrophe single quotation marks
+        text = re.sub(RE_NONCONTRACTION_APOSTROPHE, "", text)
+        # remove all punctuation except apostrophes
+        punctuation_regex = r"[^\w\s\']"
+
+    text = re.sub(punctuation_regex, "", text)
+    return text
+
+
+# textstat.backend.utils._get_cmudict.get_cmudict
+@typed_cache
+def get_cmudict(lang: str) -> dict[str, list[list[str]]] | None:
+    """Get a cmudict object for the given language. Currently only English is supported.
+    Parameters
+    ----------
+    lang : str
+        The language of the text.
+    Returns
+    -------
+    dict[str, list[list[str]]] | None
+        A cmudict object for the given language (or None if the language is not
+        supported).
+    """
+    if get_lang_root(lang) == "en":
+        nltk.download('cmudict', quiet=True)
+        return nltk.corpus.cmudict.dict()
+    else:
+        return None
+

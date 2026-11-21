@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-11-01T15:41:22.144271+00:00",
+  "input_file": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/dual_reference_evaluation/run_20261101T153358_903997Z/evaluation_inputs.json",
+  "input_sha256": "b608c0de753f9f2d0e6fa6e78a0c08efc8000e0fe57d8a1d5131ccfafe7c81de",
+  "script": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/measure_rs_fkgl.py",
+  "script_sha256": "f3d5635a04338b27e0efa60a9c0d31db01249748ed633ec05bfed7b3e479857e",
+  "python_version": "3.12.10",
+  "candidate_records": 146,
+  "reference_records": 146,
+  "candidate_unique_article_summary_pairs": 91,
+  "candidate_unique_texts": 91,
+  "all_unique_scored_texts": 237,
+  "candidate_records_by_condition": {
+    "short": 73,
+    "detailed": 73
+  },
+  "maximum_formula_absolute_error": 0.0,
+  "configuration": {
+    "package_versions": {
+      "textstat": "0.7.10",
+      "nltk": "3.10.4",
+      "pyphen": "0.18.1",
+      "regex": "2026.9.29"
+    },
+    "language": "en_US",
+    "rounding_points": null,
+    "formula": "0.39 * (words / sentences) + 11.8 * (syllables / words) - 15.59",
+    "lower_fkgl_indicates_lower_estimated_school_grade": true,
+    "text_preprocessing": "Raw strings passed unchanged to textstat; no repairs, removals, or normalization.",
+    "word_count_behavior": "textstat default punctuation removal, whitespace split; contractions and hyphenated expressions each stay one word (hyphens removed internally); numerals retained.",
+    "sentence_count_behavior": "Regex \\b[^.!?]+[.!?]*; ignores segments containing at most two words; nonempty text has a minimum of one sentence. Abbreviations and decimals can affect boundaries.",
+    "syllable_count_behavior": "Lowercase textstat words; first CMUdict pronunciation, count phonemes ending in a digit; Pyphen en_US hyphenation positions + 1 for missing words.",
+    "resource_download_policy": "Offline scoring: required local CMUdict is preloaded, then only nltk.download is temporarily replaced with a local-resource check. textstat metric functions and dictionaries are unmodified.",
+    "dictionary_files": {
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/nltk_data/corpora/cmudict.zip": "d07cca47fd72ad32ea9d8ad1219f85301eeaf4568f8b6b73747506a71fb5afd6",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/nltk_data/corpora/cmudict/cmudict": "cad209c39eb87677d64e93d97f8eed10b7e6f9bdd42de8e7ca8efc8e17d62e8a",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/pyphen/dictionaries/hyph_en_US.dic": "486fb6840b1049d5d252ef784be11cd4dc2be0bf296568b74b41e4f4e17cba7d"
+    },
+    "implementation_files": {
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/counts/_count_sentences.py": "08338dd396e70835f5e07a4a6e9d69ed9764e0c534d5a520f47d856f4ea510ec",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/counts/_count_syllables.py": "83f345fff3c1c2b1ca739ee2730d4facc6e5410df6616b2495600546acd393c5",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/counts/_count_words.py": "202ac8001b17f2530592e155b0996887d42cc41aac0d6a8112b8184a6e1e7b41",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/metrics/_flesch_kincaid_grade.py": "e803e5d1e03e2f25be2d421fb5d10ae64c384b0e6023a770b9b97515eae20fa7",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/selections/_list_words.py": "08970561aafeb0b50455524f73f0bed573f5bdafea1da0997d92e98a0f25ba1f",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/transformations/_remove_punctuation.py": "a24ede1e1be0932edb12727b7de3392580bb77948c47cde76eb64e6ba4bc2de6",
+      "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/readability_runtime/venv/lib/python3.12/site-packages/textstat/backend/utils/_get_cmudict.py": "59a0cdfd1070b980b12ec442675c847573b85ea038610d9b61bef1d7e3478cf2"
+    },
+    "official_library_source": "https://github.com/textstat/textstat",
+    "pinned_distribution": "https://pypi.org/project/textstat/0.7.10/",
+    "cmudict_download_source": "https://raw.githubusercontent.com/nltk/nltk_data/gh-pages/packages/corpora/cmudict.zip"
+  },
+  "interpretation_limits": [
+    "FKGL estimates surface difficulty from sentence length and syllables, not factuality, informativeness, coherence, or actual beginner understanding.",
+    "Very short summaries and unfamiliar cryptocurrency names, abbreviations, and numbers can make grade estimates unstable.",
+    "The 2-to-3 sentence flag uses textstat's heuristic sentence counter and is not a grammatical compliance judgment.",
+    "Ellipsis, output-label, and terminal-punctuation flags are descriptive string checks, not confirmed errors or proof of token-limit truncation.",
+    "GPT/Gemini reference FKGL values are separate descriptive baselines, not validated human readability targets."
+  ]
+}

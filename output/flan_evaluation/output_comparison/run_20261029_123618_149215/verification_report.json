@@ -1,0 +1,44 @@
+{
+  "article_count_per_limit": 73,
+  "artifact_sha256": {
+    "canary_64_replays.json": "b03f5d333d3ecb4989d948a4e7b86b08f7f08d5e68d155e7a6b0716d5d15c0ec",
+    "generation_metrics.json": "83e3a7532d6c1fc18ef690670fa8c112bbd8e9085dcc8a1bb47a802c4b22050a",
+    "prompt_template.txt": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+    "run_report.json": "9e80a2e206807733dfb85436d5cdb04dbbc6b8d81aded7a7eed98a617e73b3b0",
+    "selected_articles.json": "9554fb4ba305d6c70c73575fc2adc4440bfbc728b4e0bf7db779f0b023e94a9c",
+    "summaries_output_128.json": "e026a32a0eeab829c5eb661b0111f9050dc12ea468591d60d81e3aa0f9f2bb39",
+    "summaries_output_64.json": "6baea61f15e0ffbd5c89f04e45f926287fc5851917519c658c26869e725a7df6",
+    "summaries_output_96.json": "872e101bcbb10694f92a392843cd14298ba02e9c27f7a33a71dcae8c6a20107f"
+  },
+  "baseline_run_and_frozen_snapshot_checksums_unchanged": true,
+  "canary_replays": 2,
+  "historical_reused_64": 73,
+  "identical_summaries_96_vs_128": 72,
+  "max_new_tokens_including_eos": {
+    "128": 96,
+    "64": 64,
+    "96": 96
+  },
+  "new_generations": 146,
+  "no_input_truncation": true,
+  "source_prompt_id_order_reference_matches": true,
+  "status": "passed",
+  "stop_reasons": {
+    "128": {
+      "eos_before_limit": 73
+    },
+    "64": {
+      "eos_before_limit": 70,
+      "length_limit_without_eos": 3
+    },
+    "96": {
+      "eos_before_limit": 72,
+      "length_limit_without_eos": 1
+    }
+  },
+  "summary_changes_from_64": {
+    "128": 3,
+    "96": 3
+  },
+  "total_compared_rows": 219
+}

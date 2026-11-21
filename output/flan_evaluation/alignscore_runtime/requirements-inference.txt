@@ -1,0 +1,8 @@
+# Isolated overrides; read-only reuse of Torch/NLTK from the project .venv.
+transformers==4.37.2
+tokenizers==0.15.2
+huggingface-hub==0.36.2
+numpy==1.26.4
+# Observed reused versions (captured again in alignscore_report.json):
+# torch==2.13.0
+# nltk==3.10.3

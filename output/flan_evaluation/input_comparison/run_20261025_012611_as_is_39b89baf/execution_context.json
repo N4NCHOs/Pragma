@@ -1,0 +1,36 @@
+{
+  "audit_csv_sha256": "e8208dcf88d3ab4501ab25827d5ed5348d847746843bb2ce8ad0bb618b261179",
+  "cached_generation_config": {
+    "_from_model_config": true,
+    "decoder_start_token_id": 0,
+    "eos_token_id": 1,
+    "pad_token_id": 0,
+    "transformers_version": "4.27.0.dev0"
+  },
+  "cohort_policy": "all 73 as-is, explicitly authorized by user on 2026-10-25; six pilots retained",
+  "comparison_csvs": {
+    "1024": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_1024.csv",
+    "2048": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_2048.csv",
+    "3072": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_3072.csv",
+    "512": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_512.csv"
+  },
+  "cpu_threads": 4,
+  "device_requested": "cpu",
+  "elapsed_seconds": 878.831266166002,
+  "finished_at_utc": "2026-10-24T18:40:49.904466+00:00",
+  "generation_seed": 0,
+  "interop_threads": 10,
+  "model_source_sha256": "3a5e9457f2291ee78a912b99464cd27ab4cb204efba469aec24fe712f4582958",
+  "network_policy": "HF_HUB_OFFLINE=1, TRANSFORMERS_OFFLINE=1; model/tokenizer use pinned local_files_only=True",
+  "package_manifest_sha256": "01f863d9bb4d077e8c487d16a825c9e0fca48bcb2a61194b1161b6027282ba18",
+  "python_version": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "quality_note": "Known source/reference limitations accepted for exploratory comparison, not human-gold validation.",
+  "reference_csv_sha256": "071492b220b2f0a394300a101a4b549b58f24cae27594f4760e177ceaae9ba06",
+  "runner_sha256": "2defb3f0198e74a709a745de0abc29aff008aa06ea235f67c60442062459ffd3",
+  "scoring_status": "not run; ROUGE and BERTScore remain a separate checkpoint",
+  "started_at_utc": "2026-10-24T18:26:11.068932+00:00",
+  "status": "complete",
+  "timing_note": "Single serial observation per article/input limit. No warmup; first timing includes cold execution. Generation timing excludes model loading/tokenization. Not a latency benchmark.",
+  "torch_version": "2.13.0",
+  "transformers_version": "5.14.1"
+}

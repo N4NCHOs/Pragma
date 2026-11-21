@@ -1,0 +1,38 @@
+{
+  "bertscore": {
+    "batch_size": 4,
+    "cached_revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+    "configuration_hash": "roberta-large_L17_no-idf_version=0.3.12(hug_trans=5.14.1)",
+    "device": "cpu",
+    "idf": false,
+    "model_type": "roberta-large",
+    "num_layers": 17,
+    "rescale_with_baseline": false,
+    "use_fast_tokenizer": false
+  },
+  "elapsed_seconds": 11.900081416999456,
+  "evaluator_input_truncations": 0,
+  "evaluator_max_text_tokens": 178,
+  "rouge": {
+    "metrics": [
+      "rouge1",
+      "rouge2",
+      "rougeL"
+    ],
+    "use_stemmer": true
+  },
+  "row_count": 292,
+  "status": "complete",
+  "unique_scored_pairs": 182,
+  "versions": {
+    "bert-score": "0.3.13",
+    "rouge-score": "0.1.2",
+    "torch": "2.13.0",
+    "transformers": "5.14.1"
+  },
+  "input_file": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/dual_reference_evaluation/run_20261101T153358_903997Z/evaluation_inputs.json",
+  "input_sha256": "b608c0de753f9f2d0e6fa6e78a0c08efc8000e0fe57d8a1d5131ccfafe7c81de",
+  "scoring_runner_sha256": "812c97d2832502e005689fb4a5fc05793286a03a05e2788c011678cc18fcf512",
+  "scoring_runner_snapshot": "reference_metric_runner_snapshot.py",
+  "input_provenance_note": "Input SHA256 recorded after independent validation against the frozen manifest; all metric scores unchanged."
+}

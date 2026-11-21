@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "created_at_utc": "2026-11-01T14:46:14.388875+00:00",
+  "output_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/leakage_audit/replay_20261101T144614_387153Z",
+  "positions": [
+    1,
+    2,
+    4,
+    28,
+    3,
+    37
+  ],
+  "prompt_order": [
+    "detailed",
+    "short"
+  ],
+  "model": "google/flan-t5-base",
+  "revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+  "input_limit": 3072,
+  "max_new_tokens": 192,
+  "script_sha256": "71e7b3253ca3e875bd0ff274f95fdb37158ea73b6ac36478b6e425cca57088f2",
+  "dataset_sha256": "15e7a6c8f29c3518406b71c430ea0ef30f04d2ac55bfa8e92d23086aa2ec5316",
+  "notes": [
+    "Fresh process and model load; direct Transformers generation, no project generation helpers.",
+    "Only raw article title/body plus its saved instruction prompt enters the model.",
+    "No previous outputs or GPT/Gemini reference files read during generation.",
+    "Detailed prompt is run before short prompt, reversing historical run order.",
+    "Positions1,2,4,28 test identical cases;3,37 are changed-output controls."
+  ],
+  "elapsed_seconds": 89.97172604201478,
+  "finished_at_utc": "2026-11-01T14:47:44.358942+00:00"
+}

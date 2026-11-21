@@ -1,0 +1,280 @@
+{
+  "article_count": 6,
+  "articles": [
+    {
+      "article_text_sha256": "029504f54e652bad1f6bc5fc8868a19db1fb8989dcce69b41ca097b567809e2b",
+      "complete_input_tokens": 597,
+      "dataset_article_id": "d88ecdbfd283769b367268dc7b7c14f411851af8ea5ea97875a08925af8bf1d4",
+      "formatted_input_sha256": "3834dafac7f81b12418e96dda729666fb8a497e1700898c859617f033cd524af",
+      "limits": [
+        {
+          "consumed_input_tokens": 512,
+          "decoded_final_tokens": "than erased last week’s $228.5 million",
+          "input_was_truncated": true,
+          "max_input_tokens": 512,
+          "removed_token_count": 85
+        },
+        {
+          "consumed_input_tokens": 597,
+          "decoded_final_tokens": ", according to SoSoValue. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 1024,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 597,
+          "decoded_final_tokens": ", according to SoSoValue. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 2048,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 597,
+          "decoded_final_tokens": ", according to SoSoValue. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 3072,
+          "removed_token_count": 0
+        }
+      ],
+      "special_tokens_in_complete_input": 1,
+      "title": "Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock"
+    },
+    {
+      "article_text_sha256": "8317cb2731023e7a58ba64af659010ba31fb0808d5978426aa8828db643f2a22",
+      "complete_input_tokens": 627,
+      "dataset_article_id": "5c5fbb2ad4e363114002acb9a7ece8d2de59b94151909d7e1cbd82c0b33d90ac",
+      "formatted_input_sha256": "1d151347d7129d961e7591be53f38c3c45bd3b865667efa81a3d94a6c8605726",
+      "limits": [
+        {
+          "consumed_input_tokens": 512,
+          "decoded_final_tokens": "on behalf of individuals or businesses. Mural's",
+          "input_was_truncated": true,
+          "max_input_tokens": 512,
+          "removed_token_count": 115
+        },
+        {
+          "consumed_input_tokens": 627,
+          "decoded_final_tokens": "use case for AI-powered financial services. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 1024,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 627,
+          "decoded_final_tokens": "use case for AI-powered financial services. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 2048,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 627,
+          "decoded_final_tokens": "use case for AI-powered financial services. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 3072,
+          "removed_token_count": 0
+        }
+      ],
+      "special_tokens_in_complete_input": 1,
+      "title": "Tether leads $15 million funding round for AI-focused payment startup Mural"
+    },
+    {
+      "article_text_sha256": "745c6b15c16ae56181cf9091800598f998a670e8610beb2447007ffa64b27f95",
+      "complete_input_tokens": 931,
+      "dataset_article_id": "269a4ac2559e1cc75c9fa61e579a0f0daa4e465ae57413d703fa7e90f07cae76",
+      "formatted_input_sha256": "06f949bc1f9609d1617c20e0c051cf3f4cbea2401f9fe527b8cc4b7b3a175611",
+      "limits": [
+        {
+          "consumed_input_tokens": 512,
+          "decoded_final_tokens": "records in its database. The proposal is intended to limit",
+          "input_was_truncated": true,
+          "max_input_tokens": 512,
+          "removed_token_count": 419
+        },
+        {
+          "consumed_input_tokens": 931,
+          "decoded_final_tokens": "being exploited through these proposed changes. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 1024,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 931,
+          "decoded_final_tokens": "being exploited through these proposed changes. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 2048,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 931,
+          "decoded_final_tokens": "being exploited through these proposed changes. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 3072,
+          "removed_token_count": 0
+        }
+      ],
+      "special_tokens_in_complete_input": 1,
+      "title": "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts"
+    },
+    {
+      "article_text_sha256": "abaf7d502cc40c41fec815dd997dd533fd05471f694a4ddcbbffe6bb8dad9aa8",
+      "complete_input_tokens": 987,
+      "dataset_article_id": "544307a0609c50dd807ec9a6888fdce4ccfa2b63d79499f6e5fed5ce82b47fdf",
+      "formatted_input_sha256": "76018810f8521c5abf3ed9c6ab629e99637133f1f5886af8904f91ed962e08d2",
+      "limits": [
+        {
+          "consumed_input_tokens": 512,
+          "decoded_final_tokens": "funds off Ethereum has to decide when it’s safe",
+          "input_was_truncated": true,
+          "max_input_tokens": 512,
+          "removed_token_count": 475
+        },
+        {
+          "consumed_input_tokens": 987,
+          "decoded_final_tokens": "is live. Here’s how users benefit Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 1024,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 987,
+          "decoded_final_tokens": "is live. Here’s how users benefit Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 2048,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 987,
+          "decoded_final_tokens": "is live. Here’s how users benefit Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 3072,
+          "removed_token_count": 0
+        }
+      ],
+      "special_tokens_in_complete_input": 1,
+      "title": "Ethereum’s four-minute settlement plan could lower the cost of moving crypto"
+    },
+    {
+      "article_text_sha256": "6e36f8a5540e50b265b94af09c786cb119905788d4274e2998776a156fae0bb2",
+      "complete_input_tokens": 1508,
+      "dataset_article_id": "78adaf032c25de397f75d390ed0ebe2299a8c3ba73b16f54633d6d2d19c94817",
+      "formatted_input_sha256": "c615661bbb51da4c679c1ae7dbc86cefe8cf25b3fdb27f711a6e73e51f351d2d",
+      "limits": [
+        {
+          "consumed_input_tokens": 512,
+          "decoded_final_tokens": "network check those approvals. Spending typically reveals",
+          "input_was_truncated": true,
+          "max_input_tokens": 512,
+          "removed_token_count": 996
+        },
+        {
+          "consumed_input_tokens": 1024,
+          "decoded_final_tokens": "states that researchers call “magic states.” Each one",
+          "input_was_truncated": true,
+          "max_input_tokens": 1024,
+          "removed_token_count": 484
+        },
+        {
+          "consumed_input_tokens": 1508,
+          "decoded_final_tokens": "500,000 sufficiently reliable magic states every second. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 2048,
+          "removed_token_count": 0
+        },
+        {
+          "consumed_input_tokens": 1508,
+          "decoded_final_tokens": "500,000 sufficiently reliable magic states every second. Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 3072,
+          "removed_token_count": 0
+        }
+      ],
+      "special_tokens_in_complete_input": 1,
+      "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough"
+    },
+    {
+      "article_text_sha256": "9cfc2ebcf58186783384e1996425a8ee7d2dac97ddeb67aa5c2fe98746eb631e",
+      "complete_input_tokens": 2071,
+      "dataset_article_id": "8b38d00ac6012f9c741d1e711f04aea939463019d0f2ea72ad3e9d4774c5c331",
+      "formatted_input_sha256": "976feb288873237cf68d240e1ede76f51ad005ddffec751741487dad1e7f6701",
+      "limits": [
+        {
+          "consumed_input_tokens": 512,
+          "decoded_final_tokens": "US) Act. The OCC, which oversees",
+          "input_was_truncated": true,
+          "max_input_tokens": 512,
+          "removed_token_count": 1559
+        },
+        {
+          "consumed_input_tokens": 1024,
+          "decoded_final_tokens": "of the Treasury Scott Bessent in a statement",
+          "input_was_truncated": true,
+          "max_input_tokens": 1024,
+          "removed_token_count": 1047
+        },
+        {
+          "consumed_input_tokens": 2048,
+          "decoded_final_tokens": "which it said is backed by requirements to \"en",
+          "input_was_truncated": true,
+          "max_input_tokens": 2048,
+          "removed_token_count": 23
+        },
+        {
+          "consumed_input_tokens": 2071,
+          "decoded_final_tokens": "with respect to a single counterparty.\" Summary:",
+          "input_was_truncated": false,
+          "max_input_tokens": 3072,
+          "removed_token_count": 0
+        }
+      ],
+      "special_tokens_in_complete_input": 1,
+      "title": "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban"
+    }
+  ],
+  "created_at_utc": "2026-10-24T09:39:53.749180+00:00",
+  "flan_source": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/ai_models/flan_t5.py",
+  "flan_source_sha256": "3a5e9457f2291ee78a912b99464cd27ab4cb204efba469aec24fe712f4582958",
+  "largest_complete_input_tokens": 2071,
+  "model_checkpoint": "google/flan-t5-base",
+  "notes": [
+    "Counts include the full current prompt, title, body, and special tokens.",
+    "Prompt-only and article-only token counts are not assumed additive.",
+    "The recommended pilot ceiling prevents input truncation for these six inputs only.",
+    "Tokenization does not validate long-input inference feasibility, memory, or summary quality.",
+    "When input exceeds its limit, the current service right-truncates the whole prompt and loses the trailing Summary: cue.",
+    "No production configuration or realtime preprocessing integration was changed."
+  ],
+  "output_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/pilot_tokens_v1_20261024",
+  "pilot_article_dataset_hash": "594102025bf9db4e66125c9ed90d5623ad849257cca12bf0460da45e57663f4b",
+  "production_default_max_input_tokens": 512,
+  "production_generation_settings": {
+    "do_sample": false,
+    "early_stopping": true,
+    "max_new_tokens": 64,
+    "no_repeat_ngram_size": 3,
+    "num_beams": 4
+  },
+  "prompt_sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+  "recommended_pilot_max_input_tokens": 3072,
+  "scope": "token-only preflight; no generation; final evaluation split undecided",
+  "snapshot_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/preprocessed_v1_20261024",
+  "source_dataset_hash": "df75f090f1c6839b4aac7f73958616a893cd57fca51795b0babf4e64a40725ec",
+  "status": "complete",
+  "tokenizer": {
+    "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+    "cached_tokenizer_config_sha256": "4c55124402e4ce48c7125d04b9af152a125eda9e7c80829f8f99f2ec69f3f68d",
+    "class": "T5Tokenizer",
+    "local_files_only": true,
+    "model_max_length_metadata": 512,
+    "sentencepiece_version": "0.2.2",
+    "special_tokens_added": 1,
+    "tokenizers_version": "0.22.2",
+    "transformers_version": "5.14.1",
+    "truncation_side": "right"
+  },
+  "untruncated_articles_per_limit": {
+    "1024": 4,
+    "2048": 5,
+    "3072": 6,
+    "512": 0
+  }
+}

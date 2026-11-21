@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-01T12:56:07.960770+00:00",
+  "article_count": 73,
+  "source_order_id_title_body_hashes_preserved": true,
+  "prompt_hash_verified": true,
+  "selected_sequence_and_decoded_summary_verified_all_73": true,
+  "csv_json_parity_verified": true,
+  "all_inputs_untruncated": true,
+  "all_initial_192_trials_eos_before_limit": true,
+  "reruns": 0,
+  "generated_tokens_including_eos": {
+    "minimum": 13,
+    "mean": 40.45205479452055,
+    "median": 38,
+    "p95_nearest_rank": 70,
+    "maximum": 142
+  },
+  "content_tokens_excluding_specials": {
+    "minimum": 12,
+    "mean": 39.43835616438356,
+    "median": 37,
+    "p95_nearest_rank": 69,
+    "maximum": 140
+  },
+  "longest": {
+    "source_index": 37,
+    "id": "6d7c5ee00eafae06726b0c9e00d56827425f044d1df8758e63b1d57f9cc3c435",
+    "title": "Live updates: Market jitters persist as the AI selloff deepens",
+    "generated_new_tokens_including_eos": 142,
+    "output_token_count": 140,
+    "summary": "Output: Live updates: Market jitters persist as the AI selloff deepens. Elon Musk’s SpaceX SPCX$134.71Market Closed reported third-quarter revenue of $14.58 billion (up 161% year-over-year), topping estimates for $12.87 billion. Adjusted EBITDA of $8.81 billion was ahead of forecasts for $6.59 billion. Net income of $4.4 billion topped expectations for $1.88 billion. Amazon storing billions in Nvidia hardware in warehouses It turns out that data center power generation and buildouts are lagging well behind hardware in the AI race. [...]"
+  },
+  "non_eos_special_tokens": [
+    {
+      "source_index": 37,
+      "id": "6d7c5ee00eafae06726b0c9e00d56827425f044d1df8758e63b1d57f9cc3c435",
+      "special_token_ids": [
+        2
+      ]
+    }
+  ],
+  "quality_spot_checks": [
+    "Record1 contains one sentence despite2–3 requested; it ended naturally.",
+    "Record28 includes newsletter promotion and ellipsis-ending text despite EOS; this is separate from budget truncation."
+  ],
+  "artifact_sha256": {
+    "run_report.json": "56b0441f6e08dda0a29d08e6ffc829ff897216fb54d6d0db27010ac39254bafc",
+    "generation_metrics.json": "9fe33986e6694b8f69f8c93bb949ecc18c19e7b84c06d2feba3a18d175cdb231",
+    "summaries.json": "9fe33986e6694b8f69f8c93bb949ecc18c19e7b84c06d2feba3a18d175cdb231",
+    "summaries_and_lengths.csv": "d9590a329c28cda4c3f1f1ec857b8d5843cb52186c591fc5c98ab05a54521701",
+    "selected_articles.json": "65c385a724dd0e172ccdc667977d17d755f5f973f686ea143afce486ffdd8b1f",
+    "prompt_template.txt": "5316074c4b48efe08125f99b2d8fde09d56c9c37b31481314b3880b57ea559ce"
+  }
+}

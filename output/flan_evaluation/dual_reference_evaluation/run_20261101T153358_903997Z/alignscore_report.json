@@ -1,0 +1,109 @@
+{
+  "status": "complete",
+  "metric": "AlignScore-large",
+  "evaluation_mode": "nli_sp",
+  "source_repository": "https://github.com/yuh-zha/AlignScore",
+  "official_commit": "a0936d5afee642a46b22f6c02a163478447aa493",
+  "checkpoint_url": "https://huggingface.co/yzha/AlignScore/resolve/8509e78d25bb914939fc585c626500c9b2944249/AlignScore-large.ckpt",
+  "checkpoint_sha256": "ff4336312b377edcbcdad5694a2d09d73dc4225422c0422d810aa7e78485e32d",
+  "checkpoint_revision": "8509e78d25bb914939fc585c626500c9b2944249",
+  "roberta_revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+  "roberta_path": "/Users/mumu/.cache/huggingface/hub/models--roberta-large/snapshots/722cf37b1afa9454edce342e7895e588b6ff1d59",
+  "input_sha256": "b608c0de753f9f2d0e6fa6e78a0c08efc8000e0fe57d8a1d5131ccfafe7c81de",
+  "input_row_count": 146,
+  "unique_pair_count": 91,
+  "context": "full frozen article_text (title + full body); no manual document truncation",
+  "aggregation": "unchanged official Inferencer.inference_per_example: NLTK sentences, source chunks based on 350 whitespace words, max entailment over chunks per claim sentence, mean over claim sentences",
+  "tokenization": "unchanged official batch_tokenize: model_max_length=512, only_first truncation with official fallback",
+  "adapter": "Official model class loaded with nn.Module Lightning training shim and import compatibility changes; original full forward checked against classification-only forward; official Inferencer methods unchanged; unused spaCy initialization omitted",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "batch_size": 4,
+  "python": "3.12.10 (v3.12.10:0cc81280367, Apr  8 2025, 08:46:59) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "versions": {
+    "torch": "2.13.0",
+    "transformers": "4.37.2",
+    "tokenizers": "0.15.2",
+    "numpy": "1.26.4",
+    "nltk": "3.10.3",
+    "huggingface-hub": "0.36.2"
+  },
+  "punkt_tab_zip_sha256": "e57f64187974277726a3417ca6f181ec5403676c717672eef6a748a7b20e0106",
+  "weight_audit": {
+    "load_state_dict_strict": true,
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "verified_parameter_tensors": 403,
+    "verified_state_dict_tensors": 404,
+    "all_named_parameters_equal_checkpoint": true,
+    "trained_pooler_loaded": true,
+    "legacy_nonlearned_buffers": {
+      "base_model.embeddings.position_ids": {
+        "shape": [
+          1,
+          514
+        ],
+        "verified_standard_value": true
+      }
+    },
+    "checkpoint_hyper_parameters": {
+      "model": "roberta-large",
+      "using_pretrained": true,
+      "adam_epsilon": 1e-06,
+      "learning_rate": 1e-05,
+      "weight_decay": 0.1,
+      "warmup_steps_portion": 0.06
+    },
+    "checkpoint_lightning_version": "1.8.0.post1"
+  },
+  "official_forward_comparison": {
+    "tri_label_logits": {
+      "bitwise_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "seq_relationship_logits": {
+      "bitwise_equal": true,
+      "maximum_absolute_difference": 0.0
+    },
+    "reg_label_logits": {
+      "bitwise_equal": true,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "sanity_controls": {
+    "context": "The company reported revenue of $10 million in 2025. Its chief executive is Alice Brown.",
+    "supported_claim": "The company reported revenue of $10 million in 2025.",
+    "contradictory_claim": "The company reported revenue of $100 million in 2024.",
+    "supported_score": 0.9676197171211243,
+    "contradictory_score": 0.0004224602016620338,
+    "supported_greater_than_contradictory": true
+  },
+  "removed_imports": {
+    "model": [
+      "from transformers import AdamW [training optimizer only]",
+      "import pytorch_lightning as pl",
+      "from sklearn.metrics import f1_score"
+    ],
+    "inference": [
+      "import spacy",
+      "from .model import BERTAlignModel"
+    ]
+  },
+  "attention_classes": [
+    "RobertaSelfAttention"
+  ],
+  "tokenizer_class": "RobertaTokenizerFast",
+  "tokenizer_is_fast": true,
+  "tokenizer_model_max_length": 512,
+  "official_source_sha256": {
+    "official/src/alignscore/model.py": "59ee0f17b40cb7521d3c07010a42253e524418940bfb840f006b6cee9148ee55",
+    "official/src/alignscore/inference.py": "f116ce3bf3c4840d27ff8a55bbe1502db48c2e105fd5d2c0d91c23866aeaf368"
+  },
+  "elapsed_seconds": 144.36319191698567,
+  "completed_unique_pairs": 91,
+  "completed_output_rows": 146,
+  "pairs_with_official_chunk_token_truncation": 13,
+  "sentence_chunk_pairs_total": 367,
+  "sentence_chunk_pairs_over_model_limit_total": 24
+}

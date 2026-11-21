@@ -1,0 +1,608 @@
+{
+  "archive": {
+    "all_members_verified_against_original_sha256": true,
+    "member_count": 124,
+    "path": "output/flan_evaluation/baselines/baseline_20261027_73_articles/baseline_snapshot.tar.gz",
+    "sha256": "057ada47df7546c26e0ee642892f4438a734bd0c8c14931b0587fb5f3106aff0",
+    "size_bytes": 776880
+  },
+  "article_count": 73,
+  "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+  "discovery_id": "FLAN-DISCOVERY-001",
+  "exclusions": [
+    "model weights",
+    "Python environment",
+    "credentials"
+  ],
+  "experiment_date_local": "2026-10-25",
+  "files": {
+    "FLAN_64_TOKEN_JUSTIFICATION_README.md": {
+      "sha256": "dcf987fee27a7b2039a626a80bd9f8e68e03e5419e0080cc37f2a3b2dc3aadc0",
+      "size_bytes": 12176
+    },
+    "FLAN_BASELINE_DISCOVERY_001.md": {
+      "sha256": "57834ecb4cf7beeae6c5b4a572426480e79ddb19a3494c1fa149219249459255",
+      "size_bytes": 8697
+    },
+    "FLAN_EVALUATION_PLAN.md": {
+      "sha256": "1220660b3d5f558d7b7cdc2ebda696529954fa6ee45ffdd61e7a886923a43cd8",
+      "size_bytes": 32482
+    },
+    "FLAN_OUTPUT_PILOT_README.md": {
+      "sha256": "b207817ba9ca436bf1c546d534d2d19f59184576c88f6d8925c1f46ef6c89757",
+      "size_bytes": 11834
+    },
+    "FLAN_PREPROCESSING_README.md": {
+      "sha256": "3424a3a0ebc63dbcb8dc74d7961ba989c75a7777ca886db8b53d12258fe56622",
+      "size_bytes": 13292
+    },
+    "FLAN_REFERENCE_WORKFLOW_README.md": {
+      "sha256": "e48a10b26298c237a93924661be89eb745d4393e2599776ee4199d2e48b44eb8",
+      "size_bytes": 15765
+    },
+    "ai_models/flan_t5.py": {
+      "sha256": "3a5e9457f2291ee78a912b99464cd27ab4cb204efba469aec24fe712f4582958",
+      "size_bytes": 7321
+    },
+    "article_preprocessing.py": {
+      "sha256": "2de401e1c875f64c91f774eec37edf9747ba7ba7981bb7187a2a4569b811fea5",
+      "size_bytes": 2682
+    },
+    "flan_reference_workflow.py": {
+      "sha256": "2defb3f0198e74a709a745de0abc29aff008aa06ea235f67c60442062459ffd3",
+      "size_bytes": 24829
+    },
+    "measure_flan_pilot_tokens.py": {
+      "sha256": "8dab7f73a487dcdedfde025469756ca4b523dcf90feb70a69ad711aff9807db1",
+      "size_bytes": 13043
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/as_is_decisions/20261025_all73/decision.json": {
+      "sha256": "c333db03df89a00123f246508fc3bf35a295020eb89dce897108f9f6feda326c",
+      "size_bytes": 941
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/as_is_decisions/20261025_all73/manifest_before.json": {
+      "sha256": "49f78fd1abea6ec43fc9f4bca3b8e5a69fed2f0648f9d1698b1e5d9a67cacdff",
+      "size_bytes": 1593
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/as_is_decisions/20261025_all73/source_audit_before.csv": {
+      "sha256": "ecef16564abcbffee09899b361d920de8ac330c7d3037884cf05c22e52f6f992",
+      "size_bytes": 16383
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/frozen_articles.json": {
+      "sha256": "64de6268835114c2f6e656096d5b1d5b662ed89e12986257e3c3ccf00806ced4",
+      "size_bytes": 559396
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/gpt_reference_summaries.csv": {
+      "sha256": "071492b220b2f0a394300a101a4b549b58f24cae27594f4760e177ceaae9ba06",
+      "size_bytes": 295366
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/manifest.json": {
+      "sha256": "01f863d9bb4d077e8c487d16a825c9e0fca48bcb2a61194b1161b6027282ba18",
+      "size_bytes": 2896
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompt_template.txt": {
+      "sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+      "size_bytes": 989
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/001_9b2b9fc1e78583f366236ad9340bf1d7f9a930d73040dcbc111c19ff3835ebdf.txt": {
+      "sha256": "f1a7f4d2f7175433de6eddfe3bf869464e99f568fce3e4cbe9086c61efbf9266",
+      "size_bytes": 3440
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/002_923fe1c36412f48e1bc262db0b610ebd852aa6d69704750a0da2cb39d9370457.txt": {
+      "sha256": "763dd5130c1a0092a83d32d5b63e786d91f8befb4bc9e9eb0a4610fbab088547",
+      "size_bytes": 7541
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/003_618ce3019bad83df77389b80086073196a7056012038e95891efad88a4c8dc61.txt": {
+      "sha256": "da53c8558e39f4d5c83b96a4040a210817b499ba84e356a8d51b94302f7f4b20",
+      "size_bytes": 7833
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/004_78adaf032c25de397f75d390ed0ebe2299a8c3ba73b16f54633d6d2d19c94817.txt": {
+      "sha256": "c615661bbb51da4c679c1ae7dbc86cefe8cf25b3fdb27f711a6e73e51f351d2d",
+      "size_bytes": 7635
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/005_32bd212e0cffe4035360ba3bf82055e23bd585d5a8bfcfc954208c092672b54b.txt": {
+      "sha256": "5fe87f7185dfada13847bcbf2fe8b9847a012ec37cac55f9ab58640728d83d54",
+      "size_bytes": 3665
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/006_766045020055ae1d6680c379fde48582f7efb5a84e3c24f9da23c8c84bc2f15c.txt": {
+      "sha256": "f2df3175fbc6db9175c1058bb2f0b699fe0365491ebbea234f592a897428ab76",
+      "size_bytes": 1376
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/007_9de0d17224624b31025b17f761878df0c928fd011ec8975c1ba8266e1897f7b6.txt": {
+      "sha256": "b959c28a9645787cfeeec94b44e0fd3dbc1c1ee323df5789c5f59307b14f18e5",
+      "size_bytes": 1342
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/008_cc462a077b97ca0b6d1139262331c81704f3ebe63f839ed764dbc399dc90ee74.txt": {
+      "sha256": "c4bf94baa0f786be94c87555bbc365b3b5c603a601811ed016cad2800b5ee45c",
+      "size_bytes": 1347
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/009_1b28fbb94b6ed2495dc764ec2472b64ab952defcf9ee86f856664a677d34f4ae.txt": {
+      "sha256": "4070c97fb996f3a50e826f7d295b3f12d3c08fff442b3972fa9b9370c9b6e543",
+      "size_bytes": 1326
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/010_9d54c534f2a7134557d8f1cba7893c216e9baae7451f5823bcffaa07ee1c76d6.txt": {
+      "sha256": "7ed8d5abf29e4dedd4936db7ef82a8db13a871980317a2f537a96c7c3441bc74",
+      "size_bytes": 9312
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/011_e6dbb3a8a2e03d73143d13bab1e926323a4ca19560ceb8d6ef526f58b062bef6.txt": {
+      "sha256": "9cc523449b75b92df8a10f9feca66ffdff1182b7436638a1155050522985f9e2",
+      "size_bytes": 3695
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/012_56aeea7ca97457a71862d1e3973686be5e34201d35d9a7a6ad4e275d89b303a2.txt": {
+      "sha256": "052fbaaf58a45d12f0b31abd341ca0cfc042ddfac25b76225783ba7f81c95072",
+      "size_bytes": 3722
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/013_409e4d52224d10ea491dcde6b9a0f54e7ae73d155a04747cad0c236a7ccbd837.txt": {
+      "sha256": "ff68b34dbb4641a8e0cdb88cd8813cb53b8eae8fb84e34f4924a4dc319628e81",
+      "size_bytes": 3867
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/014_8fb66af6344bd7439fd83d501562a85630218dd019c96209d2cc93e3df37db6f.txt": {
+      "sha256": "fae1d6d5b79df68db02cd1c11bbf4323f6287353c5515f7e3c522005ef24d977",
+      "size_bytes": 3316
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/015_9ac34f68041a61b416c74239f624b4d22de487c613397d14d83110d6610d2ca4.txt": {
+      "sha256": "cb8d018036ce9ba589031d1b54d4385804a96b0462cdafcc0dd84878d9d709df",
+      "size_bytes": 3706
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/016_8970e3742a48972f08e9e52179e9ce4f06fedfbd929d656af97453ec756132e0.txt": {
+      "sha256": "fbfb03bc5c3c393ef9fce716456a5c82d64fa473593d23bcb15102a111ed7b71",
+      "size_bytes": 4050
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/017_d723ddefb36369a6ddcd76c250524da082c10c26d9299eaf12f270f498f6d576.txt": {
+      "sha256": "c0f9059bee06c9a5eb2f7d6711ed572e4bc17d371fd138e3086198124f16f29d",
+      "size_bytes": 3801
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/018_c363c3c5ac2c3bb822deb158297ae7aaf45b999ea0f6733df128660c0ed178ac.txt": {
+      "sha256": "047f7e3d4b582ccb7bd928d0afefa462f17ca74151f92f8d5994285b6464d5ce",
+      "size_bytes": 6316
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/019_f67883101220da68d1972b43692f61d2fc2d1b9152758a0724e8c33450bee808.txt": {
+      "sha256": "802725030a8d844e145ba6735b7a0d620336e5db9fe7a09b0216631bb5cb134e",
+      "size_bytes": 6879
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/020_a5b7f379b32cc20760474eff46c8ea54104208e708feee47342d94d4d1d0735c.txt": {
+      "sha256": "eea511f284bb8a0fda9127e3bd7c24579cd05a172540358d227466e13553cbed",
+      "size_bytes": 3475
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/021_c7a08d4862edc499b07039978b877dbfd787328a966c1697d4c5ae525a28d75d.txt": {
+      "sha256": "3fdc6315bf550c909675bb47b94499e282943fc4773c67d2d8a3116fe71bcedd",
+      "size_bytes": 3687
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/022_3ec1254da21718d60ba4516cb48e8b24e9f8c0b352947db9ea87588e9c980125.txt": {
+      "sha256": "ace7fbf4ea0136aba83d862e7ba73cad3c9b9dd7d9f9e4521ae5e7d49d38fdbe",
+      "size_bytes": 3696
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/023_ce43ffd8321cb4e65d8e273d97197250f19e9938f86dae796bd5bb8be34e0fe6.txt": {
+      "sha256": "cceb11b631ce4e5738e75ab6575a627e1b7bb28b460c89d09efabebb458e35c9",
+      "size_bytes": 5266
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/024_cfa0d75bb9ee35b8c7a5a6d96c932d3f4184923eafbd5ca492a9275ffccf90f4.txt": {
+      "sha256": "e9b02362644a96833256062fa32e71c6edd0a7a723c86133e0716eae54580d94",
+      "size_bytes": 4367
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/025_1287272a98ccf16d58037531832a22881b6b13fcddacf8ffd527805971857bd8.txt": {
+      "sha256": "c90f32ad30d94faa88a71b0a979339585aada0a44ac570eeda99259ec2782306",
+      "size_bytes": 4584
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/026_f5af61f220d15a69c84c15177e828f46a33668578f698603c66ac5d56a0eeab8.txt": {
+      "sha256": "e2787b3f8fe086a40c70db6b63b2b57c5bd647dc7b293ccdda140916dfbfd4f4",
+      "size_bytes": 3582
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/027_f886c9cb69656d269911760c7a9997071b3981d2bedda537ecf699aed58c291e.txt": {
+      "sha256": "15e1445c2df2c40a8887914ee3044e3ece63f30150df3ebaa358d4d7b15bda1c",
+      "size_bytes": 3876
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/028_d3e9bcc0baa595381ffce6ea8a1db48861951719f8d8a13208c75c8e2cf624cf.txt": {
+      "sha256": "8042f84c5962cfde6e2af66108a5f2931f616fe0a7310185ac001528d2a7fb34",
+      "size_bytes": 4903
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/029_7037e738fd040b42bb3a806bd3066c59a904f30a4dc1247d8f67fea1bcc024c0.txt": {
+      "sha256": "cf28a7401990804253079a25e75562361d67785e6ac6dd12edcf321e65c286fc",
+      "size_bytes": 7927
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/030_faf611d55873f507fbded3d06f10be53aa5772e778e892d91af50142f807632e.txt": {
+      "sha256": "047294fbd43bc586461ef04fe8eddb21cba2c1ce87890ad6327e85b142e9a39b",
+      "size_bytes": 4289
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/031_5f8d2a8682ff6369e87cb742de29dcaad03c9bd6fbcf5b48fd35762927d2b356.txt": {
+      "sha256": "0911dedf251b95c902cbd373ed2aca26f926f1f3a93779037080925b9ee78bff",
+      "size_bytes": 4385
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/032_cb6605b41d2b753b13ea12e8b671f10b3bf5f82f4a730eaea265590bb5ca23d3.txt": {
+      "sha256": "e5ba65454f75bbc5c1d4b7e9bcd32f0a72ff373a1ef3e0e1863025f112558875",
+      "size_bytes": 4191
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/033_800b09ce69a799e957efcc1fd833cad5dd46e0d4b65f8189adc0145ec2d164a6.txt": {
+      "sha256": "232ad17e08cc4f4c5170858ffbde952c19955640adc9e87988e7947652674ddd",
+      "size_bytes": 5786
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/034_539638f8d88c51476bf040656fd33116e8b3ede99742a3dacc1310881784b923.txt": {
+      "sha256": "35be174d4e5f4bfebe3f8666cca937aab3e147bd8fe5649089e5789b4bb60d9a",
+      "size_bytes": 4515
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/035_d88ecdbfd283769b367268dc7b7c14f411851af8ea5ea97875a08925af8bf1d4.txt": {
+      "sha256": "3834dafac7f81b12418e96dda729666fb8a497e1700898c859617f033cd524af",
+      "size_bytes": 2547
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/036_76edd8d8c6fd16e8b456d3d8215c4e0c9f801f604c74eeefc708ac3267891eb3.txt": {
+      "sha256": "6d3ed90a01a736789951bddf941cab40f309ca5362a6922382b034e1d05d2070",
+      "size_bytes": 2781
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/037_6d7c5ee00eafae06726b0c9e00d56827425f044d1df8758e63b1d57f9cc3c435.txt": {
+      "sha256": "3a5950b6bd2c0236fda6877bb4321f99fd2d05cf2d44ccbc584f5649071a2d58",
+      "size_bytes": 2013
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/038_3de9e1c7803c4221f874720318c3f87ccf0b2658873906059519bc443d7c5ae0.txt": {
+      "sha256": "4ae4b739bad09f856b4b25c676bd31468bb5abdb46a9134cd5d364993c9c4cf0",
+      "size_bytes": 5617
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/039_8bad769c26ea8fbb7e4c9516c0cc829880a3fe0fedf5b31963a06b2886c44e3d.txt": {
+      "sha256": "eded05240dd39105ac04d72df26bcb9c251d41a9855aead7476021c790784739",
+      "size_bytes": 4628
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/040_dc8a1489ef8795c491ddfbfafa95858ef50df0f2586d76ec4ddf67e122b16946.txt": {
+      "sha256": "b7da2fce86fe0ba9165036ac09b5fcc8c24e2431ad28c1ff50c072a6297fb6cb",
+      "size_bytes": 3666
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/041_ae5cb9a01e3c81138a6409c1975403e4e8f22a01e22f3fe5281c698684f04c5d.txt": {
+      "sha256": "00d56d54bbe1a33fa759831dd32193b1c8aaae52a94bbf638516a27df7059ddb",
+      "size_bytes": 4168
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/042_ebcb4ba80178f29bcc3d7d6e191062893374a6cbb1f3c285dad4f28c91ae4c2d.txt": {
+      "sha256": "82513cdc7b851cef325380d1e5f85ca5c4cb7513298252a472c48832fe390581",
+      "size_bytes": 3528
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/043_273442b330e4fd3ca77e7bc6c4db226d8a7dbf5302a3d82a01d1d9df8c59c163.txt": {
+      "sha256": "6b223bb8117b0e77b0f4bf1ea109cb5f0ea7204fc12e74edd160ba99dc143c65",
+      "size_bytes": 9042
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/044_139bd42f19bc7b31152bba0b1683038cf2c85971181e6de55fc8f23f803eccbc.txt": {
+      "sha256": "cf78250c11fc1813b2656728974aea0b1ac0cdaf0e412be7e39d2dbae6bc1ccc",
+      "size_bytes": 5082
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/045_44ed111247d3d70c1c9ae82f84768b103d6f7950295dda892976bb238a9a53cd.txt": {
+      "sha256": "bc030924e45619b2e851938f50f98254a4a6a8746c4f0791d5c076c5c98bfd83",
+      "size_bytes": 4552
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/046_8fc19b5b810ffffe61bdc53dc2fee35fcccf037e05bf8ac91d04dd69d8bb4204.txt": {
+      "sha256": "f0f233a2e8997fc3c34059063a60e8ae993c02be3f742cd49b1c1b70c12888d1",
+      "size_bytes": 3936
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/047_5c5fbb2ad4e363114002acb9a7ece8d2de59b94151909d7e1cbd82c0b33d90ac.txt": {
+      "sha256": "1d151347d7129d961e7591be53f38c3c45bd3b865667efa81a3d94a6c8605726",
+      "size_bytes": 3285
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/048_54d2c46e6f08aa80f1b39ba0b1337366d48b9a887d7ef304e1cdc27428d8d8e7.txt": {
+      "sha256": "7bf6f689539740947d1155a3d28c44570051848d1eaa1bc018f0d75dc5272518",
+      "size_bytes": 4448
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/049_dbbbcc3ddb059af78745ccc514573063be94b39e28aadd4cfbd0b2c4b3e538d6.txt": {
+      "sha256": "38bce1405e180301173b0b41999ec58668036e8a543c5d5ac0ec7c6c396623c1",
+      "size_bytes": 3093
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/050_29c51a72228ae952ef218094e2e56333f337ba9421e9849d8492fbea324c7e89.txt": {
+      "sha256": "b3b664dc28960387061bf3843abfd115ddaada059a69b7b901c96762e31c7ce7",
+      "size_bytes": 5633
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/051_5611276a7a745a076ac5699df00a01a838350fd25f20cb622bacdfda4cd67a38.txt": {
+      "sha256": "b726aa3617c9add59b9eb2dd310c84791f6f7894d7433d621bc997712c867e58",
+      "size_bytes": 3763
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/052_1c3b1c08c9ac7f907d8e2317d506aa59d98f530a2e2503e0c3f3f5fd7d771057.txt": {
+      "sha256": "575f00a46f9359f56c5325dd650eb32c5cc1add5b33fa1b7d2a8289a072755f4",
+      "size_bytes": 3957
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/053_8b38d00ac6012f9c741d1e711f04aea939463019d0f2ea72ad3e9d4774c5c331.txt": {
+      "sha256": "976feb288873237cf68d240e1ede76f51ad005ddffec751741487dad1e7f6701",
+      "size_bytes": 9505
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/054_51f0165ee99201987fd9223bdecad585bb669eea7b1d33cdcc770e1fca103aac.txt": {
+      "sha256": "02edfdf6efdfd8507ce8740ca240b63b5a5b6e386a7601ecb3114297fecaeb7d",
+      "size_bytes": 8764
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/055_ae469261bfa19d41bf59fed493b60cdf5a51a02354ce55fe9941be5031f3b64e.txt": {
+      "sha256": "d7d4377699cb57a52e3ed5965d1d352413026699294b18da243fa21a8a2797c2",
+      "size_bytes": 4076
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/056_45cc369e38d8773c1c917a8fded87cb4c571b2a2a4e218b0094210c02ee21d7d.txt": {
+      "sha256": "d0b041cc01ef45ec4041f5f3f926e34fa80c92e43d43fbde9acdbe2e1fd18195",
+      "size_bytes": 3362
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/057_6b789d31a2ca8b461da8f3af2f7a2a0beda05721c76b6dd14e6999eaafb9fbb3.txt": {
+      "sha256": "dd8b11d82101ab729fb034f0b59e82d354867a25d77594b1819833347218020a",
+      "size_bytes": 3807
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/058_91734cb697770f2e0a6c1b871277ae73c2a078a8dbcce0bde74ec0e2163637c1.txt": {
+      "sha256": "c43ca250a6b574949ba84928f313fd694964cbc14e9283ebeac948dc2b15d696",
+      "size_bytes": 2922
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/059_01631d1ddee666a7e3cde6b2de96807309b487dae11a154020adc7bf0b3decff.txt": {
+      "sha256": "e834f5831a68639bafb632459d44e18a09e2afc12346b3d6939198f34c384003",
+      "size_bytes": 2254
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/060_544307a0609c50dd807ec9a6888fdce4ccfa2b63d79499f6e5fed5ce82b47fdf.txt": {
+      "sha256": "76018810f8521c5abf3ed9c6ab629e99637133f1f5886af8904f91ed962e08d2",
+      "size_bytes": 4736
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/061_693e7beea61cd374ca049023e480067517f37aa8160f296ce97aef153dcc3deb.txt": {
+      "sha256": "c70337ad3ffd1b41aff48aa375d819e86c9e38e90e3531f79a3af6ab487cf45b",
+      "size_bytes": 11315
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/062_6fd4d924b4c54f50ba58e9c08439ad1079daca945933daa19fa702ce78cd48aa.txt": {
+      "sha256": "4083a885a35520dc513de26e3e63c12bba4c924be044b988cbed83d20b694445",
+      "size_bytes": 4202
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/063_5db76f0d9ba4d166e548dc377015a1d4a11245aa7e339ca70235fe0bd2f1117a.txt": {
+      "sha256": "18096c13249e0ce08d336cf77e5500973ec66d6d5559fa674af0c86576532672",
+      "size_bytes": 4755
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/064_06daa206c65157942ef055be58252e0f4e4b820e1a0e336b6ed2598268798d36.txt": {
+      "sha256": "7fbec18f4586065b98bb74381f62c1980adffa5ae4346085c1d1317d355f8508",
+      "size_bytes": 3665
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/065_269a4ac2559e1cc75c9fa61e579a0f0daa4e465ae57413d703fa7e90f07cae76.txt": {
+      "sha256": "06f949bc1f9609d1617c20e0c051cf3f4cbea2401f9fe527b8cc4b7b3a175611",
+      "size_bytes": 4648
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/066_d834c0c137645b02fbfa7d52da764c79c6023390f531fab61f023bb16fbe7117.txt": {
+      "sha256": "cf0303c78f350c8185c0522b16342b58e69262d220bf96a0e4d7fb74fd177c1d",
+      "size_bytes": 5620
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/067_1229e433b626686fe683b44299fa51add9639b0e62765fa6fb14ed4523a5f176.txt": {
+      "sha256": "308985afad2c06248d658e8bc0291996bd949776c5bf0b04f547ccbabdbc7f28",
+      "size_bytes": 5088
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/068_55f32862d624e2aa16c2a96ea228bae2434660051fc38767c402fd11189c7dd6.txt": {
+      "sha256": "299e6e68dba5dd7bf18d05720c02df739e15bcfe91b16dd54ddc699c08b7546b",
+      "size_bytes": 4607
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/069_cfbbe8b5826032f70b418675653691e1fb227cc9bc415b0adecea1f26343a757.txt": {
+      "sha256": "0360e382253c18f3f0e1b6ebb9d92b300a3ee894fdae28c7865e5e1ad10f34bc",
+      "size_bytes": 5123
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/070_8502097f256ea9ce9226235b15e4464f778427ae2003d2aba95bfe48990573ba.txt": {
+      "sha256": "559da3cadc7df2a7985c4fb4f6d147e8e7cfde9bb6fa69c528e1fe1f27c0c29c",
+      "size_bytes": 5525
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/071_ecad86bf409fdf37b90df3365a554e87b6b2ab9531806b464c7b319435de7bb6.txt": {
+      "sha256": "6c9802973b6c64aa824234eceb583ead9a1e12883d257b77043251d8dc59ffd6",
+      "size_bytes": 5258
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/072_def08019bbd53ac1ef3b32353c4d12d8b69a477d5762f113081aa0cd3c72ea7b.txt": {
+      "sha256": "71c7e98828dac068ca0edeed4094adc2d184aefede7e79e04e0de11e637174fa",
+      "size_bytes": 1298
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/prompts/073_de71703920b3289b507a48ed7282f5c4ba1d402a0a55c4cc712415a7e93848eb.txt": {
+      "sha256": "86b50371d585ccc507fade8d07f7910a797d319f408a45da7241e0721d431e4c",
+      "size_bytes": 3643
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/source_audit.csv": {
+      "sha256": "e8208dcf88d3ab4501ab25827d5ed5348d847746843bb2ce8ad0bb618b261179",
+      "size_bytes": 23858
+    },
+    "notebook/evaluation_data/flan_reference_package_v1/template_data.json": {
+      "sha256": "0c76b3793e327e1004c63f84d2bf27e33c14113c28ddfbf363a4e404abb97095",
+      "size_bytes": 309712
+    },
+    "notebook/flan_evaluation.ipynb": {
+      "sha256": "2adab06541978342002b75141b781e71aa90d9e9e176baa5e1daf324f718e7e5",
+      "size_bytes": 22899
+    },
+    "notebook/requirements_flan_evaluation.txt": {
+      "sha256": "482e6a467357382e45bb599078bda6d92763b02591226ddf2f3c04b2eee41460",
+      "size_bytes": 38
+    },
+    "output/flan_evaluation/baselines/baseline_20261027_73_articles/output_truncation_cases.json": {
+      "sha256": "3613c6328e3c5858a906135c71ba9f2767345d50bf08d15bfe215654373e9b40",
+      "size_bytes": 23050
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/README.md": {
+      "sha256": "0879c46088c10232c0805912e34f44996ed3951aed7be07ec47c61d8fa5e54ba",
+      "size_bytes": 8021
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/README.md": {
+      "sha256": "9dfeb0841b2d0e0be5c2e3eba10934f790684a1de4126bf22501d1cd06cffd00",
+      "size_bytes": 8746
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_1024/bertscore_config.txt": {
+      "sha256": "efedc6c31933cc85c1fc19c83ebe35dfad17e9e673eb72b7306922e9125e7bf9",
+      "size_bytes": 58
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_1024/bertscore_scores.csv": {
+      "sha256": "535ac4c68db3474c9abfab5a4c352b95d36e79827f9c9349fcc9424d7507204c",
+      "size_bytes": 15606
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_1024/rouge_scores.csv": {
+      "sha256": "70fda7e7c138a4caa3df80bf786e41991f0dd13826bd886f2d7b17ddd679fca0",
+      "size_bytes": 15257
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_2048/bertscore_config.txt": {
+      "sha256": "efedc6c31933cc85c1fc19c83ebe35dfad17e9e673eb72b7306922e9125e7bf9",
+      "size_bytes": 58
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_2048/bertscore_scores.csv": {
+      "sha256": "50607e7a5f6230b186d9b6acfc63c0f789e2fb09eaeb986bdc2b15ff7c362267",
+      "size_bytes": 15605
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_2048/rouge_scores.csv": {
+      "sha256": "f5acc1148604e82b28c61e2059cef307b4abf269ede6bf5da9e52a7e832c2115",
+      "size_bytes": 15358
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_3072/bertscore_config.txt": {
+      "sha256": "efedc6c31933cc85c1fc19c83ebe35dfad17e9e673eb72b7306922e9125e7bf9",
+      "size_bytes": 58
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_3072/bertscore_scores.csv": {
+      "sha256": "d69215fde7d33a4b3cd92a63ff38693cb53d25566b31ee3a85df6a703151e15b",
+      "size_bytes": 15606
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_3072/rouge_scores.csv": {
+      "sha256": "283c3bc4e1f8e6aa41c06d0a39e3d60097e69228d8fe054f807905c42c3e05f9",
+      "size_bytes": 15358
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_512/bertscore_config.txt": {
+      "sha256": "efedc6c31933cc85c1fc19c83ebe35dfad17e9e673eb72b7306922e9125e7bf9",
+      "size_bytes": 58
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_512/bertscore_scores.csv": {
+      "sha256": "7b3df3a29e8e6515b15b8298a3b21f7beed5b7d8ed152ac68ab76cca9fdc8ffc",
+      "size_bytes": 15599
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_512/rouge_scores.csv": {
+      "sha256": "fb13ce67c19bcc4b2eb3bfe290017a6a1ce754195a4eff9fab1ccd65c81fbac3",
+      "size_bytes": 15357
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/input_limit_comparison.csv": {
+      "sha256": "7552b36842ab8c9f6ae057f906e2810a2a5764fe71f8644937999892f6daf741",
+      "size_bytes": 694
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b/scoring_report.json": {
+      "sha256": "895bdd7e0b5beca6c899175bc4935de1c9787038614568b76b3ba349860f0b0d",
+      "size_bytes": 6555
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/execution_context.json": {
+      "sha256": "37efdf95c3ff8381bffd273c4e98293183d2345f027682d23141486bf55dafe5",
+      "size_bytes": 2343
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_1024.csv": {
+      "sha256": "9c045df00efe7efefd6c16d99e93f75aca69867691c467d40229d89ad8354a9c",
+      "size_bytes": 44220
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_2048.csv": {
+      "sha256": "f79c3bb1585054445e442131b6cad6961125132586da4d54c95325fbdec8f254",
+      "size_bytes": 44676
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_3072.csv": {
+      "sha256": "17c4cd3247656a0b13653b93e72dfea0035eedfc06fac81db156a44c81de1be4",
+      "size_bytes": 44593
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_512.csv": {
+      "sha256": "62786cba1bd6df01cfc2441e4984e03f4643db8cf884f4b542b87f2e842cb02a",
+      "size_bytes": 43834
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/generation_metrics.json": {
+      "sha256": "8f1593db1d630ed34c16ec4fd3eb3c72c19cddc08b1c9c4854f45320e43a1c6d",
+      "size_bytes": 362741
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/generation_overview.json": {
+      "sha256": "33b9f9cbe940918061275083b79d0b0af6a31b6853d965c680246e5c7fecf7ab",
+      "size_bytes": 4808
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/prompt_template.txt": {
+      "sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+      "size_bytes": 989
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/run_manifest.json": {
+      "sha256": "19ed02e380ad57085a840669e51d1ff4d61d3c2adc4c0143e09d12ac07b157e0",
+      "size_bytes": 1734
+    },
+    "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/selected_articles.json": {
+      "sha256": "9554fb4ba305d6c70c73575fc2adc4440bfbc728b4e0bf7db779f0b023e94a9c",
+      "size_bytes": 583894
+    },
+    "prepare_flan_evaluation_data.py": {
+      "sha256": "edd8b23e5b90f171a8307f78575c29cd6760498b235fd35b818dfe0906c5789f",
+      "size_bytes": 9739
+    },
+    "requirements.txt": {
+      "sha256": "f9697df69acbc3ff528e4ba533f0c902d2fdb6d7d0848536a0ae4517ec923e52",
+      "size_bytes": 1860
+    },
+    "run_flan_output_pilot.py": {
+      "sha256": "f2837bd5d3c26b875ca3d2f34680e3122676e3c548c5149b116d7b9d7b3fa1df",
+      "size_bytes": 17570
+    }
+  },
+  "generation_kwargs": {
+    "do_sample": false,
+    "early_stopping": true,
+    "max_new_tokens": 64,
+    "no_repeat_ngram_size": 3,
+    "num_beams": 4
+  },
+  "generation_run": "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf",
+  "input_limits": [
+    512,
+    1024,
+    2048,
+    3072
+  ],
+  "input_truncation_counts": {
+    "1024": 28,
+    "2048": 3,
+    "3072": 0,
+    "512": 66
+  },
+  "interpretation_limits": [
+    "Silver GPT reference agreement, not factual accuracy",
+    "No statistical significance test",
+    "Six pilot cases included",
+    "Known source/reference defects retained",
+    "Reaching output limit without EOS is not alone a complete sentence-quality assessment"
+  ],
+  "max_new_tokens": 64,
+  "model_checkpoint": "google/flan-t5-base",
+  "model_source_sha256": "3a5e9457f2291ee78a912b99464cd27ab4cb204efba469aec24fe712f4582958",
+  "output_limit_counts_by_input": {
+    "1024": 2,
+    "2048": 3,
+    "3072": 3,
+    "512": 4
+  },
+  "output_limit_distinct_articles": 5,
+  "output_limit_without_eos_count": 12,
+  "pending_high_priority": "article_preprocessing.py realtime integration with main_pipeline remains pending",
+  "preservation_policy": "Do not overwrite baseline artifacts. Future tweaks require a distinct run/configuration. Checksums record original bytes; no filesystem lock or Git commit is applied.",
+  "prompt_sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+  "purpose": "Keep accepted baseline unchanged as evidence before user-requested future FLAN improvements.",
+  "recorded_at": "2026-10-27T23:03:24.679866+07:00",
+  "reference_csv_sha256": "071492b220b2f0a394300a101a4b549b58f24cae27594f4760e177ceaae9ba06",
+  "runner_sha256": "2defb3f0198e74a709a745de0abc29aff008aa06ea235f67c60442062459ffd3",
+  "scoring_means": [
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8832491636276245,
+      "bertscore_precision": 0.9050195813179016,
+      "bertscore_recall": 0.8627253770828247,
+      "max_input_tokens": 512,
+      "rouge1_f1": 0.3211972003880229,
+      "rouge2_f1": 0.13258749608773898,
+      "rougeL_f1": 0.2516809157633108
+    },
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8831420540809631,
+      "bertscore_precision": 0.9030634164810181,
+      "bertscore_recall": 0.8644150495529175,
+      "max_input_tokens": 1024,
+      "rouge1_f1": 0.33436800240608505,
+      "rouge2_f1": 0.14640458862725605,
+      "rougeL_f1": 0.25998849218542375
+    },
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8851867318153381,
+      "bertscore_precision": 0.9051528573036194,
+      "bertscore_recall": 0.866336464881897,
+      "max_input_tokens": 2048,
+      "rouge1_f1": 0.34415958914921424,
+      "rouge2_f1": 0.14723625762845385,
+      "rougeL_f1": 0.26769391005756876
+    },
+    {
+      "article_count": 73,
+      "bertscore_f1": 0.8846989274024963,
+      "bertscore_precision": 0.9044188261032104,
+      "bertscore_recall": 0.8660895228385925,
+      "max_input_tokens": 3072,
+      "rouge1_f1": 0.34279193203408836,
+      "rouge2_f1": 0.14723625762845385,
+      "rougeL_f1": 0.2672196418644203
+    }
+  ],
+  "scoring_run": "output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/evaluation_results/scores_20261025_023043_e19f4b6b",
+  "source_snapshot_note": "FLAN model and runner hashes match execution records. Other support files/notebook/docs are captured as available on recording date; runtime contexts in the original run retain execution versions.",
+  "status": "preserved_verified",
+  "timezone": "Asia/Jakarta",
+  "trial_count": 292
+}

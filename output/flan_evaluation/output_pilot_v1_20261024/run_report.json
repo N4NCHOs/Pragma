@@ -1,0 +1,173 @@
+{
+  "aggregate": {
+    "by_output_limit": {
+      "128": {
+        "completed_trials": 6,
+        "errors": 0,
+        "mean_inference_seconds": 3.693155867998333,
+        "mean_output_tokens": 31.5,
+        "stop_reasons": {
+          "eos_before_limit": 6
+        },
+        "successful_trials": 6
+      },
+      "64": {
+        "completed_trials": 6,
+        "errors": 0,
+        "mean_inference_seconds": 3.9187587151439707,
+        "mean_output_tokens": 31.5,
+        "stop_reasons": {
+          "eos_before_limit": 6
+        },
+        "successful_trials": 6
+      },
+      "96": {
+        "completed_trials": 6,
+        "errors": 0,
+        "mean_inference_seconds": 3.884375027836844,
+        "mean_output_tokens": 31.5,
+        "stop_reasons": {
+          "eos_before_limit": 6
+        },
+        "successful_trials": 6
+      }
+    },
+    "within_article_comparisons": [
+      {
+        "dataset_article_id": "d88ecdbfd283769b367268dc7b7c14f411851af8ea5ea97875a08925af8bf1d4",
+        "identical_summary_across_all_limits": true
+      },
+      {
+        "dataset_article_id": "5c5fbb2ad4e363114002acb9a7ece8d2de59b94151909d7e1cbd82c0b33d90ac",
+        "identical_summary_across_all_limits": true
+      },
+      {
+        "dataset_article_id": "269a4ac2559e1cc75c9fa61e579a0f0daa4e465ae57413d703fa7e90f07cae76",
+        "identical_summary_across_all_limits": true
+      },
+      {
+        "dataset_article_id": "544307a0609c50dd807ec9a6888fdce4ccfa2b63d79499f6e5fed5ce82b47fdf",
+        "identical_summary_across_all_limits": true
+      },
+      {
+        "dataset_article_id": "78adaf032c25de397f75d390ed0ebe2299a8c3ba73b16f54633d6d2d19c94817",
+        "identical_summary_across_all_limits": true
+      },
+      {
+        "dataset_article_id": "8b38d00ac6012f9c741d1e711f04aea939463019d0f2ea72ad3e9d4774c5c331",
+        "identical_summary_across_all_limits": true
+      }
+    ]
+  },
+  "article_count": 6,
+  "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+  "completed_trials": 18,
+  "cpu_threads": 4,
+  "created_at_utc": "2026-10-24T09:52:43.965522+00:00",
+  "device": "cpu",
+  "expected_trials": 18,
+  "finished_at_utc": "2026-10-24T09:53:56.392444+00:00",
+  "fixed_generation_kwargs": {
+    "do_sample": false,
+    "early_stopping": true,
+    "no_repeat_ngram_size": 3,
+    "num_beams": 4
+  },
+  "local_files_only": true,
+  "max_input_tokens": 3072,
+  "model_checkpoint": "google/flan-t5-base",
+  "model_dtype": "torch.float32",
+  "model_generation_config": {
+    "_from_model_config": true,
+    "assistant_confidence_threshold": null,
+    "assistant_early_exit": null,
+    "assistant_ensemble_weight": null,
+    "assistant_lookbehind": null,
+    "bad_words_ids": null,
+    "begin_suppress_tokens": null,
+    "bos_token_id": null,
+    "cache_config": null,
+    "cache_implementation": null,
+    "compile_config": null,
+    "constraints": null,
+    "continuous_batching_config": null,
+    "decoder_start_token_id": 0,
+    "disable_compile": null,
+    "diversity_penalty": null,
+    "do_sample": null,
+    "dola_layers": null,
+    "early_stopping": null,
+    "encoder_no_repeat_ngram_size": null,
+    "encoder_repetition_penalty": null,
+    "eos_token_id": 1,
+    "epsilon_cutoff": null,
+    "eta_cutoff": null,
+    "exponential_decay_length_penalty": null,
+    "force_words_ids": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "guidance_scale": null,
+    "is_assistant": null,
+    "length_penalty": null,
+    "low_memory": null,
+    "max_cache_len": null,
+    "max_length": null,
+    "max_matching_ngram_size": null,
+    "max_new_tokens": null,
+    "max_time": null,
+    "min_length": null,
+    "min_new_tokens": null,
+    "min_p": null,
+    "no_repeat_ngram_size": null,
+    "num_assistant_tokens": null,
+    "num_assistant_tokens_schedule": null,
+    "num_beam_groups": null,
+    "num_beams": null,
+    "num_return_sequences": null,
+    "output_attentions": null,
+    "output_hidden_states": null,
+    "output_logits": null,
+    "output_scores": null,
+    "pad_token_id": 0,
+    "penalty_alpha": null,
+    "prefill_chunk_size": null,
+    "prompt_lookup_num_tokens": null,
+    "remove_invalid_values": null,
+    "renormalize_logits": null,
+    "repetition_penalty": null,
+    "return_dict_in_generate": null,
+    "sequence_bias": null,
+    "stop_strings": null,
+    "suppress_tokens": null,
+    "target_lookbehind": null,
+    "temperature": null,
+    "token_healing": null,
+    "top_h": null,
+    "top_k": null,
+    "top_p": null,
+    "transformers_version": "5.14.1",
+    "typical_p": null,
+    "use_cache": null,
+    "use_mtp": null,
+    "watermarking_config": null
+  },
+  "model_load_seconds": 0.30220675002783537,
+  "output_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/output_pilot_v1_20261024",
+  "output_limits": [
+    64,
+    96,
+    128
+  ],
+  "pilot_article_dataset_hash": "594102025bf9db4e66125c9ed90d5623ad849257cca12bf0460da45e57663f4b",
+  "preflight_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/pilot_tokens_v1_20261024",
+  "prompt_sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+  "quality_note": "EOS, terminal punctuation, and reaching a token ceiling do not establish factuality or sentence completeness. Source-based review is separate.",
+  "realtime_preprocessing_integration": "HIGH PRIORITY / PENDING; production unchanged",
+  "runner_sha256": "f2837bd5d3c26b875ca3d2f34680e3122676e3c548c5149b116d7b9d7b3fa1df",
+  "seed": 0,
+  "status": "complete",
+  "timing_note": "Single serial observation per article/limit; generation only, excludes loading/tokenization; one 1-token warmup; not a latency benchmark.",
+  "torch_version": "2.13.0",
+  "transformers_version": "5.14.1",
+  "warmup_seconds": 3.2406466659740545
+}

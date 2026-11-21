@@ -1,0 +1,64 @@
+{
+  "article_count": 73,
+  "candidate_count": 146,
+  "created_at_utc": "2026-11-01T15:33:58.918375+00:00",
+  "generation_runs": {
+    "detailed": {
+      "path": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T130452_832310Z",
+      "prompt_sha256": "f8a534a627fd2bf50b12f34a3f8ecefa08391bdbd018d55f2ac6a2fc734e442a"
+    },
+    "short": {
+      "path": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T125023_557980Z",
+      "prompt_sha256": "5316074c4b48efe08125f99b2d8fde09d56c9c37b31481314b3880b57ea559ce"
+    }
+  },
+  "generation_settings": {
+    "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+    "cpu_threads": 4,
+    "device": "cpu",
+    "dtype": "torch.float32",
+    "fixed_generation_kwargs": {
+      "do_sample": false,
+      "early_stopping": true,
+      "no_repeat_ngram_size": 3,
+      "num_beams": 4
+    },
+    "initial_max_new_tokens": 192,
+    "max_input_tokens": 3072,
+    "model_checkpoint": "google/flan-t5-base",
+    "seed": 0
+  },
+  "input_manifest_sha256": "b608c0de753f9f2d0e6fa6e78a0c08efc8000e0fe57d8a1d5131ccfafe7c81de",
+  "notes": [
+    "Two AI-generated silver references, not human gold.",
+    "All articles are scored against full frozen source; truncated generation inputs remain flagged.",
+    "Same-text per-article candidates share deterministic metric values.",
+    "This is automatic evaluation without human comprehension or factuality validation."
+  ],
+  "output_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/dual_reference_evaluation/run_20261101T153358_903997Z",
+  "reference_comparisons": 292,
+  "reference_sha256": "75dcb6f52e5d51e0f0b1989900975c1b170d32ed964c3d9c610e37a17130ceac",
+  "reference_source": "/Users/mumu/Downloads/flan_dual_reference_summaries_20261101.csv",
+  "source_hashes": {
+    "/Users/mumu/Downloads/flan_dual_reference_summaries_20261101.csv": "75dcb6f52e5d51e0f0b1989900975c1b170d32ed964c3d9c610e37a17130ceac",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T125023_557980Z/prompt_template.txt": "5316074c4b48efe08125f99b2d8fde09d56c9c37b31481314b3880b57ea559ce",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T125023_557980Z/run_report.json": "56b0441f6e08dda0a29d08e6ffc829ff897216fb54d6d0db27010ac39254bafc",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T125023_557980Z/selected_articles.json": "65c385a724dd0e172ccdc667977d17d755f5f973f686ea143afce486ffdd8b1f",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T125023_557980Z/summaries.json": "9fe33986e6694b8f69f8c93bb949ecc18c19e7b84c06d2feba3a18d175cdb231",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T130452_832310Z/prompt_template.txt": "f8a534a627fd2bf50b12f34a3f8ecefa08391bdbd018d55f2ac6a2fc734e442a",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T130452_832310Z/run_report.json": "b664553c753892ea783c74d296431be1eefd3519282e1eaff5dc4ef40d947098",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T130452_832310Z/selected_articles.json": "a15093272c174c8ee4e6710ba1d2dfd7ad17d38917ccdf18dfad968adc95b9c1",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/rs_output_lengths/run_20261101T130452_832310Z/summaries.json": "a5e6c55c9fe1a2313687ed8b7852564de6b4429efc824eca6e6fabbf75f88d49"
+  },
+  "status": "complete",
+  "unique_article_summary_pairs": 91,
+  "completed_at_utc": "2026-11-01T15:54:31.816836+00:00",
+  "phases": {
+    "reference_metrics": "complete",
+    "alignscore": "complete",
+    "readability": "complete",
+    "paired_comparison": "complete"
+  },
+  "verification_report": "verification_report.json",
+  "report": "README.md"
+}

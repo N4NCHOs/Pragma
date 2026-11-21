@@ -1,0 +1,878 @@
+[
+  {
+    "id": "9b2b9fc1e78583f366236ad9340bf1d7f9a930d73040dcbc111c19ff3835ebdf",
+    "source_index": 1,
+    "prompt_condition": "short",
+    "alignscore": 0.9831281900405884
+  },
+  {
+    "id": "923fe1c36412f48e1bc262db0b610ebd852aa6d69704750a0da2cb39d9370457",
+    "source_index": 2,
+    "prompt_condition": "short",
+    "alignscore": 0.9896827936172485
+  },
+  {
+    "id": "618ce3019bad83df77389b80086073196a7056012038e95891efad88a4c8dc61",
+    "source_index": 3,
+    "prompt_condition": "short",
+    "alignscore": 0.9813028573989868
+  },
+  {
+    "id": "78adaf032c25de397f75d390ed0ebe2299a8c3ba73b16f54633d6d2d19c94817",
+    "source_index": 4,
+    "prompt_condition": "short",
+    "alignscore": 0.9438744783401489
+  },
+  {
+    "id": "32bd212e0cffe4035360ba3bf82055e23bd585d5a8bfcfc954208c092672b54b",
+    "source_index": 5,
+    "prompt_condition": "short",
+    "alignscore": 0.9691290259361267
+  },
+  {
+    "id": "766045020055ae1d6680c379fde48582f7efb5a84e3c24f9da23c8c84bc2f15c",
+    "source_index": 6,
+    "prompt_condition": "short",
+    "alignscore": 0.9666220545768738
+  },
+  {
+    "id": "9de0d17224624b31025b17f761878df0c928fd011ec8975c1ba8266e1897f7b6",
+    "source_index": 7,
+    "prompt_condition": "short",
+    "alignscore": 0.9817492961883545
+  },
+  {
+    "id": "cc462a077b97ca0b6d1139262331c81704f3ebe63f839ed764dbc399dc90ee74",
+    "source_index": 8,
+    "prompt_condition": "short",
+    "alignscore": 0.9793103337287903
+  },
+  {
+    "id": "1b28fbb94b6ed2495dc764ec2472b64ab952defcf9ee86f856664a677d34f4ae",
+    "source_index": 9,
+    "prompt_condition": "short",
+    "alignscore": 0.9827088117599487
+  },
+  {
+    "id": "9d54c534f2a7134557d8f1cba7893c216e9baae7451f5823bcffaa07ee1c76d6",
+    "source_index": 10,
+    "prompt_condition": "short",
+    "alignscore": 0.9903559684753418
+  },
+  {
+    "id": "e6dbb3a8a2e03d73143d13bab1e926323a4ca19560ceb8d6ef526f58b062bef6",
+    "source_index": 11,
+    "prompt_condition": "short",
+    "alignscore": 0.9814194440841675
+  },
+  {
+    "id": "56aeea7ca97457a71862d1e3973686be5e34201d35d9a7a6ad4e275d89b303a2",
+    "source_index": 12,
+    "prompt_condition": "short",
+    "alignscore": 0.8292011022567749
+  },
+  {
+    "id": "409e4d52224d10ea491dcde6b9a0f54e7ae73d155a04747cad0c236a7ccbd837",
+    "source_index": 13,
+    "prompt_condition": "short",
+    "alignscore": 0.9901392459869385
+  },
+  {
+    "id": "8fb66af6344bd7439fd83d501562a85630218dd019c96209d2cc93e3df37db6f",
+    "source_index": 14,
+    "prompt_condition": "short",
+    "alignscore": 0.9856481552124023
+  },
+  {
+    "id": "9ac34f68041a61b416c74239f624b4d22de487c613397d14d83110d6610d2ca4",
+    "source_index": 15,
+    "prompt_condition": "short",
+    "alignscore": 0.9894899725914001
+  },
+  {
+    "id": "8970e3742a48972f08e9e52179e9ce4f06fedfbd929d656af97453ec756132e0",
+    "source_index": 16,
+    "prompt_condition": "short",
+    "alignscore": 0.9678415656089783
+  },
+  {
+    "id": "d723ddefb36369a6ddcd76c250524da082c10c26d9299eaf12f270f498f6d576",
+    "source_index": 17,
+    "prompt_condition": "short",
+    "alignscore": 0.9976141452789307
+  },
+  {
+    "id": "c363c3c5ac2c3bb822deb158297ae7aaf45b999ea0f6733df128660c0ed178ac",
+    "source_index": 18,
+    "prompt_condition": "short",
+    "alignscore": 0.9402759671211243
+  },
+  {
+    "id": "f67883101220da68d1972b43692f61d2fc2d1b9152758a0724e8c33450bee808",
+    "source_index": 19,
+    "prompt_condition": "short",
+    "alignscore": 0.9703407287597656
+  },
+  {
+    "id": "a5b7f379b32cc20760474eff46c8ea54104208e708feee47342d94d4d1d0735c",
+    "source_index": 20,
+    "prompt_condition": "short",
+    "alignscore": 0.9806578159332275
+  },
+  {
+    "id": "c7a08d4862edc499b07039978b877dbfd787328a966c1697d4c5ae525a28d75d",
+    "source_index": 21,
+    "prompt_condition": "short",
+    "alignscore": 0.9594306349754333
+  },
+  {
+    "id": "3ec1254da21718d60ba4516cb48e8b24e9f8c0b352947db9ea87588e9c980125",
+    "source_index": 22,
+    "prompt_condition": "short",
+    "alignscore": 0.9931693077087402
+  },
+  {
+    "id": "ce43ffd8321cb4e65d8e273d97197250f19e9938f86dae796bd5bb8be34e0fe6",
+    "source_index": 23,
+    "prompt_condition": "short",
+    "alignscore": 0.9618774056434631
+  },
+  {
+    "id": "cfa0d75bb9ee35b8c7a5a6d96c932d3f4184923eafbd5ca492a9275ffccf90f4",
+    "source_index": 24,
+    "prompt_condition": "short",
+    "alignscore": 0.9790713787078857
+  },
+  {
+    "id": "1287272a98ccf16d58037531832a22881b6b13fcddacf8ffd527805971857bd8",
+    "source_index": 25,
+    "prompt_condition": "short",
+    "alignscore": 0.9567508697509766
+  },
+  {
+    "id": "f5af61f220d15a69c84c15177e828f46a33668578f698603c66ac5d56a0eeab8",
+    "source_index": 26,
+    "prompt_condition": "short",
+    "alignscore": 0.98827064037323
+  },
+  {
+    "id": "f886c9cb69656d269911760c7a9997071b3981d2bedda537ecf699aed58c291e",
+    "source_index": 27,
+    "prompt_condition": "short",
+    "alignscore": 0.9762108325958252
+  },
+  {
+    "id": "d3e9bcc0baa595381ffce6ea8a1db48861951719f8d8a13208c75c8e2cf624cf",
+    "source_index": 28,
+    "prompt_condition": "short",
+    "alignscore": 0.9768016338348389
+  },
+  {
+    "id": "7037e738fd040b42bb3a806bd3066c59a904f30a4dc1247d8f67fea1bcc024c0",
+    "source_index": 29,
+    "prompt_condition": "short",
+    "alignscore": 0.9938887357711792
+  },
+  {
+    "id": "faf611d55873f507fbded3d06f10be53aa5772e778e892d91af50142f807632e",
+    "source_index": 30,
+    "prompt_condition": "short",
+    "alignscore": 0.9895986318588257
+  },
+  {
+    "id": "5f8d2a8682ff6369e87cb742de29dcaad03c9bd6fbcf5b48fd35762927d2b356",
+    "source_index": 31,
+    "prompt_condition": "short",
+    "alignscore": 0.9926960468292236
+  },
+  {
+    "id": "cb6605b41d2b753b13ea12e8b671f10b3bf5f82f4a730eaea265590bb5ca23d3",
+    "source_index": 32,
+    "prompt_condition": "short",
+    "alignscore": 0.9772451519966125
+  },
+  {
+    "id": "800b09ce69a799e957efcc1fd833cad5dd46e0d4b65f8189adc0145ec2d164a6",
+    "source_index": 33,
+    "prompt_condition": "short",
+    "alignscore": 0.9891707301139832
+  },
+  {
+    "id": "539638f8d88c51476bf040656fd33116e8b3ede99742a3dacc1310881784b923",
+    "source_index": 34,
+    "prompt_condition": "short",
+    "alignscore": 0.9908554553985596
+  },
+  {
+    "id": "d88ecdbfd283769b367268dc7b7c14f411851af8ea5ea97875a08925af8bf1d4",
+    "source_index": 35,
+    "prompt_condition": "short",
+    "alignscore": 0.9903773665428162
+  },
+  {
+    "id": "76edd8d8c6fd16e8b456d3d8215c4e0c9f801f604c74eeefc708ac3267891eb3",
+    "source_index": 36,
+    "prompt_condition": "short",
+    "alignscore": 0.9709084033966064
+  },
+  {
+    "id": "6d7c5ee00eafae06726b0c9e00d56827425f044d1df8758e63b1d57f9cc3c435",
+    "source_index": 37,
+    "prompt_condition": "short",
+    "alignscore": 0.9220113158226013
+  },
+  {
+    "id": "3de9e1c7803c4221f874720318c3f87ccf0b2658873906059519bc443d7c5ae0",
+    "source_index": 38,
+    "prompt_condition": "short",
+    "alignscore": 0.9902555346488953
+  },
+  {
+    "id": "8bad769c26ea8fbb7e4c9516c0cc829880a3fe0fedf5b31963a06b2886c44e3d",
+    "source_index": 39,
+    "prompt_condition": "short",
+    "alignscore": 0.9921814203262329
+  },
+  {
+    "id": "dc8a1489ef8795c491ddfbfafa95858ef50df0f2586d76ec4ddf67e122b16946",
+    "source_index": 40,
+    "prompt_condition": "short",
+    "alignscore": 0.9652318358421326
+  },
+  {
+    "id": "ae5cb9a01e3c81138a6409c1975403e4e8f22a01e22f3fe5281c698684f04c5d",
+    "source_index": 41,
+    "prompt_condition": "short",
+    "alignscore": 0.9774787425994873
+  },
+  {
+    "id": "ebcb4ba80178f29bcc3d7d6e191062893374a6cbb1f3c285dad4f28c91ae4c2d",
+    "source_index": 42,
+    "prompt_condition": "short",
+    "alignscore": 0.9894296526908875
+  },
+  {
+    "id": "273442b330e4fd3ca77e7bc6c4db226d8a7dbf5302a3d82a01d1d9df8c59c163",
+    "source_index": 43,
+    "prompt_condition": "short",
+    "alignscore": 0.9748197793960571
+  },
+  {
+    "id": "139bd42f19bc7b31152bba0b1683038cf2c85971181e6de55fc8f23f803eccbc",
+    "source_index": 44,
+    "prompt_condition": "short",
+    "alignscore": 0.9739173650741577
+  },
+  {
+    "id": "44ed111247d3d70c1c9ae82f84768b103d6f7950295dda892976bb238a9a53cd",
+    "source_index": 45,
+    "prompt_condition": "short",
+    "alignscore": 0.966206967830658
+  },
+  {
+    "id": "8fc19b5b810ffffe61bdc53dc2fee35fcccf037e05bf8ac91d04dd69d8bb4204",
+    "source_index": 46,
+    "prompt_condition": "short",
+    "alignscore": 0.9615217447280884
+  },
+  {
+    "id": "5c5fbb2ad4e363114002acb9a7ece8d2de59b94151909d7e1cbd82c0b33d90ac",
+    "source_index": 47,
+    "prompt_condition": "short",
+    "alignscore": 0.9800599813461304
+  },
+  {
+    "id": "54d2c46e6f08aa80f1b39ba0b1337366d48b9a887d7ef304e1cdc27428d8d8e7",
+    "source_index": 48,
+    "prompt_condition": "short",
+    "alignscore": 0.9375594854354858
+  },
+  {
+    "id": "dbbbcc3ddb059af78745ccc514573063be94b39e28aadd4cfbd0b2c4b3e538d6",
+    "source_index": 49,
+    "prompt_condition": "short",
+    "alignscore": 0.9546565413475037
+  },
+  {
+    "id": "29c51a72228ae952ef218094e2e56333f337ba9421e9849d8492fbea324c7e89",
+    "source_index": 50,
+    "prompt_condition": "short",
+    "alignscore": 0.9844400882720947
+  },
+  {
+    "id": "5611276a7a745a076ac5699df00a01a838350fd25f20cb622bacdfda4cd67a38",
+    "source_index": 51,
+    "prompt_condition": "short",
+    "alignscore": 0.9964897632598877
+  },
+  {
+    "id": "1c3b1c08c9ac7f907d8e2317d506aa59d98f530a2e2503e0c3f3f5fd7d771057",
+    "source_index": 52,
+    "prompt_condition": "short",
+    "alignscore": 0.9739951491355896
+  },
+  {
+    "id": "8b38d00ac6012f9c741d1e711f04aea939463019d0f2ea72ad3e9d4774c5c331",
+    "source_index": 53,
+    "prompt_condition": "short",
+    "alignscore": 0.9828673601150513
+  },
+  {
+    "id": "51f0165ee99201987fd9223bdecad585bb669eea7b1d33cdcc770e1fca103aac",
+    "source_index": 54,
+    "prompt_condition": "short",
+    "alignscore": 0.9864620566368103
+  },
+  {
+    "id": "ae469261bfa19d41bf59fed493b60cdf5a51a02354ce55fe9941be5031f3b64e",
+    "source_index": 55,
+    "prompt_condition": "short",
+    "alignscore": 0.979328989982605
+  },
+  {
+    "id": "45cc369e38d8773c1c917a8fded87cb4c571b2a2a4e218b0094210c02ee21d7d",
+    "source_index": 56,
+    "prompt_condition": "short",
+    "alignscore": 0.9983559250831604
+  },
+  {
+    "id": "6b789d31a2ca8b461da8f3af2f7a2a0beda05721c76b6dd14e6999eaafb9fbb3",
+    "source_index": 57,
+    "prompt_condition": "short",
+    "alignscore": 0.9698293805122375
+  },
+  {
+    "id": "91734cb697770f2e0a6c1b871277ae73c2a078a8dbcce0bde74ec0e2163637c1",
+    "source_index": 58,
+    "prompt_condition": "short",
+    "alignscore": 0.881413996219635
+  },
+  {
+    "id": "01631d1ddee666a7e3cde6b2de96807309b487dae11a154020adc7bf0b3decff",
+    "source_index": 59,
+    "prompt_condition": "short",
+    "alignscore": 0.989201009273529
+  },
+  {
+    "id": "544307a0609c50dd807ec9a6888fdce4ccfa2b63d79499f6e5fed5ce82b47fdf",
+    "source_index": 60,
+    "prompt_condition": "short",
+    "alignscore": 0.9582165479660034
+  },
+  {
+    "id": "693e7beea61cd374ca049023e480067517f37aa8160f296ce97aef153dcc3deb",
+    "source_index": 61,
+    "prompt_condition": "short",
+    "alignscore": 0.9857746958732605
+  },
+  {
+    "id": "6fd4d924b4c54f50ba58e9c08439ad1079daca945933daa19fa702ce78cd48aa",
+    "source_index": 62,
+    "prompt_condition": "short",
+    "alignscore": 0.979655385017395
+  },
+  {
+    "id": "5db76f0d9ba4d166e548dc377015a1d4a11245aa7e339ca70235fe0bd2f1117a",
+    "source_index": 63,
+    "prompt_condition": "short",
+    "alignscore": 0.8645336627960205
+  },
+  {
+    "id": "06daa206c65157942ef055be58252e0f4e4b820e1a0e336b6ed2598268798d36",
+    "source_index": 64,
+    "prompt_condition": "short",
+    "alignscore": 0.9723294377326965
+  },
+  {
+    "id": "269a4ac2559e1cc75c9fa61e579a0f0daa4e465ae57413d703fa7e90f07cae76",
+    "source_index": 65,
+    "prompt_condition": "short",
+    "alignscore": 0.9932524561882019
+  },
+  {
+    "id": "d834c0c137645b02fbfa7d52da764c79c6023390f531fab61f023bb16fbe7117",
+    "source_index": 66,
+    "prompt_condition": "short",
+    "alignscore": 0.9838114380836487
+  },
+  {
+    "id": "1229e433b626686fe683b44299fa51add9639b0e62765fa6fb14ed4523a5f176",
+    "source_index": 67,
+    "prompt_condition": "short",
+    "alignscore": 0.9572184681892395
+  },
+  {
+    "id": "55f32862d624e2aa16c2a96ea228bae2434660051fc38767c402fd11189c7dd6",
+    "source_index": 68,
+    "prompt_condition": "short",
+    "alignscore": 0.9871407747268677
+  },
+  {
+    "id": "cfbbe8b5826032f70b418675653691e1fb227cc9bc415b0adecea1f26343a757",
+    "source_index": 69,
+    "prompt_condition": "short",
+    "alignscore": 0.969598650932312
+  },
+  {
+    "id": "8502097f256ea9ce9226235b15e4464f778427ae2003d2aba95bfe48990573ba",
+    "source_index": 70,
+    "prompt_condition": "short",
+    "alignscore": 0.9644420146942139
+  },
+  {
+    "id": "ecad86bf409fdf37b90df3365a554e87b6b2ab9531806b464c7b319435de7bb6",
+    "source_index": 71,
+    "prompt_condition": "short",
+    "alignscore": 0.9940349459648132
+  },
+  {
+    "id": "def08019bbd53ac1ef3b32353c4d12d8b69a477d5762f113081aa0cd3c72ea7b",
+    "source_index": 72,
+    "prompt_condition": "short",
+    "alignscore": 0.9823055863380432
+  },
+  {
+    "id": "de71703920b3289b507a48ed7282f5c4ba1d402a0a55c4cc712415a7e93848eb",
+    "source_index": 73,
+    "prompt_condition": "short",
+    "alignscore": 0.9895778894424438
+  },
+  {
+    "id": "9b2b9fc1e78583f366236ad9340bf1d7f9a930d73040dcbc111c19ff3835ebdf",
+    "source_index": 1,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9831281900405884
+  },
+  {
+    "id": "923fe1c36412f48e1bc262db0b610ebd852aa6d69704750a0da2cb39d9370457",
+    "source_index": 2,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9896827936172485
+  },
+  {
+    "id": "618ce3019bad83df77389b80086073196a7056012038e95891efad88a4c8dc61",
+    "source_index": 3,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9840595722198486
+  },
+  {
+    "id": "78adaf032c25de397f75d390ed0ebe2299a8c3ba73b16f54633d6d2d19c94817",
+    "source_index": 4,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9438744783401489
+  },
+  {
+    "id": "32bd212e0cffe4035360ba3bf82055e23bd585d5a8bfcfc954208c092672b54b",
+    "source_index": 5,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9371331930160522
+  },
+  {
+    "id": "766045020055ae1d6680c379fde48582f7efb5a84e3c24f9da23c8c84bc2f15c",
+    "source_index": 6,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9666220545768738
+  },
+  {
+    "id": "9de0d17224624b31025b17f761878df0c928fd011ec8975c1ba8266e1897f7b6",
+    "source_index": 7,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9817492961883545
+  },
+  {
+    "id": "cc462a077b97ca0b6d1139262331c81704f3ebe63f839ed764dbc399dc90ee74",
+    "source_index": 8,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9793103337287903
+  },
+  {
+    "id": "1b28fbb94b6ed2495dc764ec2472b64ab952defcf9ee86f856664a677d34f4ae",
+    "source_index": 9,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9827088117599487
+  },
+  {
+    "id": "9d54c534f2a7134557d8f1cba7893c216e9baae7451f5823bcffaa07ee1c76d6",
+    "source_index": 10,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9903559684753418
+  },
+  {
+    "id": "e6dbb3a8a2e03d73143d13bab1e926323a4ca19560ceb8d6ef526f58b062bef6",
+    "source_index": 11,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9814194440841675
+  },
+  {
+    "id": "56aeea7ca97457a71862d1e3973686be5e34201d35d9a7a6ad4e275d89b303a2",
+    "source_index": 12,
+    "prompt_condition": "detailed",
+    "alignscore": 0.912293016910553
+  },
+  {
+    "id": "409e4d52224d10ea491dcde6b9a0f54e7ae73d155a04747cad0c236a7ccbd837",
+    "source_index": 13,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9798061847686768
+  },
+  {
+    "id": "8fb66af6344bd7439fd83d501562a85630218dd019c96209d2cc93e3df37db6f",
+    "source_index": 14,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9856481552124023
+  },
+  {
+    "id": "9ac34f68041a61b416c74239f624b4d22de487c613397d14d83110d6610d2ca4",
+    "source_index": 15,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9894899725914001
+  },
+  {
+    "id": "8970e3742a48972f08e9e52179e9ce4f06fedfbd929d656af97453ec756132e0",
+    "source_index": 16,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9678415656089783
+  },
+  {
+    "id": "d723ddefb36369a6ddcd76c250524da082c10c26d9299eaf12f270f498f6d576",
+    "source_index": 17,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9976141452789307
+  },
+  {
+    "id": "c363c3c5ac2c3bb822deb158297ae7aaf45b999ea0f6733df128660c0ed178ac",
+    "source_index": 18,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9402759671211243
+  },
+  {
+    "id": "f67883101220da68d1972b43692f61d2fc2d1b9152758a0724e8c33450bee808",
+    "source_index": 19,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9703407287597656
+  },
+  {
+    "id": "a5b7f379b32cc20760474eff46c8ea54104208e708feee47342d94d4d1d0735c",
+    "source_index": 20,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9806578159332275
+  },
+  {
+    "id": "c7a08d4862edc499b07039978b877dbfd787328a966c1697d4c5ae525a28d75d",
+    "source_index": 21,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9594306349754333
+  },
+  {
+    "id": "3ec1254da21718d60ba4516cb48e8b24e9f8c0b352947db9ea87588e9c980125",
+    "source_index": 22,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9931693077087402
+  },
+  {
+    "id": "ce43ffd8321cb4e65d8e273d97197250f19e9938f86dae796bd5bb8be34e0fe6",
+    "source_index": 23,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9857864379882812
+  },
+  {
+    "id": "cfa0d75bb9ee35b8c7a5a6d96c932d3f4184923eafbd5ca492a9275ffccf90f4",
+    "source_index": 24,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9790713787078857
+  },
+  {
+    "id": "1287272a98ccf16d58037531832a22881b6b13fcddacf8ffd527805971857bd8",
+    "source_index": 25,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9567508697509766
+  },
+  {
+    "id": "f5af61f220d15a69c84c15177e828f46a33668578f698603c66ac5d56a0eeab8",
+    "source_index": 26,
+    "prompt_condition": "detailed",
+    "alignscore": 0.98827064037323
+  },
+  {
+    "id": "f886c9cb69656d269911760c7a9997071b3981d2bedda537ecf699aed58c291e",
+    "source_index": 27,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9762108325958252
+  },
+  {
+    "id": "d3e9bcc0baa595381ffce6ea8a1db48861951719f8d8a13208c75c8e2cf624cf",
+    "source_index": 28,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9768016338348389
+  },
+  {
+    "id": "7037e738fd040b42bb3a806bd3066c59a904f30a4dc1247d8f67fea1bcc024c0",
+    "source_index": 29,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9938887357711792
+  },
+  {
+    "id": "faf611d55873f507fbded3d06f10be53aa5772e778e892d91af50142f807632e",
+    "source_index": 30,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9895986318588257
+  },
+  {
+    "id": "5f8d2a8682ff6369e87cb742de29dcaad03c9bd6fbcf5b48fd35762927d2b356",
+    "source_index": 31,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9926960468292236
+  },
+  {
+    "id": "cb6605b41d2b753b13ea12e8b671f10b3bf5f82f4a730eaea265590bb5ca23d3",
+    "source_index": 32,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9798141121864319
+  },
+  {
+    "id": "800b09ce69a799e957efcc1fd833cad5dd46e0d4b65f8189adc0145ec2d164a6",
+    "source_index": 33,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9891707301139832
+  },
+  {
+    "id": "539638f8d88c51476bf040656fd33116e8b3ede99742a3dacc1310881784b923",
+    "source_index": 34,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9767638444900513
+  },
+  {
+    "id": "d88ecdbfd283769b367268dc7b7c14f411851af8ea5ea97875a08925af8bf1d4",
+    "source_index": 35,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9903773665428162
+  },
+  {
+    "id": "76edd8d8c6fd16e8b456d3d8215c4e0c9f801f604c74eeefc708ac3267891eb3",
+    "source_index": 36,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9709084033966064
+  },
+  {
+    "id": "6d7c5ee00eafae06726b0c9e00d56827425f044d1df8758e63b1d57f9cc3c435",
+    "source_index": 37,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9823771119117737
+  },
+  {
+    "id": "3de9e1c7803c4221f874720318c3f87ccf0b2658873906059519bc443d7c5ae0",
+    "source_index": 38,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9902555346488953
+  },
+  {
+    "id": "8bad769c26ea8fbb7e4c9516c0cc829880a3fe0fedf5b31963a06b2886c44e3d",
+    "source_index": 39,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9921814203262329
+  },
+  {
+    "id": "dc8a1489ef8795c491ddfbfafa95858ef50df0f2586d76ec4ddf67e122b16946",
+    "source_index": 40,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9652318358421326
+  },
+  {
+    "id": "ae5cb9a01e3c81138a6409c1975403e4e8f22a01e22f3fe5281c698684f04c5d",
+    "source_index": 41,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9774787425994873
+  },
+  {
+    "id": "ebcb4ba80178f29bcc3d7d6e191062893374a6cbb1f3c285dad4f28c91ae4c2d",
+    "source_index": 42,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9894296526908875
+  },
+  {
+    "id": "273442b330e4fd3ca77e7bc6c4db226d8a7dbf5302a3d82a01d1d9df8c59c163",
+    "source_index": 43,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9770078659057617
+  },
+  {
+    "id": "139bd42f19bc7b31152bba0b1683038cf2c85971181e6de55fc8f23f803eccbc",
+    "source_index": 44,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9739173650741577
+  },
+  {
+    "id": "44ed111247d3d70c1c9ae82f84768b103d6f7950295dda892976bb238a9a53cd",
+    "source_index": 45,
+    "prompt_condition": "detailed",
+    "alignscore": 0.966206967830658
+  },
+  {
+    "id": "8fc19b5b810ffffe61bdc53dc2fee35fcccf037e05bf8ac91d04dd69d8bb4204",
+    "source_index": 46,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9615217447280884
+  },
+  {
+    "id": "5c5fbb2ad4e363114002acb9a7ece8d2de59b94151909d7e1cbd82c0b33d90ac",
+    "source_index": 47,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9800599813461304
+  },
+  {
+    "id": "54d2c46e6f08aa80f1b39ba0b1337366d48b9a887d7ef304e1cdc27428d8d8e7",
+    "source_index": 48,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9375594854354858
+  },
+  {
+    "id": "dbbbcc3ddb059af78745ccc514573063be94b39e28aadd4cfbd0b2c4b3e538d6",
+    "source_index": 49,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9546565413475037
+  },
+  {
+    "id": "29c51a72228ae952ef218094e2e56333f337ba9421e9849d8492fbea324c7e89",
+    "source_index": 50,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9844400882720947
+  },
+  {
+    "id": "5611276a7a745a076ac5699df00a01a838350fd25f20cb622bacdfda4cd67a38",
+    "source_index": 51,
+    "prompt_condition": "detailed",
+    "alignscore": 0.99688321352005
+  },
+  {
+    "id": "1c3b1c08c9ac7f907d8e2317d506aa59d98f530a2e2503e0c3f3f5fd7d771057",
+    "source_index": 52,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9829241633415222
+  },
+  {
+    "id": "8b38d00ac6012f9c741d1e711f04aea939463019d0f2ea72ad3e9d4774c5c331",
+    "source_index": 53,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9828673601150513
+  },
+  {
+    "id": "51f0165ee99201987fd9223bdecad585bb669eea7b1d33cdcc770e1fca103aac",
+    "source_index": 54,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9864620566368103
+  },
+  {
+    "id": "ae469261bfa19d41bf59fed493b60cdf5a51a02354ce55fe9941be5031f3b64e",
+    "source_index": 55,
+    "prompt_condition": "detailed",
+    "alignscore": 0.979328989982605
+  },
+  {
+    "id": "45cc369e38d8773c1c917a8fded87cb4c571b2a2a4e218b0094210c02ee21d7d",
+    "source_index": 56,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9983559250831604
+  },
+  {
+    "id": "6b789d31a2ca8b461da8f3af2f7a2a0beda05721c76b6dd14e6999eaafb9fbb3",
+    "source_index": 57,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9698293805122375
+  },
+  {
+    "id": "91734cb697770f2e0a6c1b871277ae73c2a078a8dbcce0bde74ec0e2163637c1",
+    "source_index": 58,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9686604142189026
+  },
+  {
+    "id": "01631d1ddee666a7e3cde6b2de96807309b487dae11a154020adc7bf0b3decff",
+    "source_index": 59,
+    "prompt_condition": "detailed",
+    "alignscore": 0.985039234161377
+  },
+  {
+    "id": "544307a0609c50dd807ec9a6888fdce4ccfa2b63d79499f6e5fed5ce82b47fdf",
+    "source_index": 60,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9582165479660034
+  },
+  {
+    "id": "693e7beea61cd374ca049023e480067517f37aa8160f296ce97aef153dcc3deb",
+    "source_index": 61,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9857746958732605
+  },
+  {
+    "id": "6fd4d924b4c54f50ba58e9c08439ad1079daca945933daa19fa702ce78cd48aa",
+    "source_index": 62,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9843366146087646
+  },
+  {
+    "id": "5db76f0d9ba4d166e548dc377015a1d4a11245aa7e339ca70235fe0bd2f1117a",
+    "source_index": 63,
+    "prompt_condition": "detailed",
+    "alignscore": 0.8648045063018799
+  },
+  {
+    "id": "06daa206c65157942ef055be58252e0f4e4b820e1a0e336b6ed2598268798d36",
+    "source_index": 64,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9723294377326965
+  },
+  {
+    "id": "269a4ac2559e1cc75c9fa61e579a0f0daa4e465ae57413d703fa7e90f07cae76",
+    "source_index": 65,
+    "prompt_condition": "detailed",
+    "alignscore": 0.983153760433197
+  },
+  {
+    "id": "d834c0c137645b02fbfa7d52da764c79c6023390f531fab61f023bb16fbe7117",
+    "source_index": 66,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9838114380836487
+  },
+  {
+    "id": "1229e433b626686fe683b44299fa51add9639b0e62765fa6fb14ed4523a5f176",
+    "source_index": 67,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9572184681892395
+  },
+  {
+    "id": "55f32862d624e2aa16c2a96ea228bae2434660051fc38767c402fd11189c7dd6",
+    "source_index": 68,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9754299521446228
+  },
+  {
+    "id": "cfbbe8b5826032f70b418675653691e1fb227cc9bc415b0adecea1f26343a757",
+    "source_index": 69,
+    "prompt_condition": "detailed",
+    "alignscore": 0.969598650932312
+  },
+  {
+    "id": "8502097f256ea9ce9226235b15e4464f778427ae2003d2aba95bfe48990573ba",
+    "source_index": 70,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9841774702072144
+  },
+  {
+    "id": "ecad86bf409fdf37b90df3365a554e87b6b2ab9531806b464c7b319435de7bb6",
+    "source_index": 71,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9940349459648132
+  },
+  {
+    "id": "def08019bbd53ac1ef3b32353c4d12d8b69a477d5762f113081aa0cd3c72ea7b",
+    "source_index": 72,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9823055863380432
+  },
+  {
+    "id": "de71703920b3289b507a48ed7282f5c4ba1d402a0a55c4cc712415a7e93848eb",
+    "source_index": 73,
+    "prompt_condition": "detailed",
+    "alignscore": 0.9895778894424438
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-11-01T15:54:31.813264+00:00",
+  "article_count": 73,
+  "candidate_count": 146,
+  "reference_comparisons": 292,
+  "identical_pairs": 55,
+  "independent_checks": [
+    "All ROUGE components reconstructed exactly by an independent reviewer.",
+    "Every paired statistic and both 10000-draw bootstrap sets independently reconstructed.",
+    "All146merged rows match unchanged summary/reference strings and phase scores.",
+    "AlignScore officialcheckpointSHA verified; strict tensors and trained pooler loaded; classifier parity checked.",
+    "All55identical within-article summaries have identical metric values.",
+    "Protected original reference and generation files remain byte-identical."
+  ],
+  "artifacts": {
+    "README.md": {
+      "sha256": "7ccb36b81a464ba7a1c04acad3b4be61286a3121a43ee9d17b0f32e54a793454",
+      "bytes": 11537
+    },
+    "evaluation_summary.csv": {
+      "sha256": "6a3a33bb372bb3d09fdeb91e4229ad4af6301868117caabe1dfc23a90e623365",
+      "bytes": 47751
+    },
+    "paired_differences.csv": {
+      "sha256": "1fb2bcc9fe829b409816832b70dc0042c32f15d9e946e2768fe96cd9dc81f383",
+      "bytes": 955272
+    },
+    "per_article_evaluation.csv": {
+      "sha256": "af59c22e9d2e4cc847cabbcaed75a52b3010e9e1c22aa0425b8ca53c4bf467f4",
+      "bytes": 319431
+    },
+    "paired_statistics.json": {
+      "sha256": "fb86a647bb818ce303fed996f7b5fece7e18c96d8bf0793c586653626b94c513",
+      "bytes": 98959
+    },
+    "metric_comparison.png": {
+      "sha256": "fed442eaaeecb4a4e31e87f3262f5372860f697462f817733a8f3d05304f1048",
+      "bytes": 138812
+    },
+    "metric_comparison.svg": {
+      "sha256": "29db42d9c79698ea04e5d015f7469beab34da4bc653ef1d46bc4fe6078206734",
+      "bytes": 97101
+    },
+    "reference_metric_scores.json": {
+      "sha256": "4799cd1b350b98ffb81caf94c9f618b21713cf06f257c0c58d5c32b1e0cf35b3",
+      "bytes": 220894
+    },
+    "reference_metrics_report.json": {
+      "sha256": "f5bb3ca2a1c26feed172c647f064b750a1ce867fb175370cd647f6c0452eed82",
+      "bytes": 1345
+    },
+    "readability_scores.json": {
+      "sha256": "977793ddc90ecf30d6943cd5f40c08f0af303b891c7866b89ee3799e4b371f4e",
+      "bytes": 102505
+    },
+    "readability_report.json": {
+      "sha256": "dd3bcb8b5aba92950607ebd0a6a9a157e10fe5ecfa36925b37b6bfed07f9d51e",
+      "bytes": 5465
+    },
+    "reference_readability.json": {
+      "sha256": "bf1df232c18bdb794cdc306ba0dc392692eee7b0c8785ec33661a6b33ad056bb",
+      "bytes": 99671
+    },
+    "alignscore_scores.json": {
+      "sha256": "3a8529ba4510e31658a93a5752d92fe59ca3e65f36e937740642843d6f0a83be",
+      "bytes": 26612
+    },
+    "alignscore_report.json": {
+      "sha256": "ade03ffe76865979fe88218d14e95c50e0d63d235e7223709df8ff4c27f2c950",
+      "bytes": 4484
+    },
+    "alignscore_unique_pairs.json": {
+      "sha256": "9d321f2a4a8b7059253615915feacee3b85d87cf1d04e26c782319088e2ef6ec",
+      "bytes": 47211
+    },
+    "evaluation_inputs.json": {
+      "sha256": "b608c0de753f9f2d0e6fa6e78a0c08efc8000e0fe57d8a1d5131ccfafe7c81de",
+      "bytes": 903293
+    },
+    "reference_summaries_frozen.csv": {
+      "sha256": "75dcb6f52e5d51e0f0b1989900975c1b170d32ed964c3d9c610e37a17130ceac",
+      "bytes": 403116
+    }
+  }
+}

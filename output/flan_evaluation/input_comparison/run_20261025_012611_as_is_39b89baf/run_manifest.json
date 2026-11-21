@@ -1,0 +1,41 @@
+{
+  "article_count": 73,
+  "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+  "comparison_csv_hashes": {
+    "1024": "9c045df00efe7efefd6c16d99e93f75aca69867691c467d40229d89ad8354a9c",
+    "2048": "f79c3bb1585054445e442131b6cad6961125132586da4d54c95325fbdec8f254",
+    "3072": "17c4cd3247656a0b13653b93e72dfea0035eedfc06fac81db156a44c81de1be4",
+    "512": "62786cba1bd6df01cfc2441e4984e03f4643db8cf884f4b542b87f2e842cb02a"
+  },
+  "completed_trials": 292,
+  "created_at_utc": "2026-10-24T18:26:14.438272+00:00",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "expected_trials": 292,
+  "finished_at_utc": "2026-10-24T18:40:49.873140+00:00",
+  "generation_kwargs": {
+    "do_sample": false,
+    "early_stopping": true,
+    "max_new_tokens": 64,
+    "no_repeat_ngram_size": 3,
+    "num_beams": 4
+  },
+  "input_limits": [
+    512,
+    1024,
+    2048,
+    3072
+  ],
+  "input_truncation_note": "Matches current service: right truncation of whole prompt may remove final Summary: cue.",
+  "model_checkpoint": "google/flan-t5-base",
+  "package_hash": "dc41f9f931ab41f6cdd1cfb2e588f37537f76fc6acce337666052b599dffe318",
+  "prompt_sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+  "reference_provenance": {
+    "generated_at": "",
+    "model": "",
+    "notes": "User accepted all 73 sources and existing references as-is on 2026-10-25, including limited extracts and review findings for articles 16/18/48/58. This is an exploratory silver-reference comparison, not human-gold validation. Exact GPT model/date/reviewer remain unrecorded; none were invented.",
+    "reviewer": ""
+  },
+  "selected_rows_hash": "9e735583f0a414e18e689f5756d886bc70ec32cf3971de69af553478ac0cf28f",
+  "status": "complete"
+}

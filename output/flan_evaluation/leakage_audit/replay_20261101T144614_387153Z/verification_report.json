@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "scope": "Independent code audit plus fresh separate-process direct-model replay of six selected articles, twelve generations; artifact comparison across all73pairs.",
+  "fresh_generations": 12,
+  "fresh_replays_matching_saved_text_and_token_ids": 12,
+  "fresh_prompt_order": [
+    "detailed",
+    "short"
+  ],
+  "different_encoded_inputs_for_all_six_prompt_pairs": true,
+  "identical_output_pairs": 55,
+  "identical_pairs_exact_source_substrings": 48,
+  "identical_pairs_whitespace_normalized_source_substrings": 49,
+  "comparisons": [
+    {
+      "position": 1,
+      "prompt": "detailed",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 1,
+      "prompt": "short",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 2,
+      "prompt": "detailed",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 2,
+      "prompt": "short",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 4,
+      "prompt": "detailed",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 4,
+      "prompt": "short",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 28,
+      "prompt": "detailed",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 28,
+      "prompt": "short",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 3,
+      "prompt": "detailed",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 3,
+      "prompt": "short",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 37,
+      "prompt": "detailed",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    },
+    {
+      "position": 37,
+      "prompt": "short",
+      "url_matches": true,
+      "text_matches": true,
+      "selected_token_ids_match": true,
+      "input_length_matches": true
+    }
+  ],
+  "findings": [
+    "No prior summaries or GPT/Gemini references enter the inspected generation path.",
+    "The independent replay used only current rawRS title/body and saved prompts, with a fresh local model load.",
+    "All 12 fresh output texts and selected token sequences reproduce the saved runs, including 4 identical and 2 changed cases.",
+    "Source copying from publisher decks/keypoint bullets is common;49 of 55 matching summaries are contiguous source text after whitespace normalization.",
+    "Deterministic beam decoding can select the same passage under different instruction prompts; it does not force a change in wording.",
+    "Repeated prompt exploration on these 73 articles makes them a development/comparison set; do not claim unseen-test generalization from it."
+  ],
+  "limits": [
+    "Fresh inference was replayed for 6 articles, not all 73. All 73 saved pairs and generation code were audited.",
+    "This audit does not establish the contents of the pretrained model training corpus.",
+    "EOS completion and source copying do not establish successful beginner-friendly instruction following."
+  ],
+  "source_audit": "read-only; original sources and saved generation outputs unchanged"
+}

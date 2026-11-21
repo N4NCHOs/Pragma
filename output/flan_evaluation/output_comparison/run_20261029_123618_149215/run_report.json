@@ -1,0 +1,209 @@
+{
+  "aggregate": {
+    "128": {
+      "affected_articles": [],
+      "completed_trials": 73,
+      "eos_at_limit_count": 0,
+      "errors": 0,
+      "expected_articles": 73,
+      "forced_eos_at_limit_count": 0,
+      "input_truncated_count": 0,
+      "max_new_tokens_observed": 96,
+      "mean_content_output_tokens": 35.06849315068493,
+      "output_limit_without_eos_count": 0,
+      "stop_reasons": {
+        "eos_before_limit": 73
+      },
+      "successful_trials": 73,
+      "unexpected_stop_count": 0
+    },
+    "64": {
+      "affected_articles": [
+        {
+          "id": "1287272a98ccf16d58037531832a22881b6b13fcddacf8ffd527805971857bd8",
+          "title": "CME’s bitcoin cash, uniswap futures, global PMIs: Crypto Week Ahead"
+        },
+        {
+          "id": "d3e9bcc0baa595381ffce6ea8a1db48861951719f8d8a13208c75c8e2cf624cf",
+          "title": "Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did"
+        },
+        {
+          "id": "01631d1ddee666a7e3cde6b2de96807309b487dae11a154020adc7bf0b3decff",
+          "title": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides"
+        }
+      ],
+      "completed_trials": 73,
+      "eos_at_limit_count": 0,
+      "errors": 0,
+      "expected_articles": 73,
+      "forced_eos_at_limit_count": 0,
+      "input_truncated_count": 0,
+      "max_new_tokens_observed": 64,
+      "mean_content_output_tokens": 33.945205479452056,
+      "output_limit_without_eos_count": 3,
+      "stop_reasons": {
+        "eos_before_limit": 70,
+        "length_limit_without_eos": 3
+      },
+      "successful_trials": 73,
+      "unexpected_stop_count": 0
+    },
+    "96": {
+      "affected_articles": [
+        {
+          "id": "01631d1ddee666a7e3cde6b2de96807309b487dae11a154020adc7bf0b3decff",
+          "title": "Live updates: Bitcoin’s round trip to $85,000 burns traders on both sides"
+        }
+      ],
+      "completed_trials": 73,
+      "eos_at_limit_count": 0,
+      "errors": 0,
+      "expected_articles": 73,
+      "forced_eos_at_limit_count": 0,
+      "input_truncated_count": 0,
+      "max_new_tokens_observed": 96,
+      "mean_content_output_tokens": 35.082191780821915,
+      "output_limit_without_eos_count": 1,
+      "stop_reasons": {
+        "eos_before_limit": 72,
+        "length_limit_without_eos": 1
+      },
+      "successful_trials": 73,
+      "unexpected_stop_count": 0
+    }
+  },
+  "article_count": 73,
+  "baseline_integrity_verified": true,
+  "baseline_run": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf",
+  "baseline_source_hashes": {
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/ai_models/flan_t5.py": "3a5e9457f2291ee78a912b99464cd27ab4cb204efba469aec24fe712f4582958",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/execution_context.json": "37efdf95c3ff8381bffd273c4e98293183d2345f027682d23141486bf55dafe5",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_1024.csv": "9c045df00efe7efefd6c16d99e93f75aca69867691c467d40229d89ad8354a9c",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_2048.csv": "f79c3bb1585054445e442131b6cad6961125132586da4d54c95325fbdec8f254",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_3072.csv": "17c4cd3247656a0b13653b93e72dfea0035eedfc06fac81db156a44c81de1be4",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/flan_512.csv": "62786cba1bd6df01cfc2441e4984e03f4643db8cf884f4b542b87f2e842cb02a",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/generation_metrics.json": "8f1593db1d630ed34c16ec4fd3eb3c72c19cddc08b1c9c4854f45320e43a1c6d",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/prompt_template.txt": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/run_manifest.json": "19ed02e380ad57085a840669e51d1ff4d61d3c2adc4c0143e09d12ac07b157e0",
+    "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/input_comparison/run_20261025_012611_as_is_39b89baf/selected_articles.json": "9554fb4ba305d6c70c73575fc2adc4440bfbc728b4e0bf7db779f0b023e94a9c"
+  },
+  "cached_revision": "7bcac572ce56db69c1ea7c8af255c5d7c9672fc2",
+  "canary_replays_match": 2,
+  "compared_output_limits": [
+    64,
+    96,
+    128
+  ],
+  "completed_new_trials": 146,
+  "count_definition": "Selected sequence reaches max_new_tokens without EOS; not a manual sentence-completeness judgment",
+  "cpu_threads": 4,
+  "created_at_utc": "2026-10-29T05:36:18.155846+00:00",
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "elapsed_seconds": 500.3379702079983,
+  "expected_new_trials": 146,
+  "finished_at_utc": "2026-10-29T05:44:38.498488+00:00",
+  "fixed_generation_kwargs": {
+    "do_sample": false,
+    "early_stopping": true,
+    "no_repeat_ngram_size": 3,
+    "num_beams": 4
+  },
+  "max_input_tokens": 3072,
+  "model_checkpoint": "google/flan-t5-base",
+  "model_generation_config": {
+    "_from_model_config": true,
+    "assistant_confidence_threshold": null,
+    "assistant_early_exit": null,
+    "assistant_ensemble_weight": null,
+    "assistant_lookbehind": null,
+    "bad_words_ids": null,
+    "begin_suppress_tokens": null,
+    "bos_token_id": null,
+    "cache_config": null,
+    "cache_implementation": null,
+    "compile_config": null,
+    "constraints": null,
+    "continuous_batching_config": null,
+    "decoder_start_token_id": 0,
+    "disable_compile": null,
+    "diversity_penalty": null,
+    "do_sample": null,
+    "dola_layers": null,
+    "early_stopping": null,
+    "encoder_no_repeat_ngram_size": null,
+    "encoder_repetition_penalty": null,
+    "eos_token_id": 1,
+    "epsilon_cutoff": null,
+    "eta_cutoff": null,
+    "exponential_decay_length_penalty": null,
+    "force_words_ids": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "guidance_scale": null,
+    "is_assistant": null,
+    "length_penalty": null,
+    "low_memory": null,
+    "max_cache_len": null,
+    "max_length": null,
+    "max_matching_ngram_size": null,
+    "max_new_tokens": null,
+    "max_time": null,
+    "min_length": null,
+    "min_new_tokens": null,
+    "min_p": null,
+    "no_repeat_ngram_size": null,
+    "num_assistant_tokens": null,
+    "num_assistant_tokens_schedule": null,
+    "num_beam_groups": null,
+    "num_beams": null,
+    "num_return_sequences": null,
+    "output_attentions": null,
+    "output_hidden_states": null,
+    "output_logits": null,
+    "output_scores": null,
+    "pad_token_id": 0,
+    "penalty_alpha": null,
+    "prefill_chunk_size": null,
+    "prompt_lookup_num_tokens": null,
+    "remove_invalid_values": null,
+    "renormalize_logits": null,
+    "repetition_penalty": null,
+    "return_dict_in_generate": null,
+    "sequence_bias": null,
+    "stop_strings": null,
+    "suppress_tokens": null,
+    "target_lookbehind": null,
+    "temperature": null,
+    "token_healing": null,
+    "top_h": null,
+    "top_k": null,
+    "top_p": null,
+    "transformers_version": "5.14.1",
+    "typical_p": null,
+    "use_cache": null,
+    "use_mtp": null,
+    "watermarking_config": null
+  },
+  "network_policy": "offline local cached pinned checkpoint only",
+  "new_output_limits": [
+    96,
+    128
+  ],
+  "output_dir": "/Users/mumu/Thesis Folder/Thesis Test/Pragma/output/flan_evaluation/output_comparison/run_20261029_123618_149215",
+  "prompt_sha256": "cb91f13a4528c38d482997e2d2c7f85a8d171daf09b473201371b6d30bff4cb5",
+  "quality_note": "All 73 accepted as-is, including 6 pilots and limited sources; references unchanged; no factuality or ROUGE/BERTScore evaluation in this run",
+  "reference_csv_sha256": "071492b220b2f0a394300a101a4b549b58f24cae27594f4760e177ceaae9ba06",
+  "reused_baseline_trials": 73,
+  "runner_sha256": "c4b3d0d2a729ef8436434bdcd915ed49c4416ea1edaf6a55b27cd96b017e0200",
+  "seed": 0,
+  "selected_rows_hash": "9e735583f0a414e18e689f5756d886bc70ec32cf3971de69af553478ac0cf28f",
+  "status": "complete",
+  "summary_changes_from_64": {
+    "128": 3,
+    "96": 3
+  },
+  "timing_note": "64 timings are historical; canaries precede new trials; timings are not a controlled latency benchmark",
+  "torch_version": "2.13.0",
+  "transformers_version": "5.14.1"
+}
