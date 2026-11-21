@@ -1,0 +1,21 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans. Altcoins outpace bitcoin as celestia jumps 16%, Warsh silent on interest-rate plans
+Celestia jumped 16%, injective rose 7.7% and layerzero added 7.3% while bitcoin held little changed near $82,100 and Fed Chair Warsh gave no sign on interest rates.
+Make  preferred on 
+分享这篇文章
+
+Summary:

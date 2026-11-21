@@ -1,0 +1,38 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Live updates: Bitcoin holds above $81,000 as oil prices hit six-month high. Yesterday’s 19 basis point slide in the U.S. 10-year Treasury yield was the largest one-day move downward since March 2023, when the failure of Silicon Valley Bank had investors worried about a domino effect across the country.
+Markets having calmed for the moment — the Nasdaq and S&P 500 are about flat on Friday, and French bond spreads (to Germany) are little changed — yields are cautiously edging higher.
+The U.S. 10-year yield is up 4.3 basis points to 4.994%, and the 2-year yield is up 6 basis points to 4.695%.
+Next week brings the Federal Reserve’s policy meeting, and investors continue to overwhelmingly bet the central bank leaves its benchmark fed funds rate unchanged.
+Gold fell below $4,000 an ounce for the first time since July, trading around $3,990, roughly 30% below its January all-time high of $5,600. Silver has dropped more than 2% over the past 24 hours to around $53.40 an ounce, leaving it 56% below its January record high.
+Good news is bad news as the AI trade continues to struggle. Bloom Energy (BE) shares fell 10% in U.S. trading on Friday despite beating revenue and earnings expectations on Thursday. Third-quarter revenue rose 138% year over year to $1.24 billion, exceeding forecasts of $1.07 billion, while adjusted earnings per share reached $0.94, ahead of the $0.67 expected.
+Even with yesterday’s ugly action included, bitcoin BTC$84 459,46 has gained about 39% over the nearly four months since it sat just below $59,000 on July 1.
+One trader crunched the numbers. Since July 1, there have been 2,724 hourly candles, and the 15 strongest candles — just 0.55% — produced enough gains for that entire 39% advance.
+Removing the 20 strongest hours over the last four months, and bitcoin would have actually dropped 6.8%.
+“This is exactly why going fully cash and waiting for the ‘perfect entry’ is so dangerous,” the trader concluded. “Bitcoin could spend weeks doing absolutely nothing and deliver the entire rally while you are waiting to buy lower.”
+Bitcoin ETFs had largest outflows since June; history says outlook isn't good
+The U.S.-listed spot bitcoin ETF suffered $635 million in outflows during yesterday’s panicky action, according to Farside Investors. That’s the largest daily outflow since June 25.
+While the contrarian take might be, “fantastic, the leveraged, fast-money types were flushed out, and now we’re poised to move higher,” history suggests otherwise.
+According to Farside, bitcoin has tended to perform poorly in the days and weeks following outsized outflows. For instances of outflows greater than $300 million (there have been 22 such days prior to yesterday), bitcoin, on average, was significantly lower 7, 30, and 90 days later.
+The caveat, of course, is that history is quite limited, given the ETFs have been around for less than three years, and is also likely skewed by the bear market begun in October 2025.
+Bitcoin goes quiet near $81,500 after a week of $3,000 swings
+Bitcoin dipped to about $81,000 late Thursday and has since spent the day boxed in a range of less than $1,000, trading near $81,500 early Friday. After a week of $3,000 swings, it’s the calmest stretch bitcoin has had in days.
+It’s down 0.4% over 24 hours and still sits below $82,500, the support it lost on Thursday.
+Altcoins were mixed. BNB was the standout, up nearly 2% to about $745, and DOGE added about 1%. XMR gave back part of Thursday’s jump, falling 7% to about $607, and ZEC lost nearly 4% to about $1,200. HYPE, XRP, ether and SOL slipped about 1% or less, with ether just under $2,400, according to CoinDesk data.
+Stocks found their footing too. Nasdaq 100 futures were little changed after the index’s worst day since June, and an ETF tracking chipmakers edged higher before the open. Meta kept falling, while SpaceX climbed on reports that it plans to become a wireless carrier.
+Oil is the worry. Brent crude touched its highest level since early May, which complicates the inflation outlook heading into the Fed’s Oct. 27–28 meeting. Treasuries gave back some of Thursday’s haven rally, which had pushed the 10-year yield down by the most in more than a year. Gold and the dollar were flat.
+
+Summary:

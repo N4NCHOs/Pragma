@@ -1,7 +1,7 @@
 """Incremental CoinDesk RSS scraper for scheduled notebook/script runs.
 
 Each run creates these files:
-  * rss_temp.json: the latest 25 RSS records
+  * rss_temp.json: the latest available RSS records, up to RSS_LIMIT
   * rss_history.json: the previous successful run's RSS snapshot
   * scraped_news.json: only articles that were new in the current run
 """
@@ -9,6 +9,7 @@ Each run creates these files:
 from __future__ import annotations
 
 import json
+import logging
 import os
 import re
 import tempfile
@@ -19,9 +20,9 @@ from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import feedparser
+from lxml import etree, html
 import requests
 import trafilatura
-from pathlib import Path
 
 
 def main():
@@ -54,6 +55,58 @@ BROWSER_HEADERS = {
 
 PAGINATION_RUN = re.compile(r"(?:\s*[-*\u2022]\s*\d+\b){2,}")
 TRACKING_PARAMETERS = {"fbclid", "gclid", "mc_cid", "mc_eid"}
+FOOTER_XPATH = '//footer[@data-module-name="footer"]'
+BOTTOM_XPATH = '//*[@data-module-name="article-bottom-news"]'
+TRENDING_ATTRIBUTE = "data-pragma-prune-trending"
+PRUNE_XPATH = " | ".join([
+    FOOTER_XPATH, BOTTOM_XPATH, f'//*[@{TRENDING_ATTRIBUTE}="true"]',
+])
+LOGGER = logging.getLogger(__name__)
+
+
+def prepare_pruned_html(page_html: bytes | str) -> Any:
+    """Mark bounded What's trending sections for Trafilatura's prune_xpath.
+
+    Footer and recommendation containers are matched directly by PRUNE_XPATH.
+    Ambiguous section boundaries are retained to preserve article content.
+    """
+    tree = html.fromstring(page_html)
+    if tree.xpath(f'//*[@{TRENDING_ATTRIBUTE}]'):
+        raise ValueError("Input already uses the private HTML pruning attribute")
+    body_class = 'contains(concat(" ", normalize-space(@class), " "), " document-body ")'
+    headings = tree.xpath(
+        f'//main//*[{body_class}]//*[self::h2 or self::h3 or self::h4 or self::h5 or self::h6]'
+    )
+
+    def level(node: Any) -> int | None:
+        return int(node.tag[1]) if isinstance(node.tag, str) and node.tag in {
+            "h1", "h2", "h3", "h4", "h5", "h6",
+        } else None
+
+    for heading in headings:
+        label = " ".join(heading.text_content().split()).casefold().replace("’", "'")
+        if label != "what's trending":
+            continue
+        rank = level(heading)
+        section = [heading]
+        ambiguous = False
+        for sibling in heading.itersiblings():
+            if not isinstance(sibling.tag, str):
+                continue
+            sibling_rank = level(sibling)
+            if sibling_rank is not None and sibling_rank <= rank:
+                break
+            if any((level(child) or 99) <= rank for child in sibling.iterdescendants()):
+                ambiguous = True
+                break
+            section.append(sibling)
+        if ambiguous or any((node.tail or "").strip() for node in section):
+            LOGGER.warning("Ambiguous What's trending boundary; section retained for review")
+            continue
+        for node in section:
+            node.set(TRENDING_ATTRIBUTE, "true")
+    return tree
+
 
 def extract_rss_image_url(entry: dict[str, Any]) -> str | None:
     """Return the first valid image URL provided by the RSS entry."""
@@ -196,14 +249,16 @@ def scrape_article(session: requests.Session, article: dict[str, Any]) -> dict[s
     try:
         response = session.get(article["url"], timeout=30)
         response.raise_for_status()
+        prepared = prepare_pruned_html(response.content)
         extracted = trafilatura.extract(
-            response.text, include_comments=False, include_tables=False
+            prepared, include_comments=False, include_tables=False,
+            favor_precision=False, prune_xpath=PRUNE_XPATH,
         )
         full_body = clean_full_body(extracted or "")
         if not full_body:
             raise RuntimeError("no main article content was extracted")
         result.update(full_body=full_body, scrape_status="success", scrape_error=None)
-    except (requests.RequestException, RuntimeError, KeyError) as exc:
+    except (requests.RequestException, RuntimeError, KeyError, ValueError, etree.LxmlError) as exc:
         result.update(full_body=None, scrape_status="failed", scrape_error=str(exc))
     return result
 

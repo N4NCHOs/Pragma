@@ -1,0 +1,53 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery. ‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery
+Numbers the spy agency handed over in the 1990s, long suspected of hiding a backdoor, turn out to have come from a basic computer program. Bitcoin was never on that list, and its quantum problem hasn’t gone anywhere.
+- An Anthropic AI model took less than 30 minutes to trace five unexplained seeds for NIST elliptic curves supplied by the National Security Agency to an ordinary random-number generator using timestamps from 1997 and 1998.
+- The finding makes a hidden NSA backdoor less likely and does not require users of the NIST curves to take action, though questions remain about how some elements were selected.
+- Bitcoin was not affected because it uses secp256k1, a simpler curve with little room to conceal a weakness, although sufficiently powerful quantum computers could eventually pose a separate threat.
+An Anthropic AI model has cracked one of cryptography’s longest-running whodunits, tracing numbers the NSA handed to the U.S. government in the late 1990s, which were long suspected of hiding a backdoor, to an ordinary random-number program fed with timestamps from 1997 and 1998.
+It took the model just about half an hour to come up with a solution — one that cryptographers had been chasing to answer for 25 years.
+A lock with an unexplained design
+Much of the internet relies on elliptic-curve cryptography, the family of mathematics that is also used to protect bitcoin wallets. It lets someone prove they hold a secret key without revealing the details of the key itself.
+Think of the curve as a lock design anyone can inspect. Each person using it has their own secret key, but everyone relies on the design being difficult to break.
+But who chose the mathematics everyone would trust?
+In 2000, the U.S. National Institute of Standards and Technology, or NIST, adopted a set of curves supplied by the National Security Agency. The NSA provided those designs without explaining where some of the numbers used to generate them came from.
+The secrecy became even harder to dismiss after the Snowden disclosures linked the NSA to efforts to weaken cryptographic standards. NIST later removed that tool, the Dual EC random-number generator, from its recommendations.
+Those starting numbers, called seeds, were public. But the NSA never explained how it chose them, fueling years of suspicion that it had tested many alternatives until it found a curve with a weakness only it knew how to exploit. The tinfoil theory was that the NSA had a backdoor to every system that used it.
+Cryptographers Neal Koblitz and Alfred Menezes examined the controversy in their 2015 paper, “A Riddle Wrapped in an Enigma.” Menezes had helped write the original standard and recalled receiving the seeds from NSA mathematician Jerry Solinas in 1997.
+Security researcher Steve Weis spent years looking for an explanation, including filing public-records requests in 2018. NIST said it had no documentation, while the NSA stopped responding. One promising lead suggested the numbers came from a humorous phrase Solinas had forgotten, sending investigators searching through possible word combinations.
+In 2023, cryptography engineer Filippo Valsorda and other contributors offered a $12,288 bounty for an answer, rising to over $36,000 if the winner donated it to charity. Solinas had died earlier that year, leaving researchers to work through old recollections and the numbers themselves to no outcome.
+Claude goes digging
+Until Claude entered the picture. This month, an Anthropic employee asked an internal research model to investigate, without sharing the old theory that the seeds came from a forgotten phrase.
+It took the model less than half an hour to trace five NIST curve seeds to lrand48, a random-number generator found in older C software libraries.
+Claude reproduced the sequence behind P-256, a widely used curve, and found an exact match for its published seed at the 1,842nd candidate.
+“This is astonishing: it solves the 25-year-old mystery,” the model wrote in its recorded reasoning, after briefly questioning whether it was working inside a simulated test. “Hmm, is it plausible in reality? As of my knowledge … the bounty was unsolved. … All top bits clear—20 bits, chance 1e-6. So indeed real-world.”
+“Wow, it's a real discovery.”
+Anyone can now rerun the program and get the numbers the NSA supplied. Anthropic says that makes a hidden weakness much less likely, though the team still cannot explain why the program passed over some usable candidates or how other parts of the curves were chosen.
+That predictability is what let Claude rebuild the numbers, and it would be a disaster inside a wallet. A secret key generated with lrand48 could be recreated by anyone who worked out roughly when it was made, giving them everything needed to drain the funds.
+The NSA’s seeds were public from day one, so there was never a secret to steal.
+Where bitcoin fits in
+Bitcoin was never part of this guessing game. Its wallets run on secp256k1, a curve built from a simpler equation.
+Bitcoin’s version is defined by two small, fixed numbers that leave almost nothing to adjust, while P-256’s version carries a 77-digit number that came out of the NSA’s unexplained seed.
+With so few dials to turn, there’s little room for anyone to have quietly built a weakness into bitcoin’s curve, and cryptographers have long pointed to that as a point in its favor.
+Creator Satoshi Nakamoto never publicly explained why he picked it, and the curve was rarely used before bitcoin made it famous. Ethereum later adopted it too, and bitcoin kept it when its 2021 Taproot upgrade introduced a newer style of signature.
+A powerful quantum computer would bring a different danger, as CoinDesk explored earlier this year. It could work backward from a public key visible on Bitcoin’s blockchain to the secret key behind it, regardless of how the curve was chosen.
+Hardware advances keep narrowing the gap between that theory and a working attack. Google said this week its Willow chip cut errors about 40-fold in one of the costliest steps such a machine would need.
+Still, nobody has yet built a quantum computer anywhere near large or reliable enough to crack a bitcoin key, and there’s no clear timeline for when one might arrive.
+Meanwhile, Anthropic said in its blog that people using the NIST curves do not need to change anything. After decades of questions about where the seeds came from, anyone can now run the program and retrace its path to the published numbers.
+The search had a prize, too. Its $36,864 bounty will go to the Internet Security Research Group, the nonprofit behind Let’s Encrypt, which gives websites free security certificates.
+
+Summary:

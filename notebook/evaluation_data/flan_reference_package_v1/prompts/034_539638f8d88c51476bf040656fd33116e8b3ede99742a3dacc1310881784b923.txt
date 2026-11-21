@@ -1,0 +1,34 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Tether: Senator's investigation misses positive work that's led to lower Iran volumes. Tether: Senator's investigation misses positive work that's led to lower Iran volumes
+The stablecoin issuer's CEO, Paolo Ardoino, has been defending against accusations that the firm's stablecoins have fueled financial activity in Iran.
+- Tether CEO Paulo Ardoino posted on X that his company is often way ahead of government sanctions when it freezes suspicious transactions — a point he contends a recent report from Senate Democrats ignored.
+- He said he's confident Tether is "doing the right thing."
+Tether is answering back against a report issued last month by Democrats on the Senate Permanent Subcommittee on Investigations that had accused the stablecoin firm of providing "a significant financial lifeline within Iran's shadow banking network," with Tether CEO Paulo Ardoino saying Monday that the probe missed the positive work it's doing to observe sanctions.
+Senator Richard Blumenthal, the subcommittee's top Democrat, led the effort, which further highlighted Democratic lawmakers' concerns that crypto is used to support illicit finance. But Ardoino contends that Tether freezes suspicious transactions well before entities such as the U.S. Treasury Department's Office of Foreign Assets Control and Israel's National Bureau for Counter Terror Financing formally flag them.
+"Senator Blumenthal's 'analysis' of Tether's sanctions report misses that, since 2023, Tether froze on average 4 weeks prior to OFAC & NBCTF official sanction designation and for 99% of the times Tether froze the reported addresses before Chainalysis labelled them," Ardoino wrote in a post on social media site X.
+Ardoino went on to argue that the company's actions "led to Iran-linked stablecoin volumes declining by 94%."
+Tether's CEO also spoke remotely at a Washington event, DC Fintech Week, and addressed the senator's report there, as well, last Tuesday. He criticized how it was released to the media before his company could review it.
+"I believe it's important for the public also to hear our side of the story," he said.
+"Our aim is to push out the bad actors from USDT," Ardoino said. "Those bad actors are moving to other means that are outside of the control of the United States, and now outside of our control."
+He added that the work "is not finished," but he said he's happy with Tether's role.
+"I wake up in the morning and I look at myself in the mirror, and I know that we're doing the right thing," he said.
+The Senate report went back a number of years, focusing in part on the period before 2024 in which it said Tether didn't comprehensively freeze flagged wallets. "This absence of deterrence invited abuse: Terrorist organizations such as Hamas shifted from transacting in bitcoin and a mix of cryptocurrencies to promoting USDT," it said.
+Since the report, Blumenthal has additionally been probing the relationship between Tether and its U.S. financial partner, Cantor Fitzgerald, which has close ties to the administration of President Donald Trump. Tether also named Bo Hines, Trump's former White House crypto adviser, as the CEO of its U.S. division last fall.
+In recent weeks, the odds that Democrats — including Blumenthal — may return to the majority in the Senate have been climbing, according to prediction market Kalshi. If that happens, Blumenthal could have significantly increased powers to investigate crypto matters.
+Read More: Tether's $344 million USDT freeze linked to U.S. 'Economic Fury' against Iran regime
+
+Summary:

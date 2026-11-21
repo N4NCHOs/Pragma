@@ -1,0 +1,39 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month. Equity weakness could damp demand for bitcoin after biggest ETF inflows in a month
+Your day-ahead look for Oct. 20, 2026
+This is an excerpt from CoinDesk newsletter 'Daybook.' Sign up here, if you haven't already.
+Bitcoin 
+Further weakness in equities could damp demand, analysts at QCP Capital wrote in a note published Monday. That may be on the cards. Both Nasdaq 100 futures and S&P 500 futures are lower, with companies including Coinbase Global 
+“Broader equity deleveraging dynamics could transmit to cryptocurrency markets and potentially threaten the $80,000 support level if sustained,” the analsysts wrote.
+For the time being, the bitcoin price remains above that level after demand for the largest cryptocurrency picked up on Monday, as illustrated by the spot U.S. bitcoin ETFs. The funds posted their biggest net inflows in a month and BlackRock’s IBIT recorded its largest inflows in over a year.
+Monday’s fund flows offer encouragement for bulls, though demand remains concentrated. The ETFs attracted roughly $527 million in net flows, with BlackRock’s taking in $665 million while those from Fidelity and Grayscale recorded withdrawals.
+The ether ETFs lost $103.3 million, their fourth consecutive day of outflows, showing bitcoin-specific demand rather than demand for the wider crypto sector.
+Conversely, the analysts added, a continued Treasury rally could support risk assets, particularly alongside falling real yields and a weaker dollar.
+Even so, the macro backdrop leaves little room for complacency. The U.S. 10-year Treasury yield is around 5.13%, while Brent crude is trading near $110 a barrel, keeping energy-driven inflation risks a headwind that could worsen if the geopolitical backdrop doesn’t improve.
+The Federal Reserve is widely expected to hold interest rates steady next week, though a 25 basis-point increase is being priced in for next month on prediction markets, leaving little reassurance for investors worried about tightening conditions. Stay alert!
+Read more: For analysis of today's activity in altcoins and derivatives, see Crypto Markets Today . For a comprehensive list of events this week, see CoinDesk's "Crypto Week Ahead."
+What’s trending
+- Bitcoin ETFs just saw their biggest day in a month thanks entirely to BlackRock (CoinDesk): BlackRock’s IBIT attracted $665.2 million Monday, its strongest session since October 2025, lifting combined U.S. spot bitcoin ETF inflows to $526.6 million.
+- U.S. CFTC rebuffs CME legal stance in consequential fight over perpetual futures (CoinDesk): The Commodity Futures Trading Commission argued CME lacks standing to challenge its perpetual futures policy because it has failed to demonstrate financial harm.
+- AI selloff returns, oil tops $110 a barrel (The Wall Street Journal): Nasdaq futures slipped as renewed selling hit AI stocks, while Brent crude climbed above $110 on Middle East supply risks. Treasury bonds gained despite the rise in oil prices as investors sought safety.
+- Stock futures mixed as chip stocks come under pressure in premarket (CNBC): AI-linked stocks came under selling pressure before Tuesday’s open, after a mostly higher session on Wall Street.
+Today’s signal
+The chart shows weekly candles in bitcoin’s price along with the 50-week exponential moving average (EMA).
+The weekly trend remains intact, holding key support above the EMA with no signs of divergence in the relative strength index (RSI) in the lower panel.
+The conditions point to consolidation above the support level as more likely than a major breakdown.
+
+Summary:

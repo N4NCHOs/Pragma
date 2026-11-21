@@ -1,0 +1,35 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Ethereum delays Glamsterdam test after security devs flag risk to existing contracts. Ethereum delays Glamsterdam test after security devs flag risk to existing contracts
+Developers canceled Monday's Hoodi activation after researchers showed how new gas rules could let smart contracts permanently record failed operations.
+- Ethereum developers postponed the Glamsterdam upgrade on the Hoodi test network after researchers found that proposed gas-accounting changes could alter how existing smart contracts handle failed transactions.
+- ChainSecurity found that EIP-8037 and EIP-8038 could leave some contracts with more or less gas than expected, potentially making errors permanent or causing otherwise valid operations to fail.
+- No replacement date has been announced for the Hoodi test or its planned 200 million gas limit, and Ethereum’s mainnet upgrade date remains unconfirmed.
+Ethereum developers have called off Monday's Glamsterdam upgrade on the Hoodi test network after security researchers identified a problem that could change how existing smart contracts handle failed transactions, potentially allowing errors to become permanent.
+The upgrade was due to activate on Oct. 26 at 17:42:48 UTC. Developers postponed it during Thursday's All Core Devs Execution meeting to investigate how a proposed change to Ethereum's gas accounting interacts with contracts already running on the main network.
+No replacement date has been announced.
+The concern centers on EIP-8037, which changes how Ethereum charges for creating new records in its database. The proposal is intended to limit the growth of that database as Ethereum increases the number of transactions its network can process.
+Security firm ChainSecurity published an analysis on Oct. 13 showing that the change, combined with EIP-8038, could alter how contracts respond when another contract they call runs out of gas, or the fees used to pay the network’s operators.
+Some contracts are designed to catch a failed operation and continue processing. They may record that an attempt failed, disable further attempts or move to another step. Developers sometimes rely on the remaining gas being too low for those actions to finish, causing the entire transaction to reverse instead.
+Glamsterdam changes that calculation. Under the proposed rules, gas used to create certain records can be restored when those changes are undone. That can leave enough gas for a contract to complete a failure-handling operation that previously would have reversed.
+There is also a risk in the opposite direction. ChainSecurity calculated that creating a new storage slot could require 110,020 gas when a separate allowance is exhausted, compared with 22,100 under the old rules. A contract using an existing gas budget might fail while carrying out an otherwise valid operation.
+The findings concern how existing software would behave under proposed rules. ChainSecurity has demonstrated the mechanisms but has not publicly established that a major production protocol is exploitable.
+Glamsterdam brings several changes to Ethereum, including a new system for choosing block builders and improvements intended to let the network handle larger blocks.
+It completed its Sepolia testnet activation on Oct. 6. Hoodi was the next public rehearsal, alongside a planned increase in its gas limit to 200 million — which has also been postponed now.
+Read more: Ethereum’s Glamsterdam test runs near 200 million gas per block after upgrade
+Ethereum's mainnet has no confirmed Glamsterdam activation date, and the findings do not indicate that existing contracts are currently being exploited through these proposed changes.
+
+Summary:

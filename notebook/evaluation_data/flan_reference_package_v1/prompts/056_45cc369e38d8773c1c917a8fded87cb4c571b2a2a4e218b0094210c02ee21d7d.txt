@@ -1,0 +1,29 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves. Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves
+BTC broke through its $84,000 ceiling late Wednesday, then slid back to the $82,500 support analysts are watching as tech futures fell.
+- Bitcoin traded just below $82,800 after a brief surge to nearly $85,000 reversed, leaving the cryptocurrency near a key $82,500 support level that some analysts say could precede a slide toward $70,000.
+- Most major cryptocurrencies declined, with HYPE, Dogecoin and Solana among the laggards, while Zcash gained nearly 3% and XRP edged higher.
+- Disappointing corporate outlooks and renewed doubts about artificial intelligence spending weighed on U.S. stock futures and Asian markets, while oil rose amid renewed Middle East tensions.
+Bitcoin was flat at just under $82,800 as of Thursday Asian morning hours after giving back a late-Wednesday surge to nearly $85,000. Mixed results from Tesla and Meta knocked Nasdaq futures lower and revived doubts about the AI trade.
+ZEC was the only standout gainer among the majors, up nearly 3% to about $1,290, and XRP added less than 1%. HYPE was the laggard, down 3% to about $79. DOGE fell 2% and SOL lost about 1%, while ether, BNB and TRX slipped less than 1%, according to CoinDesk data.
+The breakout didn’t last long. Bitcoin cleared $84,000, the ceiling that turned it back on Oct. 13 and 14, and topped out near $84,800 late Wednesday. Within about six hours it had dropped more than $2,000 to around $82,600, a rough night for anyone who chased the move.
+That leaves bitcoin sitting on $82,500, a level that some market watchers warn could open a slide toward $70,000 if it breaks for good.
+Big Tech didn’t help. Tesla fell 3% after hours after it cut its capital-spending forecast, and chip-equipment maker Lam Research dropped 7% on a weak outlook.
+Meta rose 2% after raising its AI spending plans, but that wasn’t enough to lift the mood. Nasdaq 100 futures fell 1.1% and S&P 500 futures lost 0.5%.
+Asia took it hard. South Korea’s Kospi dropped 2.2% as Samsung Electronics and SK Hynix retreated, and China’s CSI 300 fell 1.7%, on course for a bear market. Alibaba led Chinese e-commerce stocks lower after the government called for tighter quality control. Crude oil climbed after tensions flared again in the Middle East.
+
+Summary:

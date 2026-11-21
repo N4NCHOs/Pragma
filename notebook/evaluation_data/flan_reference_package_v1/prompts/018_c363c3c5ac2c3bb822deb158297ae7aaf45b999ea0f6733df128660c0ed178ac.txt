@@ -1,0 +1,44 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash. Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash
+Analytics firm Allium said stablecoin payments hit $482 billion this year so far, up 45%, as card spending surges and global payment firms add crypto rails.
+- Stablecoin payments grew 45% to $482 billion this year through September, despite circulating supply stalling in 2026, according to a fresh report by blockchain analytics firm Allium.
+- Mastercard, Stripe and Visa all announced services this week that combine stablecoins with familiar payment systems as digital dollars become increasingly part of global money movement.
+- Businesses want stablecoins being integrated into their existing financial operations, instead of running separate systems for digital assets, said CEO of Paris-based enterprise payments firm Fipto.
+Stablecoin supply has barely budged this year, but the digital dollars already in circulation are doing more work in payments, according to a fresh report from blockchain analytics firm Allium.
+Stablecoin payments are growing at a rapid pace, reaching $482 billion in the first nine months of 2026, up 45% from a year earlier, the report found.
+That growth contrasts with the broader stablecoin market. The total value of stablecoins — cryptocurrencies tied to fiat currencies such as the U.S. dollar — in circulation stood at about $305 billion at the end of September, up a meager 0.4% since the start of the year, according to the report.
+The number of payments grew even more, jumping 71% to over 1 billion, the report said, suggesting that stablecoins are changing hands more often without much new supply entering the market.
+Stablecoin-linked cards showed some of the fastest growth. Spending measured by Allium reached $3.9 billion through September, ten times the amount a year earlier. Small purchases — under $50 — accounted for 84% of the increase in card transactions.
+Stablecoins meet traditional payment rails
+Three announcements earlier this week offered a glimpse of how stablecoins are becoming increasingly part of global payments.
+Mastercard (MA) introduced Thursday its Global Money Platform with BVNK, the stablecoin infrastructure firm it acquired in August. The service combines traditional currency accounts, stablecoin balances, conversions, card spending and bank payouts through one connection.
+Banks and fintechs can use the platform to offer accounts that hold both fiat currencies and stablecoins, the firm said. Payments firms Nuvei and Marqeta are among the first customers integrating that service.
+Stripe, meanwhile, is working with Plasma 
+The companies said they plan to let customers spend from the balance that matches their purchase, cutting unnecessary currency conversions. Stripe's expanded card infrastructure covers more than 30 countries, with plans to reach over 100 by next year.
+Read more: Stripe to expand stablecoin cards to over 100 countries by the end of the year
+And Visa (V) said it is bringing stablecoins into the funding side of international payments.
+The company said Inyo Global, a payment orchestration firm for fintech, money transmitter, banks, became the first provider to put Visa Direct's stablecoin prefunding service into commercial use. Payment firms can use Circle's (CRCL) dollar stablecoin USDC 
+A small slice of a vast payments market
+That rapid growth of stablecoin payments comes with some caveats. Of $97.9 trillion in raw stablecoin transfers through September, Allium classified just $2.4 trillion, or 2.5%, as end-user activity after filtering out exchange, decentralized finance and automated transactions. Its $482 billion payments estimate comes from that smaller pool, the report said.
+Stablecoin cards also remain a tiny fraction of conventional payments. Allium estimated that second-quarter spending through those cards amounted to just 0.03% of Visa's $4 trillion in payment volume.
+For payment companies, that leaves a large market to pursue. Nuvei CEO Phil Fayer, whose company is among the first to integrate Mastercard's new platform, said stablecoins are becoming part of how businesses move money across borders and currencies.
+"The future of global commerce depends on money moving as freely as the businesses and consumers it serves, across borders, currencies and increasingly, between traditional and digital forms of money," Fayer said.
+The recent efforts by Mastercard, Stripe and Visa to incorporate stablecoins on blockchain rails reinforce that trend. Companies increasingly want stablecoins integrated into their existing financial operations, instead of running separate systems for digital assets, according to Patrick Mollard, co-founder and CEO of Paris-based Fipto, a stablecoin-powered business payments firm.
+“The distinction between 'traditional' and 'digital' money is less important than giving businesses the ability to use whichever rail makes most sense for a particular payment or treasury operation,” he said in a note shared with CoinDesk.
+“Businesses don't want separate crypto infrastructure sitting alongside their existing financial operations,” Mollard said. “They want to move between fiat and stablecoins within the same payments and treasury environment.”
+
+Summary:

@@ -1,0 +1,33 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Banks could slow stablecoin growth by paying savers more, BIS paper finds. Banks could slow stablecoin growth by paying savers more, BIS paper finds
+A BIS working paper found a 1 basis point rise in U.S. bank deposit rates predicted slower stablecoin growth, cutting ten-week growth from 15% to 12%.
+- A BIS working paper found a 1 basis point rise in U.S. bank deposit rates predicted slower stablecoin growth, cutting ten-week growth from 15% to 12%.
+- The effect was stronger for Circle's USDC than Tether's USDT, which the authors linked to USDC's closer ties to U.S. users.
+- The authors say banks retain some influence over stablecoin adoption through deposit pricing, though the sample covers only one high-rate period.
+Banks may be able to slow the growth of stablecoins like USDT and USDC by paying savers more, according to a working paper published by the Bank for International Settlements (BIS).
+Researchers Rashad Ahmed and Iñaki Aldasoro studied weekly data from January 2019 to June 2025, accounting for bitcoin prices, Treasury yields and broader financial conditions. They found that a one-week, one basis point rise in average bank deposit rates predicted slower stablecoin growth.
+That small figure, just 0.01 percentage points, cut average ten-week growth in stablecoin market capitalization from about 15% to about 12%, the paper found.
+Under the authors’ preferred estimate, which adjusts for banks raising rates in response to stablecoin growth, the effect was roughly three times larger, slowing growth to about 6%, though the authors flagged some weakness in that method. In both cases, growth slowed but did not reverse.
+The relationship was stronger for Circle’s USDC than Tether’s USDT, a pattern the authors said was consistent with USDC’s closer ties to U.S. users.
+The findings add evidence to a debate that has drawn warnings from bank executives. Bank of America CEO Brian Moynihan warned in January that as much as $6 trillion in deposits could move into stablecoins and related products offering returns, potentially reducing lending capacity and raising borrowing costs.
+The effect is partly based on where issuers put their reserves. A December Federal Reserve staff analysis explained that money placed in stablecoins can return to banks as issuer deposits, changing who supplies banks’ funding even when total deposits remain unchanged.
+Larger, uninsured balances could require banks to keep more liquid assets and leave less room for long-term loans that financial institutions issue.
+Paying more to retain customers also raises banks’ funding costs. The Fed analysis suggested banks could target better rates at customers most likely to switch, while keeping lower rates for less mobile depositors.
+The BIS paper does not establish losses of bank deposits or lending. Its sample covers one high-rate episode, and the findings may change as yield-bearing stablecoins and tokenized money market funds gain ground.
+Banks “retain some influence over the pace of that adoption through deposit pricing,” the authors wrote.
+
+Summary:

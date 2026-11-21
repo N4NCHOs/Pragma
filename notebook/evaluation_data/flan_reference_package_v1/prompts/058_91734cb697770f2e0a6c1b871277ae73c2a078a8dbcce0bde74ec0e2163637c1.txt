@@ -1,0 +1,29 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Asian stocks tumble, bitcoin retreats as China enters bear market. Asian stocks tumble, bitcoin retreats as China enters bear market
+Technology shares led regional losses as mixed U.S. earnings unsettled investors and Brent crude climbed above $112 a barrel.
+- China’s CSI 300 enters bear market territory, while stocks in Japan, South Korea and Hong Kong fall around 3% or more.
+- Bitcoin retreats toward $82,000 as gold and silver decline, while rising oil prices add to market pressure.
+Asian stocks tumbled on Thursday, with Chinese equities entering a bear market as technology shares sank and rising oil prices compounded investor concerns.
+The CSI 300, which tracks the 300 largest stocks traded in Shenzhen and Shanghai, slid 2%, taking the decline from June’s peak to 20%. Other regional benchmarks followed suit. Japan’s Nikkei 225 fell around 3%, South Korea’s Kospi dropped 3.5%, Taiwan’s benchmark lost 2% and Hong Kong’s Hang Seng declined 3%.
+Chinese technology shares traded in Hong Kong faced their worst session since President Donald Trump’s April 2025 “Liberation Day” tariff announcement, according to Bloomberg’s David Ingles.
+According to Ingles, the technology benchmark has fallen more than 40% from its peak, almost erasing gains following Beijing’s Sept. 24 stimulus package, with forward valuations compressed to roughly 13 times earnings.
+Mixed third-quarter earnings reports from U.S. companies added to the uncertainty surrounding artificial intelligence investment. Tesla 
+Bitcoin 
+The Cboe Volatility Index, or VIX, jumped 10% to around 18, roughly 30% above September’s low. Meanwhile, WTI crude topped $100 a barrel and Brent crude climbed above $112 to the highest levels since May.
+The equity selloff persisted despite easing Treasury yields, which would tend to make stock-market investments more attractive. The U.S. 10-year yield stood near 5.077%, below its recent peak around 5.4%.
+
+Summary:

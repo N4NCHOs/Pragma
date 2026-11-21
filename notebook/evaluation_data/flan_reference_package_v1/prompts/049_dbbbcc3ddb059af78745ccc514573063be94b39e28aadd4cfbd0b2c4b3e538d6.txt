@@ -1,0 +1,30 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin. SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin
+Independent committees are assessing a potential tie-up, while strong SpaceX earnings lift shares ahead of Tesla’s results.
+- Independent directors at SpaceX and Tesla are assessing a merger of the two Elon Musk-led companies.
+- A merger would combine the companies’ bitcoin holdings into a treasury of 30,221 BTC, although no transaction terms have been agreed.
+- SpaceX shares jumped 9% in premarket trading after revenue and earnings beat expectations, with Tesla due to report after the close.
+SpaceX 
+Musk owns about 36% of space and AI-focused SpaceX outright, rising to 48.4% including restricted shares and unexercised options, according to a June filing. His reported beneficial ownership of electric-car maker Tesla is 19.8%, including restricted compensation shares.
+Speaking during SpaceX’s third-quarter earnings call, Musk said both companies had formed special committees of independent directors to assess a tie-up. A combination would unite SpaceX’s reported 18,712 BTC and Tesla’s 11,509 BTC, for a total of 30,221 BTC.
+“Do I think it would be a good idea, yes. But at the end of the day, the shareholders have to be supportive of this,” he said.
+His interests in both companies prevent him from participating in committee discussions.
+“It's an odd kabuki dance where two groups of people are talking, and I can't be in the conversation,” Musk said. “The special committees have not reached agreement on the terms of any transaction.”
+SpaceX shares jumped abpit 9% to $161 in Wednesday’s premarket trading. Revenue of $14.58 billion exceeded the $12.7 billion consensus, while earnings per share of 35 cents beat the 15-cent forecast. Capital expenditure reached $19.59 billion, including $16.44 billion for AI.
+The results helped revive battered AI stocks. Attention now turns to Tesla’s earnings due after Wednesday’s close, with analysts forecasting revenue of $28.13 billion and adjusted earnings of 44 cents per share.
+
+Summary:

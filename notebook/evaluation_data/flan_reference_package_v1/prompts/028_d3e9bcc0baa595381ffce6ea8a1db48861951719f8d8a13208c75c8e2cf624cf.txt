@@ -1,0 +1,38 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did. Strategy's price chart is about to flash a major bullish signal weeks after bitcoin did
+Your day-ahead look for Oct. 19, 2026
+This is an excerpt from CoinDesk newsletter 'Daybook.' Sign up here, if you haven't already.
+Weeks after bitcoin’s (BTC) price chart flashed a major bullish signal, Strategy 
+The signal, a golden cross, occurs when a security’s 50-day average price rises above its 200-day average. Some traders read the transition as a decisive bullish shift in momentum that can lead to a prolonged rally.
+For MSTR, which holds $69.81 billion in bitcoin, the cross could happen as soon as Monday. Since the company began buying the largest cryptocurrency for its balance sheet in August 2020, the stock has had two such crosses, and huge rallies followed both.
+The first happened on Sept. 15, 2020, with the stock at about $15.57. MSTR climbed to $127.29 by February 2021, a gain of 717%. A death cross, the opposite of golden cross, followed in January 2022. By then, the stock was at $46.83, still triple the value on the day the bullish signal first appeared.
+The second came on March 2, 2023, at $25.29. The shares peaked at $473.83 in November 2024, up 1,774%. When the death cross arrived in October 2025, MSTR was at $328.40, still 1,199% higher.
+It’s worth keeping in mind that the signal isn’t especially reliable. In MSTR’s case, since 1999, the shares have registered 19 golden crosses. On 11 occasions, the stock was higher three months later, and after only 10 was it higher 12 months later, according to data analyzed by CoinDesk.
+That’s a record of 50% accuracy. The median 12-month return was just 3.3%, and the two worst crosses, in 2001 and 2007, were followed by a 61% loss.
+Since bitcoin confirmed its golden cross on Sept. 8, it has risen by nearly 5% to $82,000, extending the rally from July lows under $60,000. The price hit a high of over $87,000 early this month.
+It remains to be seen if MSTR follows bitcoin’s lead. Stay alert!
+Read more: For analysis of today's activity in altcoins and derivatives, see Crypto Markets Today . For a comprehensive list of events this week, see CoinDesk's "Crypto Week Ahead."
+What’s trending
+- French Violence Raises Alert as Protests Flare Across Europe (Bloomberg): Cost-of-living protests in France turned into nationwide looting and arson over the weekend, putting governments on alert across Europe. Unrest also hit Italy, Belgium and Portugal.
+- SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing (CoinDesk): Broadcom, Verizon and UnitedHealth are among nine companies opposing the inclusion of their shares on the planned platform. Nasdaq also rejected tokenization of its own stock under the framework, citing concerns about pricing transparency and trade reporting.
+- Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash (CoinDesk): Analytics firm Allium estimates $482 billion of stablecoin payments through September, a 45% annual increase, despite little growth in circulating supply.
+- Rise of crypto vaults channels billions of dollars into risky lending (Financial Times): Deposits in crypto vaults have surpassed $10 billion, up from $4 billion at the beginning of 2025, as investors pursue higher stablecoin returns. U.S. and European regulators are examining whether the curators managing these strategies warrant closer supervision.
+Today’s signal
+The chart shows MSTR’s daily price swings in candlestick format since February 2025. The chart overlays 50- and 200-day moving averages in yellow and green, respectively.
+The 50-day average looks set to cross above its longer-term counterpart, confirming a golden cross. This follows a trendline breakout, another bullish development, and suggests potential for further price gains.
+
+Summary:

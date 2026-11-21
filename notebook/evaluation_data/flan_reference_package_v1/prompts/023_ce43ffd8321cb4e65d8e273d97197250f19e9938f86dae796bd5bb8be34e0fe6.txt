@@ -1,0 +1,39 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Zcash developers plan a fix to keep ZEC swaps private from future quantum computers. Zcash developers plan a fix to keep ZEC swaps private from future quantum computers
+The team behind Zakura wants every swap through NEAR Intents to get its own key, so a refund address left on NEAR’s public chain can’t expose a user’s wider payment history.
+- Zakura wants to assign a separate viewing key to every ZEC swap made through NEAR Intents, limiting the payment history that a future quantum computer could uncover from a publicly posted refund address.
+- The proposal would keep spending keys with users while using private information retrieval to help wallets locate refunds without revealing which addresses they are checking.
+- Zakura says compatible software wallets could adopt the open-source feature within weeks, before Zcash developers’ January target for quantum-resistant payments.
+The team behind Zakura, a newer version of the software that runs the Zcash network, wants to give every ZEC swap made through NEAR Intents its own private key.
+The change would close a gap that a future quantum computer could use to piece together a user’s payment history, according to a new engineering post from the team.
+NEAR Intents is a service that lets users swap tokens across different blockchains. When someone swaps private ZEC for USDC through it, the service posts one of their private Zcash addresses on NEAR’s public chain, so it knows where to send back any unused ZEC. That address goes up as soon as the deposit lands and stays there even if the swap goes through and no refund is ever needed.
+Such addresses give away no information on today’s computers. Each Zcash address carries a public key built from the wallet’s viewing key, the secret a wallet uses to spot payments sent to it, using one-way elliptic-curve math similar to what protects bitcoin and ether wallets.
+Ordinary computers can’t run that math in reverse, but a large enough quantum computer running Shor’s algorithm, a method published in 1994 for exactly that job, could theroretically work backward from the address to the key.
+That’s the real threat hanging over Satoshi-era bitcoin, whose public keys already sit onchain for anyone to copy. Last week, Google said its Willow quantum chip had produced near-perfect versions of one of the components such an attack would burn through, a step toward a machine powerful enough to try it.
+Quantum computers capable of that are still likely years away (and no one has a firm timeline for when one could be built), but it’s a problem developers across the industry are rushing to solve.
+One key for every swap
+Zcash’s architecture gives it a problem of its own. A Zcash wallet can generate many addresses that look unrelated to each other, but they normally share one viewing key.
+An attacker who cracks that key from a single published address could link every payment the account ever received and read the amounts and the private notes, or memos, attached to them.
+Spending takes a separate key, so the funds themselves would stay safe. Zakura’s fix gives each swap its own viewing key and leaves the spending key with the user’s main account. An attacker who someday cracks a refund address on NEAR would see only the payments tied to that one swap.
+The design also deals with a practical snag.
+A wallet that has made hundreds of swaps would end up with hundreds of keys, and restoring it from a backup would mean scanning the entire Zcash chain with every one of them.
+Zakura’s answer is a database the wallet can query privately using a technique called private information retrieval. The wallet asks where its refunds landed, and the database answers without learning which addresses the wallet asked about.
+As such, no quantum computer capable of recovering these keys has been demonstrated yet. Zakura says wallets built on its open-source libraries, including Vizor, could add the feature in the coming weeks, with hardware wallets following once their firmware supports it.
+That would put the fix in users’ hands ahead of the January target Zcash developers set for quantum-resistant payments earlier this month.
+Read More: Zcash developers set January target for quantum-resistant payments after ‘bunker mode’ scare
+
+Summary:

@@ -1,0 +1,38 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Ethereum’s four-minute settlement plan could lower the cost of moving crypto. Ethereum’s four-minute settlement plan could lower the cost of moving crypto
+A new draft targets a fourfold cut in the time it takes Ethereum transactions to become final, which could free up money transfer services tie up while customers’ payments clear.
+- Ethereum researchers have proposed cutting transaction finality from about 16 minutes to roughly four minutes, though the unfinished plan has no activation date.
+- Faster finality could reduce costs for cross-chain transfer services by allowing them to recover and reuse funds more quickly.
+- The proposal would separate validators’ block-selection and finality votes, potentially enabling further speed gains and an eventual shift to quantum-resistant signatures.
+Ethereum researchers want to cut the wait for a transaction to become final from about 16 minutes to roughly four, a change that could make it cheaper to move money between blockchains.
+Ben Edgington, who coordinates Ethereum’s fast-finality research, filed the draft Wednesday with fellow researchers Francesco D’Amato, Roberto Saltini, Yann Vonlanthen and Mikhail Kalinin.
+Its initial target is a four-fold improvement, though the design is unfinished and has no activation date.
+In the current mechanism, a transaction can land in an Ethereum block well before the network treats it as final, the point where validators, the computers that secure the network, commit to never rewriting it. Anyone moving funds off Ethereum has to decide when it’s safe to release money on the other side.
+But sixteen minutes is a long time to have money in limbo.
+Say someone sends $10,000 from Ethereum to another network. A transfer service can pay them right away from money it already holds there, then wait to get repaid once the original transaction settles. The customer gets their funds in seconds, and the service has $10,000 tied up until Ethereum is done.
+Ethereum Foundation research counts that idle money as a real cost for these firms, and a shorter wait lets them reuse it sooner. In practice, a service fronting a steady $1 million an hour would have about $267,000 waiting on repayment with a 16-minute delay. At four minutes, however, that drops to roughly $67,000.
+Stablecoin providers such as Circle 
+Circle also caps the total value of fast transfers waiting on final settlement, and each completed settlement frees up room for new ones.
+Splitting the vote
+The 16-minute wait comes down to how Ethereum’s validators vote. Each one casts a single vote that does two jobs at once, helping pick the next block and helping lock older blocks in for good. Validators take turns casting those votes, and a block only becomes final after two full rounds of everyone voting.
+Both jobs share one vote so finality can only move as fast as that rotation. The proposal gives each job its own vote, so the locking-in can run on a faster clock that developers can keep tightening over time.
+The researchers say splitting the votes would also make it easier to eventually swap in quantum-resistant signatures. Ethereum would need that upgrade if quantum computers ever get strong enough to break today’s cryptography.
+However, four minutes would still be slow next to Solana, which switched on its Alpenglow upgrade Wednesday with a target of finality in about 150 milliseconds.
+The draft leaves voting timings, penalties and parts of its security analysis unresolved as of Thursday. Edgington wrote that “many aspects remain TBD” and that the immediate aim was getting a proposal number — which puts the idea into Ethereum’s formal upgrade pipeline.
+Read More: Solana’s biggest network change since 2020 is live. Here’s how users benefit
+
+Summary:

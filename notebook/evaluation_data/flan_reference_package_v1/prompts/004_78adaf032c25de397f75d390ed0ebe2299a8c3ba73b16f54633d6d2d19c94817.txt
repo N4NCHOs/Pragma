@@ -1,0 +1,50 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough. Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough
+Google says its Willow chip can prepare the special quantum states needed for advanced calculations with about 40 times fewer errors, reducing one of the hardware bottlenecks behind any future attempt to crack bitcoin wallets.
+- Google said its Willow quantum chip reduced errors about 40-fold when preparing “magic states,” a resource needed for quantum calculations that could eventually threaten Bitcoin wallets.
+- The experiment achieved about 99.99 percent fidelity among states that passed inspection, though only about 8 percent of preparation attempts succeeded and substantial scaling challenges remain.
+- The findings do not make a Bitcoin attack 40 times cheaper, but they advance an engineering method that could help future quantum computers sustain the roughly 500,000 reliable magic states per second required under one modeled attack.
+Google says its Willow quantum chip has cut errors about 40-fold when preparing special states used in quantum calculations, tackling a costly step toward building machines powerful enough to crack bitcoin wallets.
+The result, published in Science this week, deals with something that rarely comes up in the bitcoin quantum debate — which usually focuses on how big a machine an attacker would need while underplaying how much of that machine would be occupied getting ready to calculate.
+Why the oldest coins give an attacker more time
+A bitcoin wallet uses a secret key to approve payments and a matching public key that lets the network check those approvals. Spending typically reveals the public key, while some payment types expose it from the start.
+Working backward from it to the secret is supposed to take an impractical amount of computing, which makes it practically impossible to reverse-engineer crypto wallets.
+However, a large enough quantum computer running Shor’s algorithm could, in theory, do that math. Whoever recovered the secret key could sign transactions as the owner, and the network would accept them as genuine. Mathematician Peter Shor first published the method in 1994, but nobody has yet managed to demonstrate it.
+A recovery phrase locked in a physical drawer offers no protection against that, as the attacker would be working from information already sitting on the blockchain.
+Some later payment formats hide the public key behind a hash, a digital fingerprint, until the owner spends. An attacker targeting a previously hidden key would have to wait for that exposure and might need to recover the secret quickly enough to interfere with the payment.
+That is also why lost coins present a difficult problem. Bitcoin can introduce stronger spending protections, but someone still needs the existing keys to move old holdings into them. If those keys are lost, the owner cannot make the move. The exposed public key remains available to a future attacker.
+Some of bitcoin’s oldest holdings have had their public keys exposed since they were mined.
+Old coins have also been moving as the quantum debate grows louder. On Oct. 7, 100.02 BTC untouched since July 2010 moved after more than 16 years, carrying a value of about $8.5 million. In August, six wallets inactive since 2011–2014 moved another 553.59 BTC, worth roughly $40 million at the time.
+Those transfers do not singularly establish that holders are responding to quantum fears, as moving coins can even mean changing wallets, reorganizing holdings or preparing to sell.
+The cost of getting ready
+Quantum computers store information in units called qubits, which are extremely fragile. Heat, vibration and stray signals can disturb them and introduce errors, and adding more qubits also adds more opportunities for mistakes.
+Engineers deal with that by organizing many physical qubits into groups that detect and correct errors. Each group behaves like a more dependable unit, known as a logical qubit.
+Those units then need the digital equivalent of fuel to run certain operations, specially prepared quantum states that researchers call “magic states.” Each one is consumed when used, so the computer has to keep producing them throughout a calculation.
+Read More: A simple explainer on what quantum computing actually is, and why it is terrifying for bitcoin
+Think of a restaurant kitchen where every dish needs a fresh batch of a sauce that cannot be reused, where some of the staff must keep making sauce while the others cook. In a quantum computer, hardware devoted to producing magic states is hardware that cannot be assigned to other work.
+Google’s method, called cultivation, starts with a rough version of the state, checks it for errors and throws out flawed attempts. The goal is to produce clean states using less hardware than older methods needed.
+The firm reported about 99.99% fidelity, a measure of how closely the finished states matched what researchers were aiming for.
+That number applies only to the states that passed inspection. Willow kept about 8% of its attempts after the checks during preparation and measurement. For every 100 tries, about eight made it through.
+The next steps include running the process at a much larger scale and keeping those states useful as they feed into longer calculations. The researchers say more work is needed on real-time operations and moving the states into stronger error-correcting setups.
+How it fits with earlier research
+In March, Google estimated that a future superconducting quantum computer with fewer than 500,000 physical qubits could break the wallet cryptography used by Bitcoin and Ethereum, under a specific set of hardware assumptions.
+In September, CoinDesk reported on researchers cutting the workload of a core calculation used in that attack. That work covered one component, leaving out the complete attack and the physical hardware costs of running it.
+Those studies reduce the amount of math an attacker has to do. Cultivation addresses the cost of supplying the machine while it does that math.
+The gains cannot simply be multiplied together. Google’s March estimate already assumed efficient magic-state production. The experiment tests part of that engineering approach, rather than providing another 40-fold reduction in the estimated cost of attacking bitcoin.
+The March paper also shows how much fuel an attack would burn. For one modeled attack lasting about nine minutes after a public key becomes available, Google estimated the machine would need roughly 500,000 sufficiently reliable magic states every second.
+
+Summary:

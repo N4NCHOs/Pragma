@@ -1,0 +1,45 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Crypto Long & Short: Why real-world assets need fixed-rate loans onchain. Crypto Long & Short: Why real-world assets need fixed-rate loans onchain
+Real-world assets already back the largest stablecoins, yet borrowing against them onchain still runs through variable-rate pools. Peter Gaffney of O2O Capital Partners explains why fixed-rate, fixed-term lending is the missing piece, and how a 5% shift in Sky and Ethena reserves could create $1.8 billion of demand for real-world assets.
+You're reading Crypto Long & Short, our weekly newsletter featuring insights, news and analysis for the professional investor. Sign up here to get it in your inbox every Wednesday.
+Happy Wednesday,
+This is your institutional newsletter, Crypto Long & Short. This week:
+- Peter Gaffney of O2O Capital Partners on what’s keeping real-world assets from scaling in DeFi
+- Top headlines institutions should pay attention to by Francisco Rodrigues
+- “Tron led crypto card volume in Q3 2026” in Chart of the Week
+…and if you’re looking for more institutional insights: ETF Central’s Trackinsight Global ETF Survey 2026, produced with Calamos Investments and S&P Dow Jones Indices, finds nearly 7 in 10 professional investors are reassessing their ETF holdings.
+Plus, CoinDesk’s latest Digital Assets Quarterly Report is out now.
+Thanks for joining us!
+Real-world assets need fixed-rate lending to scale in DeFi
+Fixed-rate lending is the clearest growth lever for real-world assets (RWAs) in decentralized finance (DeFi). It unlocks a strategy that credit desks have run for decades but DeFi has never meaningfully implemented: buy a quality income asset, borrow against it at a locked rate below the asset’s yield and buy more of the asset. Stablecoins are steadily sitting around $300 billion in supply and aggregate vault assets are nearing the $20 billion milestone. Morpho alone carries more than $16 billion in deposits, most of it in variable-rate markets priced on pool utilization, which serve crypto-native traders who manage liquid positions in real time but leave longer-dated borrowers with uncertainty. Fixed-rate, fixed-term lending closes that gap by matching the term of the loan to the duration of the collateral, especially for RWAs whose redemptions can settle anywhere from T+7 to T+90. With the borrow cost and maturity known at entry, institutional counterparties can underwrite an RWA looping vault the same way they approve conventional term financing. This is the same bedrock foundation that formed and grew traditional credit markets to $51 trillion in US fixed income versus $1.6 trillion in floating-rate leveraged loans. The move to fixed rates is already underway: Morpho recently opened fixed-rate, fixed-term markets through Morpho Midnight, which Coinbase used to launch fixed-rate crypto-backed loans to its customers in September 2026.
+DeFi is a battle-tested real-time execution engine with a narrow collateral base of volatile crypto assets that move by magnitudes in stress. This is what turned the October 10, 2025 liquidation cascade into a $19 billion event, marking the start of a nearly 60% reduction in DeFi total value locked for the eight months to follow. Expanding DeFi beyond crypto requires non-crypto-correlated RWAs, and RWAs require more precise lending markets to scale. RWAs already back the largest stablecoins, with Ethena and Sky committing more than $2.4 billion to JAAA, BUIDL, STAC, and USTB.
+RWA leverage onchain runs almost entirely through variable-rate pools, where the borrow rate is set by utilization rather than by a lender agreeing to a price. Illustratively, Aave’s rate curve lifts the USDC borrow rate from 4% to 14% as utilization climbs from 92% to 100%. JAAA yields between 4.5% and 5% and Maple’s syrupUSDC pays 5.2%, while the one-year average USDC borrow rate on Aave V3 Ethereum is 4.56%, leaving just 50 basis points of spread to work with. The variance in these borrow rates scares off would-be RWA loopers or limits them to double-digit-yielding RWAs, which greatly narrows the accessible universe of investment-grade credit. Coin Metrics found routine daily utilization spikes on a $2 billion pool and the April 2026 KelpDAO rsETH exploit pinned Aave’s USDC pool at 100% utilization, causing borrowers to pay the maximum 14% rate for five days. Since tokenized credit products can take anywhere from T+1 to well beyond T+90 to settle redemptions, a spike like that can outlast the holder’s ability to exit while running an unprofitable trade.
+Fixed-rate, fixed-term lending solves this because it lets the allocator match the duration of the loan to the duration of the RWA, the same way a bank extends a 70% advance at a fixed spread against investment-grade paper. Fixed-rate platforms like Tenor Finance, Kamino, Term Labs and Loopscale now quote rates against products, with a Kamino market offering 5.3% fixed-rate loans against Figure’s auto loan portfolio in rolling 30-day terms. Combined with one-click leverage providers, which compress multiple loops into a single transaction, these markets let institutional underwriters size into leveraged RWA positions at scale.
+For sizing, a 5% reallocation of the $12 billion in Sky and Ethena reserve capital into fixed-rate looped RWA strategies at 3x is $600 million of equity and $1.8 billion of RWA demand, before foundations, digital asset treasury companies and exchange Earn programs contribute to growth. Well-positioned issuers of underwritten, loopable, non-crypto correlated RWAs will be the beneficiaries as DeFi’s collateral base finally grows beyond crypto.
+Headlines of the week
+This week’s headlines show banks further expanding blockchain payments and crypto services, while MSCI tightened index eligibility and BlackRock proposed a new way for its clients to manage bitcoin exposure.
+- JPMorgan brings tokenized dollar deposits to Ethereum: The bank deployed JPM Coin on Ethereum for institutional clients, expanding beyond Base and allowing customers to use tokenized bank deposits for blockchain payments and settlement.
+- Thirty-seven-bank euro stablecoin venture secures Dutch e-money license: Qivalis, backed by banks including BNP Paribas, ING and BBVA, received authorization as an electronic money institution but must complete remaining requirements under the EU’s Markets in Crypto-Assets (MiCA) regulation before issuing its planned euro token.
+- MSCI adopts rules that could remove Strategy and Metaplanet from equity indexes: New financial screens will exclude companies classified as non-operating, with affected constituents to be announced Nov. 11 and changes effective after the Nov. 30 close; neither company’s removal is yet confirmed.
+- Kraken parent Payward agrees to buy Lithuania’s Saldo Bank: The acquisition would expand Payward’s European business into interest-bearing deposits, lending, card issuance and euro payments, with closing expected in 2027 subject to regulatory approvals.
+- BlackRock files for a bitcoin ETF designed to cushion losses: The proposed iShares Bitcoin Managed Protection ETF (PBIT) would use options linked to the iShares Bitcoin Trust (IBIT) to seek downside protection in exchange for limited upside, without guaranteeing investors a fixed loss limit.
+Tron led crypto card volume in Q3 2026
+Tron was the largest chain for crypto card volume in the third quarter of 2026 with a 27.5% share (about $638 million). The weekly share has since fallen to 23.7%, as total card volume grew and Tron’s volume held steady. Tron’s TRX has been roughly flat at $0.33 to $0.34.
+For more on the Tron network, view the new CoinDesk research report on Tron.
+Looking for more? Receive the latest crypto news from coindesk.com and market updates from coindesk.com/institutions.
+
+Summary:

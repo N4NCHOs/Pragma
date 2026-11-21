@@ -1,0 +1,32 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100. Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100
+Bitcoin and gold pared early losses as the yen gave up gains and Asian stocks rebounded, though oil near $100 keeps inflation risks in focus.
+- Bitcoin recovered to nearly $82,000 during Asian trading Friday as gold, Asian stocks and Nasdaq futures rebounded while the Japanese yen surrendered early gains.
+- About $435 million in cryptocurrency futures positions were liquidated over 24 hours, including $385 million in bullish bets, as bitcoin tested its 50-day moving average.
+- Persistently high oil prices and weak demand for spot bitcoin exchange-traded funds, which recorded $381 million in outflows Thursday, could limit a broader rally in risk assets.
+Bitcoin 
+The largest cryptocurrency by market value recovered to nearly $82,000 after hitting lows below $81,000 overnight, according to CoinDesk data. At the time of writing, bitcoin was testing its 50-day simple moving average, a widely followed gauge of near-term market momentum. Other cryptocurrencies, such as ether 
+Crypto futures positions worth $435 million were liquidated over the past 24 hours, including $385 million in longs, a sign that leverage was skewed toward the bullish side.
+Gold, a traditional haven asset, bounced back to $4,020 per ounce from an early low of $3,986, a level last seen on July 29.
+Major Asian equity indices, including Japan’s Nikkei and South Korea’s Kospi, also rebounded from session lows. Nasdaq futures rose 0.17% to 29,190, up from 29,022 earlier in the day.
+The risk-off tone had strengthened in early Asian trading as the yen climbed to 156.07 per U.S. dollar, its highest level since Sept. 18. Hotter-than-expected Japanese inflation data reinforced expectations of further Bank of Japan rate hikes, boosting the currency alongside a haven bid driven by AI-related jitters.
+Yen moves often ripple through global markets because the currency has long been used to fund risk-on carry trades.
+Those yen gains proved fleeting, however, with the currency quickly falling back toward 157 per U.S. dollar.
+Whether the risk reset lasts may also depend on oil. WTI futures traded near $100, even after U.S. President Donald Trump invoked a Cold War-era law aimed at boosting fuel production. The move has yet to materially cool oil prices.
+A sustained rise in oil could fuel global inflation and weigh on risk assets. Besides, a consistent demand for spot bitcoin ETFs is lacking for a steep price rally to materialize. On Thursday, these U.S.-listed funds lost $381 million in outflows, according to preliminary data from SoSoValue.
+
+Summary:

@@ -1,0 +1,30 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny. Crypto vault deposits top $10 billion as lending risks draw regulatory scrutiny
+Curator-managed lending strategies are attracting institutional capital, while exposing depositors to collateral, liquidity and smart-contract risks.
+- Crypto vault deposits have grown from $4 billion at the start of last year to more than $10 billion, according to the Financial Times.
+- Vault curators select lending strategies, set risk limits and collect fees, performing a role similar to traditional fund managers.
+- U.S. and European regulators are examining oversight as hacks, illiquid collateral and automatic liquidations expose investors to potential losses.
+Crypto lending vaults have attracted more than $10 billion in deposits, as investors seek returns on their digital assets, according to the Financial Times.
+Deposits have risen from $4 billion at the start of last year, highlighting growing demand for strategies that put stablecoins and other tokens to work.
+Vaults operate through smart contracts on decentralized finance platforms. Each has a “curator”, effectively an investment manager, who selects lending strategies, sets risk limits and collects fees. Returns typically range from 3% to 10%, although riskier strategies can generate as much as 20% or more.
+The appeal comes with considerable risks. Loans can be backed by illiquid tokens, crypto-backed stablecoins or tokenized private credit, leaving depositors exposed if collateral loses value or becomes difficult to sell.
+Automatic liquidations can intensify market declines, while hacks, coding errors and flawed pricing mechanisms create additional vulnerabilities. Publicly accessible smart contracts offer transparency, but investors may focus on headline yields without understanding the underlying exposure.
+Fintech companies, digital asset treasury businesses and hedge funds are among the main depositors, according to the article.
+Bitcoin backed lender Two Prime are among the firms entering the market. In September, it rolled out a bitcoin lending vault on Pareto targeting annual yields of 1.5% to 2% through institutional lending. The vault accepts wrapped bitcoin, requires a minimum deposit of 5 WBTC and has roughly $10 million of Two Prime’s capital committed to absorb initial losses.
+Regulators are examining whether existing rules should apply. The U.S. Securities and Exchange Commission has raised questions about vaults holding securities, while European regulators have proposed oversight of intermediaries providing access to DeFi.
+
+Summary:

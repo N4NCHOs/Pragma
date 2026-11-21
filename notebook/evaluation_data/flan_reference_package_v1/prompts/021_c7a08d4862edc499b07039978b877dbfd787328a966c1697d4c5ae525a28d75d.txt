@@ -1,0 +1,30 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates. Bitcoin, Korea’s Kospi and Nasdaq futures rally as China GDP beats estimates
+Bitcoin, Nasdaq futures and Asian stocks rally as stronger-than-expected China GDP and falling oil prices lift risk appetite.
+- Global markets rallied Monday as stronger Chinese economic data and lower oil prices revived investors’ appetite for risk.
+- Bitcoin traded near $82,500, while Nasdaq futures gained more than 1% and major Asian stock indexes advanced after last week’s technology-led losses.
+- China’s economy grew 4.5% from a year earlier in the third quarter, while retail sales exceeded expectations and signaled stronger domestic demand.
+Financial markets are a sea of green on Monday as upbeat China data and lower oil prices revive investor risk appetite.
+Starting with bitcoin. The leading cryptocurrency by market value was trading around $82,500 at the time of writing, up 0.7% since midnight UTC and 1.3% over the past 24 hours. Nasdaq futures rose more than 1%, alongside a 1.8% gain in Japan’s Nikkei and a 0.6% advance in South Korea’s Kospi. Those markets took a beating last week, led by losses in AI-related shares.
+Elsewhere, Chinese stocks were up 0.3%. Gold was largely unchanged near $4,180, while the Dollar Index held near Friday’s lows, below 102.
+China’s gross domestic product (GDP) grew 4.5% year on year in the third quarter, according to data from the National Bureau of Statistics released Monday. That was faster than the second quarter’s 4.3% pace. Other data also pointed to stronger domestic demand in the world’s second-largest economy. Retail sales of consumer goods rose 1.1%, more than double the 0.5% increase expected and up from 0.4% the previous month.
+China is the world’s factory, its second-largest economy and a major importer of industrial commodities. Strong economic data from the country therefore tends to encourage risk-taking across financial markets.
+The rebound is also consistent with the VIX’s historical tendency to normalize after Friday spikes, a pattern that has often coincided with steadier equity markets.
+Oil prices fell on both sides of the Atlantic, reversing some of last week’s gains. Reuters attributed the decline to expectations that President Donald Trump’s Russia waiver would boost supply. Still, geopolitical risks in the Middle East persist.
+A sustained decline in oil could ease inflation fears, clearing the way for the Federal Reserve to cut interest rates. As of this writing, the central bank is expected to keep its benchmark borrowing cost unchanged in the 4.75% to 5% range this month. It raised rates by 25 basis points last month.
+
+Summary:

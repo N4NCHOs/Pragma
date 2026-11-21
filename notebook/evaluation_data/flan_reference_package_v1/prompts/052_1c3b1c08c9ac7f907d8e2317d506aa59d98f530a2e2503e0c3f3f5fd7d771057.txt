@@ -1,0 +1,32 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Dogecoin wallet, app teams unite in push to give DOGE more everyday uses. Dogecoin wallet, app teams unite in push to give DOGE more everyday uses
+Dogecoin Labs will combine MyDoge, DogeOS and merchant payment tools as developers try to turn coin holders into customers for applications and businesses.
+- Dogecoin Labs will combine the MyDoge wallet, DogeOS application network and Such App merchant tools to expand ways for DOGE holders to use and spend their coins.
+- MyDoge says it has more than 500,000 users, while Such App already supports invoices and in-person QR payments.
+- DogeOS, which remains unfinished, has opened a public test network for developers. Featured applications are listed as “coming soon,” and a proposed security link that would let Dogecoin’s network verify its applications is still in draft form.
+The teams behind a Dogecoin 
+Dogecoin Labs, formed in partnership with the Dogecoin Foundation, will own and operate MyDoge, DogeOS and Such App, according to an announcement shared with CoinDesk. Jordan Jefferson, founder of MyDoge and DogeOS, will lead it as CEO.
+The plan connects three parts of a potential DOGE business ecosystem. Developers build applications on DogeOS, holders find them through MyDoge and merchants use Such App to accept payments. Such App’s beta already supports invoices and in-person QR payments, while its connection to DogeOS remains in the planning stage.
+Dogecoin is one of the oldest cryptocurrencies, created in 2013 as a joke and featuring a shiba inu image. The token has advanced 3.9% in the past 24 hours and was recently trading around 8.2 cents.
+MyDoge said it has grown to more than 500,000 users without paid acquisition. Its recently released V3 update connects the wallet to applications being built on DogeOS. The announcement does not specify how many wallet users are active or have tried those applications.
+The foundation and House of Doge, its commercial arm, are contributing intellectual property and development teams. The foundation will continue its open-source development support, advocacy and community work, while Labs concentrates on products and commercial opportunities.
+DogeOS opened its public test network on Sept. 30, allowing developers to build Ethereum-style lending services, exchanges and games using test DOGE. Dogecoin itself handles coin transfers, so those applications run on a separate system.
+Three weeks later, DogeOS’s public user guide still marks its featured applications as “coming soon.”
+Its planned security link to the Dogecoin blockchain also needs further work. DogeOS wants Dogecoin’s own network to check mathematical proofs that its applications ran correctly. A proposed rule change enabling that remains a draft. Until the link is implemented, users will have to rely on DogeOS’s selected operators and hardware to check that the applications work.
+Read More: Dogecoin gets DeFi testnet as DogeOS bets miners will eventually secure its apps
+
+Summary:

@@ -1,0 +1,36 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally. Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally
+Past steep rallies ran on about $235 million a day of net inflows into ETFs. The funds are yet to match that pace, according to data analyzed by CoinDesk.
+- U.S.-listed spot bitcoin exchange-traded funds attracted more than $1 billion this week, signaling renewed but still tentative institutional demand.
+- Bitcoin’s three steep rallies since January 2024 coincided with average daily ETF inflows above $200 million, compared with about $86 million a day since July 1.
+- A sustained bitcoin rally may require stronger, steadier ETF inflows, though futures trading and direct purchases can also drive prices higher.
+Bitcoin 
+These U.S.-listed funds have pulled in over $1 billion in investor money this week, according to SoSoValue data.
+Analysts are calling it a sign of renewed institutional bid for the cryptocurrency, with a warning that the pace must remain robust for a sustained uptick in bitcoin's price.
+"Institutional demand shows tentative improvement. However, flows remain volatile and sustained inflows are needed to confirm a stronger recovery," Vikram Subburaj, CEO of India-based Giottus, said in an email.
+History offers some support. Steep uptrends have been characterized by average daily net inflows of over $200 million.
+Since the funds launched in January 2024, bitcoin has had three steep rallies, a stretch in which bitcoin gained more than 50% without ever falling more than 20% from its highest point along the way.
+In the first, from Jan. 23 to March 14, 2024, bitcoin rose 79% from about $39,900 to $71,400. The funds took in an average of $294 million a day, with 10 days of $500 million or more and one of $1 billion or more.
+The second ran from Aug. 5 to Dec. 17, 2024. Bitcoin gained 96%, from about $54,100 to $106,100. Daily inflows averaged $202 million, with 16 days of $500 million or more and three of $1 billion or more.
+In the third, from Apr. 6 to Jul. 14, 2025, bitcoin rose 53%, from about $78,400 to $119,900. Inflows averaged $248 million a day, with 13 days of $500 million or more and two of $1 billion or more.
+Across those 199 trading days, the funds took in $46.7 billion, an average of about $235 million a day. There were 39 days of $500 million or more and six of $1 billion or more.
+The current pace is slower.
+Since July 1, bitcoin has gained 39%, from about $60,000 to $83,500. The funds had seven days of $500 million or more in that time, about one in 11 trading days, against about one in five during the three steep rallies.
+The average of about $86 million a day is well below the $200 million-plus of those steep rallies, and there hasn't been a single day of $1 billion or more.
+So, if history is a guide, a steep run higher from here would require a steady pace of inflows. That said, the past is a guide, not a promise, though. Demand coming through other channels, such as futures or direct purchases of the token in the spot market, can also lift prices.
+
+Summary:

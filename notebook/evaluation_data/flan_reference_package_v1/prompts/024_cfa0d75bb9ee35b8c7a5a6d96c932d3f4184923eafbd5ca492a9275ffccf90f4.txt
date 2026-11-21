@@ -1,0 +1,32 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131. Bitcoin whale moves $34 million in BTC it got in 2013 when coins traded at $131
+A bitcoin wallet dormant since 2013 moved 411 BTC, now worth about $34 million. It is one of several long-dormant wallets to wake up recently.
+- A Bitcoin wallet dormant since 2013 transferred all 411.45 of its coins, now worth about $34 million, to a new address on Sunday.
+- The owner acquired most of the Bitcoin when it was worth about $54,000 and held it through major market swings as its value increased more than 600-fold.
+- The funds have not moved to an exchange, and the transfer to a modern SegWit address suggests a security upgrade rather than an imminent sale.
+A bitcoin 
+On Sunday, the wallet moved all 411.45 of its BTC to a new address, according to blockchain data from Arkham Intelligence. At today’s price of about $82,600 per coin, that stash is worth roughly $34 million. When the owner first acquired those coins, the entire balance was worth just $54,000.
+This awakening is part of a broader trend of historic supply shifting wallets this month. Just a day prior, two other wallets dormant for over a decade moved a combined 417 Bitcoin, and the week before, a large whale wallet static since the pre-Covid crash migrated its funds.
+The pattern is highly reminiscent of 2025, when isolated mega-whales repeatedly woke up from a prolonged slumber. Just like last year, these sudden movements of long-dormant supply tend to spark speculation about a potential sale. But, as was the case then, most of the coins have been moved to new private wallets, a sign of custodial maintenance rather than an impending market dump.
+The specific wallet behind Sunday's move received the bulk of its funds, some 411 BTC, on Sept. 11, 2013. Back then the cryptocurrency traded around $131. Over the next 13 years, the owner didn't buy, sell, or move a single coin. They simply sat tight as the asset's value skyrocketed more than 600 times, holding through three halvings, the 2017 boom, the 2022 FTX collapse, and the launch of spot bitcoin ETFs in 2024.
+While the owner remained completely inactive, the wallet itself did see some activity over the years. Dozens of tiny deposits trickled in, each worth less than a dollar. Several came from addresses that Arkham labels as phishing. It’s a common scam tactic known as “address poisoning.” Fraudsters send trace amounts of crypto ("dust") to high-value wallets, hoping the owner will accidentally copy the scammer's address from their transaction history during a future transfer.
+The whale didn't fall for it.
+At 18:23 UTC on Sunday, the owner sent the entire fortune to a new address, paying a transaction fee of just 337 satoshis, a fraction of a single cent.
+So far, the funds have not been moved to an exchange. The new destination wallet has only received this single transfer and has not initiated any outgoing transactions. That lack of movement points to routine custodial housekeeping rather than a market sell-off.
+The original 2013 wallet relied on an outdated address format, whereas the new destination utilizes SegWit (P2WPKH type), which is the modern standard that offers better security and lower transaction fees. Long-dormant holders frequently migrate to these upgraded formats to secure their assets before making any major financial moves.
+
+Summary:

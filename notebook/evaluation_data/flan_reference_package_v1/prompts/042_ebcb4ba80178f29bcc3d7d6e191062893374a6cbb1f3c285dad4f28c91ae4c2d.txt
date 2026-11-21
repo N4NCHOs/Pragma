@@ -1,0 +1,31 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre. Kazakhstan court bars Coinbase, five others from unlicensed crypto services in Astana International Financial Centre
+The court injunctions apply strictly to users within the AIFC and do not extend across the rest of Kazakhstan.
+- Kazakhstan’s AIFC Court barred Coinbase and five other crypto exchanges from offering unlicensed services inside the Astana financial center.
+- The court injunctions apply strictly to users within the AIFC and do not extend across the rest of Kazakhstan.
+- LBank was removed from the order after resolving AFSA concerns, while Apple and Google face potential app-store duties once served.
+Kazakhstan’s financial regulator secured court orders restricting Coinbase and five other crypto platforms from offering services without authorization in the Astana International Financial Centre (AIFC).
+The Astana Financial Services Authority (AFSA) said that the injunctions cover BingX, Bitcoin.com, Huobi Global (HTX), BitMart, Coinbase and WEEX. The orders prohibit the platforms from offering or marketing unlicensed digital asset services and distributing mobile apps for those services within the center.
+The restrictions do not amount to a nationwide ban. In a Sept. 15 judgment, Justice Sir Stephen Richards said the injunctions apply only to the AIFC and users located there.
+The Astana International Financial Centre is a financial hub in Kazakhstan’s capital that operates under its own legal framework and regulator. It requires crypto firms to obtain a license to offer services within the center.
+The order also binds Google and Apple as app-store operators, though the court declined to issue a separate injunction against them, saying AFSA should first discuss necessary steps with the firms.
+LBank was named in the initial proceedings, and was removed on Sept. 18 after addressing AFSA’s concerns. The regulator said the platform blocked access to its services in Kazakhstan.
+The court entered judgment by default after the platform operators failed to respond within the required period. AFSA said its enforcement effort began in 2025 with warnings to more than 20 crypto platforms, followed by court proceedings in early 2026.
+Coinbase had previously faced restrictions in Kazakhstan in 2023, when authorities blocked its website over alleged violations of the country’s digital asset law.
+CoinDesk reached out to the platforms for comment, but hadn’t heard back before publication.
+
+Summary:

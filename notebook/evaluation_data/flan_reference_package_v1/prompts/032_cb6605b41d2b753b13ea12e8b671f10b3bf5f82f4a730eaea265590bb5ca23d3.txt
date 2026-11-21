@@ -1,0 +1,31 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Zerohash rolls out a new tool to move crypto without copying wallet addresses. Zerohash rolls out a new tool to move crypto without copying wallet addresses
+The launch comes as Zerohash bids for a federal trust charter.
+- Users can approve transfers without copying wallet addresses or choosing a blockchain network.
+- Zerohash says AUTH supports more than 600 connections, with 4 of them being exchange or brokerage accounts and the rest being wallets.
+Zerohash launched AUTH, a service that lets users move crypto between linked accounts without copying wallet addresses or choosing a blockchain network, simplifying digital asset transactions.
+The crypto services firm announced the tool, which lets users link exchange accounts or self-custody wallets at the Money20/20 conference in Las Vegas.
+“Onchain rails scale when users stop thinking about the underlying technology. Usability, trust and control is the inflection point for mass adoption,” said Ryan Beaudry, general manager of AUTH. Beaudry, who was previously executive vice president of global product and operations for open finance at Mastercard, will be the general manager of AUTH, according to a statement.
+AUTH supports crypto, stablecoins and blockchain-based securities like stock tokens. Zerohash said the service supports more than 600 connections, including Coinbase, Robinhood, Gemini, MetaMask and Phantom. Zerohash’s developer documentation listed support for 639 wallets and four exchange or brokerage accounts. Coinbase, Robinhood and Gemini are live, while Kraken is in beta.
+The launch comes as Zerohash seeks to expand its regulatory standing. In July, the Office of the Comptroller of the Currency returned the firm’s application for a national trust bank charter, a step the agency takes when it considers a filing materially deficient. The firm called the return an administrative process and refiled a narrower application on Aug. 18. The application is still pending.
+The goal of this new product is to reduce the steps required to move funds, the firm said.
+To make a transaction, users pick an account or wallet inside an app that offers AUTH, sign in and approve the move. The service handles routing and settlement, while each app sets which assets, accounts and transfer types it allows.
+Alex LaPrade, CEO of a popular non-custodial Ethereum and multi-chain crypto wallet, said that transfers to wallets have previously involved repeated address checks and test payments, which were “one of the biggest points of friction” that AUTH is aiming to simplify.
+Zerohash, founded in 2017, has a global regulatory footprint across the EU, Latin America, Bermuda, and the U.S., and operates regulated entities in 51 U.S. jurisdictions, according to its website. The Chicago-based company was in acquisition talks with Mastercard, which fell through earlier this year. At the time, Zerohash was reportedly in talks to raise $250 million at a $1.5 billion valuation.
+Companies connect to zerohash through APIs and developer tools, and the firm handles custody, compliance, liquidity, settlement, and blockchain connectivity. The firm already provides crypto infrastructure for firms, including Morgan Stanley’s E*Trade.
+
+Summary:

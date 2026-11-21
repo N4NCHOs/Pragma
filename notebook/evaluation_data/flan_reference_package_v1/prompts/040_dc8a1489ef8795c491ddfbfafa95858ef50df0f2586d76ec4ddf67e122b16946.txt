@@ -1,0 +1,31 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade. JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade
+The report marks the first time JPMorgan has put a range on bitcoin returns in its research, though the bank remains cautious about BTC's role in portfolios.
+- JPMorgan projects bitcoin will return 10% annually over the next decade in its base case, outpacing its forecasts for U.S. stocks, bonds and gold.
+- The bank’s first range of long-term bitcoin forecasts spans from a 9.7% annual loss in its bear case to a 17% annual gain in its bull case.
+- JPMorgan remains cautious about bitcoin, describing it as a speculative asset whose volatility and unstable correlations hinder its widespread inclusion in investment portfolios.
+Investment banking behemoth JPMorgan (JPM) expects bitcoin 
+JPMorgan forecasted a base case of 10% annualized returns for bitcoin over the next 10 years in its 2027 Long-Term Capital Market Assumptions report on Tuesday. The bank also set a bear case of -9.7% and a bull case of 17%.
+The figure compared to projected 5.6%-6.6% growth in U.S. bonds, 7.5% and 7.7% in U.S. large and small-cap equities respectively and 5.5% in gold.
+The report marks the first time JPMorgan has put a range on bitcoin returns in its research.
+The New York based banking group has a complicated history with cryptocurrency, largely due to the association of CEO Jamie Dimon’s widely publicized views of bitcoin. Dimon famously described the world’s largest crypto as a “fraud” in 2017, a skeptical position he has reiterated with somewhat softer verbiage in recent years.
+JPMorgan maintained a cautious view of bitcoin in Tuesday’s report, saying its “volatility and unstable correlation to other asset classes…remain an obstacle to [its] widespread inclusion in portfolios.”
+Furthermore, the bank does not make a case for bitcoin as a portfolio diversifier, instead viewing it as a “speculative asset and a hedge against monetary easing,” according to comments by portfolio manager Dr Sheena Shah and head of digital asset strategy Dennis Cristallo.
+“It lacks a strategic role in portfolios other than as a bet on fiat currency expansion or future asset trading on blockchains,” they added.
+“BTC mostly trades like a high beta risk asset that tracks global money supply growth, but it is sometimes treated as ‘digital gold.’ Unstable correlations with other assets present a modeling hurdle. A further challenge is forecasting an asset whose fundamentals are not cash flows and whose economics may be as much about adoption, regulation and liquidity as technology.”
+
+Summary:

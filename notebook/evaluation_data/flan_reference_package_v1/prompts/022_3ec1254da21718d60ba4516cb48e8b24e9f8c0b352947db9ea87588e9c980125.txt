@@ -1,0 +1,31 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+XRP Ledger is set to fix its lending code before anyone can use it. XRP Ledger is set to fix its lending code before anyone can use it
+Validators have a bug-fix patch on course to go live Friday. The lending system it partly repairs is still 10 votes short of approval.
+- A package of XRP Ledger bug fixes is expected to take effect around 09:34 UTC on Oct. 23 after securing the minimum 29 validator votes required for approval.
+- The fixes address Ripple’s proposed uncollateralized lending system, which remains inactive because its lending and vault amendments have only 19 and 21 votes, respectively.
+- The package also closes a loophole that could allow certain accounts to create tokens despite having permission only to destroy them, while revising vault rounding and loan-default rules.
+A batch of bug fixes is set to go live on the XRP Ledger on Friday, and some of them patch the lending system Ripple has pitched to banks and payment companies since June — a system that hasn’t been switched on yet and is still 10 votes short of approval.
+Validators are the independent servers that agree on which transactions count. A change to the network’s rules needs backing from more than 80% of the 35 validators the network trusts by default, which works out to 29, and that backing has to hold for two straight weeks.
+Under the plan, a lender deposits XRP or another token into a vault, and a loan broker lends that money out for a fixed term. The ledger records the loan and tracks repayments, and the broker decides offchain whether a borrowe
+Borrowers don’t post collateral, so the broker’s judgment is all that stands between lenders and a default. Ripple has pitched the setup to payment companies that need cash while a cross-border settlement clears.
+The bug-fix package, called fixCleanup3_4_0, had exactly 29 votes as of Monday, according to the XRPL Dashboard. It’s nine days into its two-week countdown and on course to go live around 09:34 UTC on Oct. 23. It has no votes to spare, so one validator pulling support would restart the clock.
+The lending system has 19 votes. The vaults that would hold lenders’ money are a separate change and have 21. Neither has started a countdown, so even if both hit 29 votes today, lending couldn’t go live before early November.
+Separately, the patch also closes a loophole that could let an account allowed only to burn, or destroy, tokens on an issuer’s behalf create new ones under certain conditions, according to the xrpld 3.4.0 release notes.
+It will further changes how vaults round amounts and how the lending code decides when a loan is late or in default.
+Read More: Ripple wants institutions to borrow against tokenized assets on XRPL
+
+Summary:

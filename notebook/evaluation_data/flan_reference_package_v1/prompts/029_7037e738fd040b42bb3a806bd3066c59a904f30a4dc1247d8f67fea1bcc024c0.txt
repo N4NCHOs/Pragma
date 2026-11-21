@@ -1,0 +1,59 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Live updates: Bitcoin edges higher as U.S. stocks rebound early Monday. Metaplanet moves closer to U.S. bitcoin treasury platform as shareholders approve Superplanet deal
+Super League shareholders have approved Metaplanet’s proposed takeover, according to Metaplanet CEO, Simon Gerovich, which paves the way for the companys rebrand to Superplanet (SUPA), a U.S.-listed bitcoin treasury platform.
+At closing, Metaplanet will contribute 2,100 BTC out of its 44,000 BTC and $2.5 million for approximately 93.7% ownership, with its shares locked up for five years.
+Superplanet plans to grow bitcoin per share primarily through non-convertible perpetual preferred stock, expanding Metaplanet’s access to U.S. capital markets.
+Strategy purchased 267 bitcoin last week, while Strive added 1,223
+Michael Saylor’s Strategy MSTR$139.14 acquired a modest 267 bitcoin last week, bringing total holdings to 848,517 coins. The company also bought back another $193 million of its high-yielding preferred stock STRC and boosted the size of that repurchase program to $3 billion from $2 billion.
+STRC fell back to $97.72 during last week’s market-wide selloff, likely indicating that Saylor and team will continue buying back shares rather than issuing them to acquire more bitcoin.
+Matt Cole’s Strive ASST$25.38, meanwhile, continued its relatively fast bitcoin acquisition spree, adding another 1,223 coins and bringing total holdings to 36,818.
+The company will have another $600 million in buying power later this week when the IPO proceeds from its SATA preferred stock offering hit its bank account.
+Strive’s original high-yielding preferred stock SATA was also caught up in the market panic last week, falling all the way back to $96.83. It had previously spent several weeks trading at or above par value ($100), allowing the company to use it as a funding mechanism to buy more bitcoin.
+Cboe’s VIX index, also known as Wall Street’s fear gauge, is down 5% as of this writing.
+The index, representing the market’s expectations for the degree of price swings in the S&P 500 over the next four weeks, is hovering just below 19. It surged by over 20% to nearly 20 on Friday as AI stocks tanked.
+French bond spread on the rise after weekend riots
+The U.S. equity market appears poised for a strong rebound on Monday, and Treasury rates are slipping, but that’s not the case in Europe.
+Leading a 1.3% decline in the Euro Stoxx 50 is France’s CAC 40, lower by 1.65% following ugly-looking rioting in that country over the weekend.
+Bond yields are moving higher as well; the French 10-year OAT yield is up 11 basis points to 4.89%, while the German 10-year Bund yield gains just 3.5% basis points to 3.44%. That puts the 10-year spread between the two to 145 basis points, the highest level in two weeks.
+Bitcoin’s weekend bounce is still just a rebound, FxPro says, as bulls lean on October seasonality
+Dip buyers defended bitcoin’s 50-day moving average again over the weekend, lifting it 1.4% to about $82,800 on Monday, but FxPro’s chief market analyst Alex Kuptsikevich is calling it a rebound for now.
+The 50-day moving average, bitcoin’s average closing price over the past 50 days, sits near $81,000 and has caught every dip since last Tuesday. Holding it keeps the medium-term trend intact. Breaking higher takes more than that.
+“This rise is better described as a rebound than a resumption of upward momentum,” Kuptsikevich said in an email to CoinDesk.
+He pointed to last summer as a guide, when bitcoin chopped around similar levels for more than a month back then, and only a sharp surge on Aug. 19 kicked off the rally that followed.
+Bulls are leaning on the calendar. Traditional markets often put in a local bottom toward the end of October, Kuptsikevich said, and crypto investors are betting that pattern helps them claw back last week’s losses.
+'Irrational despair': Neolcouds rising early Monday after last week's plunge
+“Irrational despair,” goes the title of a note from StoneX’s Mark Palmer on Galaxy Digital GLXY$16.37, one of the names swept up in the panic over AI data center stocks over the past couple of weeks.
+The market is valuing GLXY as if CoreWeave (CRWV) — Galaxy’s tenant at its Helios data center — has already failed and Galaxy could find no other tenants, argued Palmer.
+He reiterated his buy rating and $57 price target on GLXY. GLXY is higher by 3% pre-market to $16.80 following last week’s 20% decline.
+Goldman Sachs is boosting the mood as well, upgrading CoreWeave to buy from neutral.
+CRWV is up 6% after falling 23.5%. Hut 8 HUT$68.21, TeraWulf WULF$12.05 and IREN IREN$28.11 are among those rising more than 5%.
+Elon Musk to give away SpaceX shares to American children
+“Next year, I will give one of my SpaceX SPCX$148.28 shares to every kid in America,” tweeted Elon Musk early Monday morning. “This will be the first of many.”
+The company reports its third-quarter results after the close on Thursday.
+Oil reverses early drop as U.S. issues security alerts across Middle East nations
+Oil prices have bounced from Asian session lows on fears of a fresh escalation in Middle East geopolitical tensions.
+WTI futures have recovered to $98.55, down just 0.5% on the day, after hitting a low of $96.72 during Asian hours. Bitcoin BTC$82,322.67 and ether ETH$2,404.07 have erased their early gains.
+A few hours ago, the U.S. reportedly issued warnings across 12 locations in the Middle East, warning it citizens of potential flight cancellations and airspace closures. The warning covers Saudi Arabia, the United Arab Emirates (UAE), Kuwait, Jordan, Bahrain, Oman, Iran, Qatar, Iraq, Lebanon, Yemen and Israel/Jerusalem.
+This has triggered fears of fresh U.S. strikes on Iran and continued disruption of oil flow through the pivotal Strait of Hormuz.
+Bitcoin pokes above $83,000 for a moment as tech futures snap a weeklong skid
+Bitcoin climbed from an overnight low near $80,700 to just above $83,000 early Monday, then slipped back to about $82,400 within half an hour. Sellers were waiting for the move.
+It was a quick turn. Bitcoin is up 0.3% over 24 hours, and $83,000 is still about $1,000 short of the ceiling that turned it back twice last week, near $84,000 on Oct. 13 and again on Oct. 14.
+The bounce tracked a rebound in tech. Nasdaq 100 futures climbed 1.1%, snapping a weeklong 5.5% selloff, and S&P 500 futures rose 0.5%. An ETF tracking chipmakers jumped 3% before the U.S. open, on course for its first gain in 10 sessions. This week’s earnings will put the AI trade under the spotlight again.
+Europe was weaker. The Stoxx 600 fell 0.8% after a weekend of protests in France, French bonds led a selloff in European debt, and the euro was the worst performer among major currencies. The dollar was flat, and Brent crude slipped from a five-month high.
+A move through $84,000 would be the first sign the tech rebound is pulling bitcoin up with it.
+
+Summary:

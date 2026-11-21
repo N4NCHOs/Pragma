@@ -5,7 +5,7 @@ COINDESK RSS SCRAPE SCHEDULER
 ----------
 
 rss_scrape_scheduler.py is an incremental news-ingestion job. Each time the
-script runs, it downloads the 25 newest CoinDesk RSS entries, compares them
+script runs, it downloads up to 100 available CoinDesk RSS entries, compares them
 with the previous RSS snapshot, and scrapes only entries that have not appeared
 in that snapshot.
 
@@ -41,6 +41,7 @@ Python packages:
   feedparser
   requests
   trafilatura
+  lxml
 
 
 4. FIRST-TIME SETUP
@@ -78,7 +79,7 @@ It prints each new article while scraping and ends with a summary similar to:
   }
 
 On the first run, rss_history.json does not exist, so all available RSS entries
-(up to 25) are considered new.
+(up to RSS_LIMIT, currently 100) are considered new.
 
 
 6. STEP-BY-STEP RUN SEQUENCE
@@ -97,7 +98,7 @@ Step 2: Fetch the RSS feed
 
   https://www.coindesk.com/arc/outboundfeeds/rss/
 
-  It reads at most the newest 25 usable entries and extracts fields such as
+  It reads up to RSS_LIMIT available entries and extracts fields such as
   guid, title, RSS summary, URL, publication time, and categories.
 
 Step 3: Save the temporary RSS snapshot
@@ -124,10 +125,15 @@ Step 5: Detect new articles
 Step 6: Scrape only new articles
 
   For each new URL, the script downloads the public article page and uses
-  trafilatura to extract the main article text. It also removes duplicate lines
-  and a detected pagination tail.
+  trafilatura to extract the main article text. Before extraction, prune_xpath
+  excludes the site footer, article-bottom recommendations, and clearly bounded
+  What's trending sections. Ambiguous trending sections are retained. Existing
+  duplicate-line and pagination-tail cleanup follows.
 
-  There is a two-second delay between article requests by default.
+  Title and metadata continue to come from RSS; page metadata does not replace
+  the RSS title. The JSON schema and output paths remain the same.
+
+  There is a five-second delay between article requests by default.
 
 Step 7: Record success or failure
 

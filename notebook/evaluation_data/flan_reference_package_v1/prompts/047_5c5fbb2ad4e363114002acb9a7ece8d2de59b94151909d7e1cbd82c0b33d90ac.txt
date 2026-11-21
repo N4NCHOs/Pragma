@@ -1,0 +1,29 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Tether leads $15 million funding round for AI-focused payment startup Mural. Tether leads $15 million funding round for AI-focused payment startup Mural
+The Series A round, which included participation from North Island Ventures and existing investors, brings New York-based Mural's total funding to $28 million.
+- Tether led a $15 million Series A funding round for Mural, bringing the financial infrastructure company’s total funding to $28 million.
+- Founded by former Palantir engineers, Mural helps companies manage payments, accounts, identity verification and regulatory compliance across banking networks and blockchains.
+- The investment advances Tether’s push into agentic finance as companies develop safeguards that allow AI systems to execute transactions on behalf of people and businesses.
+Tether led a $15 million funding round in Mural, expanding the stablecoin issuer’s investments in technology that enables AI agents to handle payments.
+The Series A round, which included participation from North Island Ventures and existing investors, brings New York-based Mural's total funding to $28 million, according to an emailed announcement on Tuesday.
+Mural, founded by former Palantir (PLTR) engineers, provides fintechs and other platforms with infrastructure for managing accounts, payments, identity verification and regulatory compliance across traditional banking networks and blockchains. Its customers include payroll platform Deel and browser developer Opera.
+The funding comes as financial technology companies explore “agentic finance,” in which AI systems can initiate and execute transactions on behalf of individuals or businesses.
+Mural's infrastructure allows companies to set transaction limits, restrict counterparties and require additional approvals for larger payments, addressing questions around authorization and accountability when autonomous software moves money.
+“As agents start moving money, that connection to the banks, payment networks and compliance systems the world still runs on becomes essential,” Tether CEO Paolo Ardoino said in the statement.
+The investment reflects Tether's growing interest in infrastructure beyond stablecoin issuance, particularly as programmable payments emerge as a potential use case for AI-powered financial services.
+
+Summary:

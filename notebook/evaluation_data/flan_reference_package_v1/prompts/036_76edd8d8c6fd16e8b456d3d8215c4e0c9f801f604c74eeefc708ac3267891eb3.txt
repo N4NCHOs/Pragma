@@ -1,0 +1,27 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+South Korean IPO plunge deepens AI market jitters as brent tops $111. South Korean IPO plunge deepens AI market jitters as brent tops $111
+Elice’s debut slump added to concerns over AI infrastructure valuations, while rising oil prices compounded market uncertainty.
+- South Korean data centre Elice closed a third below its IPO price despite retail demand exceeding 400 times the allocation, as the KOSPI fell almost 4%.
+- CoreWeave slipped another 3% in pre-market trading.
+- Brent crude topped $111 a barrel amid persistent Middle Eastern concerns.
+South Korean data centre company Elice’s (0158S0) stock market debut added to nervousness surrounding artificial intelligence investments on Tuesday, as investors further questioned whether spending on infrastructure will deliver sufficient returns.
+The Seoul-based neocloud provider closed at 60,500 won ($45.57), down over 30% from its 90,500 won offer price. The IPO raised $151 million at a valuation of roughly $755 million, according to Bloomberg. The slump followed a retail offering oversubscribed more than 400 times.
+The weak debut accompanied another sell-off in South Korean equities. The KOSPI dropped almost 4% to finish at 5,552, with Samsung Electronics falling around 3% and SK Hynix losing roughly 4%.
+Pressure has extended into U.S. pre-market trading, where CoreWeave (CRWV) fell another 3%. The neocloud sector faces scrutiny over borrowing costs, high debt levels and the profitability of capital-intensive expansion plans. Technology shares, bitcoin and gold were also lower on Tuesday morning.
+Meanwhile, brent crude topped $111 a barrel, reaching its highest level since May, while WTI traded around $100. Brent’s roughly $11 premium reflected persistent concerns about Middle Eastern supply disruptions and shipping risks.
+
+Summary:

@@ -1,0 +1,30 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears. Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears
+The service will initially support bitcoin, ether and the stablecoins USDC, EURC and EURAU, with the bank managing clients’ wallets and private keys.
+- Deutsche Bank plans to bring its crypto custody service to Asia in 2027 and launch it in Germany within weeks, its corporate bank co-head told Reuters.
+- The service will initially support bitcoin, ether and the stablecoins USDC, EURC and EURAU, with the bank managing clients’ wallets and private keys.
+- The bank also plans stablecoin conversion, tokenized deposits and digital bond issuance as part of a target of roughly 8% annual revenue growth by 2028.
+Deutsche Bank (DB) plans to bring its crypto custody service to Asia in 2027, extending its push into digital assets as it prepares to launch the service in Germany within weeks.
+The German banking giant, Reuters reported citing the firm’s co-head, also plans to offer stablecoin conversion, tokenized deposits and services that help clients issue digital bonds and other blockchain-based securities.
+The move could give institutional clients in Asia access to crypto services through an established global bank, without having to manage their own crypto wallets or private keys. It’s unclear which Asian financial services it will target first.
+Deutsche Bank's custody service will allow corporate and institutional clients to hold and transfer cryptocurrencies, with the bank handling the technology needed to keep the assets secure.
+The bank said in September that its initial offering would support bitcoin, ether and stablecoins including USDC, EURC and EURAU. The German launch remains subject to regulatory approval.
+The bank received authorization from Germany’s financial regulator, BaFin, under the EU’s Markets in Crypto-Assets (MiCA) rules on October 12, according to the European Securities and Markets Authority’s interim register.
+Podobnik said the expansion is part of Deutsche Bank’s broader plan to achieve roughly 8% compound annual revenue growth in its corporate bank from 2025 to 2028.
+The Asia rollout would extend the custody service beyond Europe as banks seek a larger role in managing digital assets for institutional clients. Deutsche Bank has worked with Bitpanda and Taurus on its custody plans, and joins rivals such as Standard Chartered and BBVA in offering crypto custody.
+
+Summary:

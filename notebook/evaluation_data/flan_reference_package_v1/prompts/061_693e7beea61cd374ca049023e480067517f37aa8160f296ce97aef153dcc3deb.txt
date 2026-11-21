@@ -1,0 +1,77 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Crypto for Advisors: Stablecoins are ready for prime time. Crypto for Advisors: Stablecoins are ready for prime time
+You’re reading Crypto for Advisors, CoinDesk’s weekly newsletter that unpacks digital assets for financial advisors. Subscribe here to get it every Thursday.
+Happy Thursday, advisors!
+In today’s newsletter, Prashant Kher of EY-Parthenon on what new survey data shows about where stablecoins are gaining ground, and what will decide which payment rails scale
+Then, in “Ask an Expert,” Sam Boboev of Fintech WrapUp on whether euro stablecoins can challenge the dollar’s lead, and who is best placed to win on distribution.
+Happy reading.
+Stablecoins are going mainstream
+A year ago, the stablecoin debate centered on whether regulatory clarity and a compelling combination of speed, cost and liquidity benefits would drive meaningful adoption. The evidence now points to a market moving decisively from experimentation toward implementation.
+EY-Parthenon’s 2026 Blockchain Payments Survey of 521 corporate and financial institution decision-makers found that 18% of corporates have used stablecoins in production, double the share reported in our 2025 survey. Tokenized deposits are close behind, with 15% of corporates reporting adoption.
+Financial institutions are also making firm commitments. A total of 69% offer stablecoin services or plan to launch them within two years, up from 30% in 2025. Among banks, 49% already offer or plan to offer tokenized deposits over the same period.
+Although blockchain payments have not yet reached mass adoption, the survey findings provide clear evidence that the market is shifting from technology trials to integrating capabilities into existing payment workflows and treasury operations.
+Cross-border payments are the entry point
+Cross-border business payments remain the most common use case. Across stablecoins and tokenized deposits, 50% to 53% of all respondents have used or are exploring each for cross-border supplier payments or cross-border business-to-business (B2B) payment acceptance.
+Overall blockchain payments exploration & adoption
+Cross-border B2B flows lead blockchain payment use cases for most respondents, while interest in payouts is concentrated among banks and payments firms.
+Source: 2026 EY-Parthenon blockchain payments survey
+These applications directly address frictions corporates experience in cross-border payments. A total of 56% cite slow processing and settlement; 52% cite foreign exchange costs or spreads; 48% cite regulatory, sanctions and compliance delays; and 36% cite correspondent banking fees. Financial institutions see the corresponding opportunity, with faster settlement and lower costs ranking among the leading drivers of interest in both stablecoins and tokenized deposits.
+The opportunity extends beyond basic money movement. Tokenized asset settlement was the most frequently selected opportunity to add value on top of blockchain payment rails, cited by 63% of respondents from financial institutions, reflecting strong interest in using blockchain-based money as a settlement mechanism.
+The market is becoming multi-rail
+Adoption is moving beyond a binary choice between stablecoins and tokenized deposits. Among respondents with an interest in blockchain payments, 45% of corporates and 53% of financial institutions favor using both rails. Respondents cite flexibility and the expectation that the two methods will coexist as leading reasons, suggesting that different payment needs will call for different forms of digital money.
+That preference reflects the different roles the two methods can play. Stablecoins provide reach across wallets, platforms and public blockchain networks, while tokenized deposits can bring commercial bank money into programmable environments. Rather than selecting a single rail, organizations can choose between them based on the use case, counterparty, geography and liquidity requirements.
+For financial institutions and payment providers, the opportunity is to make that choice seamless for clients, enabling them to move between payment methods, both traditional fiat and blockchain payments, through integrated processes and a unified experience.
+Integration and programmability will determine what scales
+Corporate expectations favor embedded delivery of blockchain payment services. A total of 76% consider integration with existing enterprise resource planning, treasury management and banking platforms very important or critical. In addition, 74% want blockchain payments fully integrated into existing banking and payment interfaces, while only 14% prefer a separate experience for digital assets.
+That preference creates an advantage for incumbent providers: 63% of corporates would likely adopt blockchain payments if offered by their existing bank or payments provider. However, financial institutions must build on trusted relationships with credible economics, secure execution and regulatory readiness.
+Programmability represents a separate but complementary opportunity to create value. A total of 54% of financial institutions already offer or plan to launch programmable payments within two years, and 75% view them as at least a moderate revenue opportunity. For financial institutions, the leading priorities for programmable payments include liquidity and cash management automation at 51%, conditional payments at 51%, automated reconciliation at 49% and cross-border automation at 47%.
+Outlook
+Blockchain payment adoption may increasingly occur inside familiar banking and payment products, rather than through stand-alone digital asset interfaces. Institutions that integrate stablecoins, tokenized deposits and traditional rails into existing workflows, while adding programmable services above those rails, will be best positioned to lead the next phase of adoption.
+Disclaimer: The views expressed in this article are those of the author and not necessarily those of Ernst & Young LLP or other members of the EY global organization.
+- Prashant Kher, partner, EY-Parthenon
+Ask an Expert
+Q. Why are payment companies launching their own stablecoins, such as OUSD, and how could this change their business models?
+- Payment companies are increasingly interested in issuing stablecoins because they see an opportunity to capture more value from the money moving through their platforms.
+Today, payment providers generate revenue primarily through transaction fees, currency conversion and other financial services. Issuing a stablecoin could create an additional revenue stream from the reserves backing tokens in circulation, subject to the applicable regulatory framework.
+There is also a strategic benefit. A payment company with its own stablecoin could connect merchant settlements, cross-border payouts and customer balances within a single infrastructure.
+This could reduce dependence on external settlement providers and improve liquidity management.
+However, distribution will be critical. Issuing a stablecoin is relatively straightforward compared with convincing businesses to hold and use it.
+I expect payment companies with established merchant networks and strong distribution to have an advantage. Their existing customer relationships could help them turn stablecoins into practical payment products.
+Q. Why are banking consortia in the U.S. and Europe developing stablecoins, and how could they compete with existing issuers?
+- Banks are increasingly concerned about losing payment flows and customer balances as stablecoin adoption grows.
+In Europe, Qivalis has brought together 37 financial institutions across 15 countries to develop a regulated euro stablecoin.
+Meanwhile, a separate global consortia of 21 financial institutions, including Bank of America, Citi, Goldman Sachs and Wells Fargo, announced plans in September 2026 to launch a U.S. dollar stablecoin in the first half of 2027, with euro issuance also a priority.
+These initiatives could allow banks to offer around-the-clock settlement while retaining their role in managing customer funds.
+I see the biggest opportunity in institutional payments and tokenized asset settlement, where banks already have established customer relationships and payment infrastructure.
+However, competing with existing stablecoin issuers will require sufficient liquidity and broad distribution.
+The real test will be whether these consortiums can convert their existing banking relationships into meaningful transaction volumes.
+Q. What is driving the push for euro-denominated stablecoins, and can they challenge the dominance of U.S. dollar stablecoins?
+- Euro stablecoins currently represent a tiny share of the market. According to Bank of Ireland, just 0.2% of global stablecoin circulation was euro-denominated in May 2026.
+This creates a problem for European businesses that want to use blockchain payments while keeping their transactions and treasury balances in euros.
+Using dollar stablecoins introduces foreign exchange costs and currency exposure.
+The EU’s Markets in Crypto-Assets (MiCA) regulation has provided a regulatory framework for euro stablecoin issuers, while European banks are developing infrastructure to support euro-denominated settlement.
+I see the strongest opportunities in European B2B payments and corporate treasury.
+However, challenging dollar stablecoins globally will be difficult. Dollar liquidity and established distribution networks give existing issuers a considerable advantage.
+The more realistic opportunity is to build a strong euro stablecoin market serving European businesses and financial institutions.
+Adoption will depend on liquidity and integration with existing banking systems.
+Keep Reading
+- JP Morgan predicts bitcoin will be the top performing asset of the next 10 years.
+- The U.S. Office of the Comptroller of the Currency(OCC) has issued the first final rule under the GENIUS Act requiring crypto exchanges to seek approval for existing stablecoin rewards programs.
+- Switzerland’s Financial Market Supervisory Authority (FINMA) has approved the country’s first retail bitcoin fund, allowing direct bitcoin investment for everyday investors under strict risk disclosure and custody requirements.
+Looking for more? Receive the latest crypto news from coindesk.com and market updates from coindesk.com/institutions.
+
+Summary:

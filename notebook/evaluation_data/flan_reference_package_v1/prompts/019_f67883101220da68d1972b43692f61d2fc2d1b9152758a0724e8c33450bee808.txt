@@ -1,0 +1,54 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook. Bitcoin’s $100,000 year-end hope divides analysts as inflation clouds outlook
+Bitwise sees a potential return above $100,000, while LO:TECH expects a narrower trading range as interest-rate uncertainty weighs on the market.
+- Bitwise sees bitcoin potentially topping $100,000 by year-end, supported by institutional adoption and demand for hard assets.
+- LO:TECH expects an $85,000–$95,000 year-end range as inflation and rate-hike risks constrain gains.
+- Laser Digital sees potential for a short squeeze, while CoinShares says a sustained breakout needs renewed buying.
+Bitcoin 
+The forecasts highlight a divide over timing. Analysts see longer-term support from institutional investment, regulatory progress and concerns about government debt, but disagree on whether those forces can drive a breakout before the end of 2026.
+Ryan Rasmussen, head of research at Bitwise, expects bitcoin to emerge from the coming weeks’ uncertainty at a higher valuation.
+“We believe bitcoin ends the year higher, potentially above $100,000,” Rasmussen told CoinDesk.
+He identified three longer-term drivers: institutional buying through exchange-traded funds (ETFs) and corporate purchases; demand for hard assets amid inflation, rising debt and currency debasement; and clearer regulation that reduces the perceived risk of owning crypto.
+“In our view, these tailwinds significantly outweigh the potential headwinds,” he said.
+The macro hurdle
+Rasmussen nevertheless expects volatility around a possible late-October Federal Reserve rate increase and November’s U.S. midterm elections. A breakout would be difficult in that environment, he said, although the uncertainty could create an opportunity for investors to build positions.
+Adam Morgan McCarthy, head of research at LO:TECH, a London-based crypto trading and market data firm, is more cautious. His base case is an $85,000–$95,000 trading range into year-end.
+“Macro has gone against Bitcoin all year, with the Fed hiking in September and a December hike priced at roughly 75%,” McCarthy said. “This will continue to weigh on bitcoin.”
+The Fed raised its benchmark rate by a quarter percentage point in September. Inflation figures released Oct. 14 complicated the outlook: consumer prices rose 0.6% from the previous month, while core prices increased 0.3%. Gasoline accounted for more than half of the headline increase.
+McCarthy said a return above $100,000 would require expectations for a December hike to give way to a pause, supported by easing oil prices and inflation.
+James Butterfill, head of research at CoinShares, sees a similar tension between persistent inflation and weakening employment. Cooling prices would give the Fed more room to respond to labor-market weakness; further inflation pressure could keep policy restrictive and weigh on bitcoin.
+The world’s largest cryptocurrency was trading around $81,500 at publication time.
+Less leverage, potential for a squeeze
+Luca Invernizzi, senior derivatives trader at Laser Digital, Nomura’s crypto subsidiary, expects bitcoin to remain largely a macro trade into year-end, taking its direction from longer-dated Treasury yields.
+He described the rebound from summer lows as unconvincing, citing thin volumes, fading ETF inflows and slowing corporate buying.
+Positioning offers more encouragement. Leverage has largely been flushed out of bitcoin, with much of the speculative excess moving into altcoins, Invernizzi said.
+McCarthy also sees fewer crowded bullish positions that could unravel. Funding rates, payments between perpetual futures traders, are at or below zero, while August’s rally was driven by traders closing bearish bets rather than adding new bullish positions.
+That reduces the fuel for forced selling and leaves room for another squeeze higher.
+“A clean break above $90K for BTC could trigger another round of short covering,” Invernizzi said.
+With implied volatility back near its lows and options pricing still tilted toward downside protection, he sees upside calls as an attractive way to position for a rally without chasing bitcoin in the spot market.
+Longer-term demand
+The broader industry’s recovery provides another source of optimism.
+In a research note to clients earlier this week authored by Peter Christiansen, Citi (C) said total crypto market capitalization rose from roughly $2.1 trillion to nearly $3 trillion during the third quarter. Institutional ETF flows turned positive, while activity across exchanges, stablecoins and digital asset infrastructure improved.
+The bank also sees investors increasingly looking beyond crypto prices toward businesses supporting tokenization, custody, stablecoins and settlement. Regulatory progress continues despite the Clarity Act’s failure to advance, Citi said.
+Butterfill cautioned that investment-product flows have since slowed following $11.1 billion of inflows since mid-July. He views that as uncertainty rather than deteriorating bitcoin fundamentals, but said sustained gains require renewed buying.
+Like Rasmussen, he sees concerns about government finances as a potential longer-term source of demand. Higher Treasury yields typically hurt bitcoin by tightening financial conditions, but that relationship could shift if investors increasingly interpret those yields as compensation for fiscal risk.
+“Our bias is towards higher prices over the medium term, but we would want to see the fiscal argument translate into sustained allocations before expecting a decisive breakout,” Butterfill said.
+Rasmussen is more confident those forces will translate into gains sooner.
+“Once the market churns through this period, we expect bitcoin to rerate significantly higher,” he said.
+Read more: The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking
+
+Summary:

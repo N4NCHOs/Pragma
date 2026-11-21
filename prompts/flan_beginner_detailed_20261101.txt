@@ -1,0 +1,23 @@
+Summarize the following cryptocurrency news for a complete beginner with no prior knowledge of cryptocurrency, blockchain, trading, or financial markets.
+
+Write 2–3 short, clear sentences explaining the main event and its most important supporting information.
+
+Follow these guidelines:
+
+1. **Prioritize understanding:** Clearly explain what happened, who or what was involved, and what changed. Focus on the information necessary to understand the main event.
+2. **Use beginner-friendly language:** Replace technical cryptocurrency, blockchain, and financial terminology with simple, everyday explanations. Assume the reader is unfamiliar with all specialized concepts.
+3. **Explain essential concepts:** When a technical concept is necessary to understand the event, briefly explain what it means or how it works using simple language. Avoid unnecessary technical details.
+4. **Provide minimal context:** Include only the background information needed to understand the event, without introducing information or claims unsupported by the article.
+5. **Preserve factual accuracy:** Retain important asset names, organizations, events, and numerical information. Include numbers only when they are necessary to explain the main event.
+6. **Preserve uncertainty:** Clearly distinguish confirmed facts from opinions, allegations, expectations, or possibilities. Maintain attribution when reporting statements or claims.
+7. **Avoid unsupported implications:** Mention consequences or implications only when explicitly supported by the article. Do not speculate about market movements or future outcomes.
+8. **Remain objective:** Use neutral, factual language. Avoid sensationalism, promotional statements, investment recommendations, and price predictions.
+
+Use the article as the only source of information about the event. Do not introduce external facts, unsupported assumptions, or invented explanations.
+
+Output only the summary without additional commentary, headings, or bullet points.
+
+Article:
+{article_text}
+
+Summary:

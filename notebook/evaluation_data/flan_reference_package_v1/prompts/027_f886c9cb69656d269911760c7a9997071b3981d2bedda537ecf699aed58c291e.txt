@@ -1,0 +1,30 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+JPMorgan's JPM Coin, representing dollar deposits, is coming to Ethereum: Bloomberg. JPMorgan's JPM Coin, representing dollar deposits, is coming to Ethereum: Bloomberg
+JPMorgan's dollar deposit token is heading to Ethereum as the lender looks to offer it to wider selection of institutional clients.
+- JPMorgan will make JPM Coin, a token representing dollar deposits at the bank, available to institutional clients on Ethereum, Bloomberg reported.
+- The bank said Ethereum’s liquidity makes it attractive for crypto companies seeking blockchain payments and financial firms settling trades or backing tokenized assets.
+- The move expands JPMorgan’s blockchain efforts beyond its private Kinexys network, which processes more than $7 billion in transactions daily.
+JPMorgan(JPM), the largest U.S. bank, is bringing its almost year-old crypto token, JPM Coin, to Ethereum as part of a plan to expand beyond Base, the layer-2 blockchain built by Coinbase Global 
+The bank chose Ethereum because the blockchain offers more liquidity than rival networks and is already used by institutional clients, Emma Landriault, the head of Kinexys Labs at JPMorgan’s blockchain division Kinexys, said in an interview with Bloomberg.
+The banking giant flagged a move outside Base back in January, saying it was planning to take the token to the Canton Network. Broadening its availability aims to serve crypto firms that want to make blockchain payments and financial firms that need a digital token to settle trades or back tokenized assets, Landriault said.
+Landriault didn’t say when JPM Coin, which represents dollar deposits at the bank, would become available on Ethereum. The bank had not responded to a CoinDesk request for details by publication time.
+Tokenization is the process of converting real-world assets and financial assets into a digital form that’s recorded and traded on a decentralized ledger. The advantage is speed, including faster settlement of trades, quick movement of money while bypassing delays and frictions involved in traditional rails.
+Banks have embraced tokenization, but mostly away from public networks. In the U.S., JPMorgan, Citi (C), Bank of America (BAC) and Wells Fargo (WFC), along with more than a dozen other banks, have plans to start a shared network for tokenized deposits.
+JPMorgan’s private blockchain network, Kinexys, already handles more than $7 billion a day, a small piece in the bank’s $12 trillion a day payments business. Almost $50 billion worth of crypto assets are locked in Ethereum-based applications, according to DeFiLlama.
+Abroad, JPMorgan is among more than 30 banks that are helping Swift, the interbank messaging service, define the features and governance of its blockchain-based ledger. In July, Swift said 17 banks, including Citi and Wells Fargo, were preparing to pilot live transactions on it. JPMorgan wasn’t on that list.
+
+Summary:

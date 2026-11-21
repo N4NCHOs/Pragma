@@ -1,0 +1,33 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech. A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech
+The venture investor behind early bets on Coinbase, Solana and Uniswap said is broadening its focus, joining other crypto investment firms looking beyond blockchain to artificial intelligence and tech themes.
+- Prominent venture firm Andreessen Horowitz is renaming its crypto-focused arm to a16z Frontier, expanding its investment focus to artificial intelligence and other emerging technologies.
+- The firm will continue investing in blockchain tech and advocating for crypto regulation while exploring autonomous machines and networks connecting people and AI agents, partner Chris Dixon said.
+- The shift follows similar moves by crypto-focused venture firms, including Paradigm, Framework Ventures and Haun Ventures, to broaden their investments beyond digital assets.
+Andreessen Horowitz (a16z), one of crypto's most influential venture capital backers, is dropping "crypto" from the name of its investment arm and expanding into artificial intelligence and other emerging technologies, becoming the latest major crypto investor to broaden its focus.
+The Silicon Valley firm is renaming its a16z Crypto fund to a16z Frontier, targeting startups developing technologies and markets that may take years to mature, general partner Chris Dixon said in a Thursday blog post.
+The move doesn't mean a16z is abandoning digital assets. The firm will continue backing crypto companies and advocating for crypto regulation, Dixon said.
+"This is an expansion: we will continue to invest in crypto and related ventures and advocate for sensible crypto regulation," he wrote.
+The VC giant had played a significant role in shaping the crypto industry. An early Coinbase investor, the firm also backed major blockchain projects including Solana (SOL) and decentralized exchange Uniswap (UNI), while pouring billions into crypto startups and becoming a prominent voice in U.S. policy debates.
+The company’s decision is the latest example of a broader pivot among venture capital firms that made their names in crypto but are now looking beyond digital assets.
+Paradigm raised $1.2 billion in July to invest in AI, robotics and other technologies, while Framework Ventures raised $400 million in June to expand into AI, energy, fintech and tokenization. Haun Ventures also broadened its focus toward AI and financial services with a $1 billion fundraising in May.
+A16z Frontier will explore AI-powered products, autonomous machines and networks connecting people and AI agents. Dixon sees blockchains playing a role in those networks by enabling payments and transactions between machines.
+Dixon argued that as blockchain technology spreads into mainstream finance, the distinction between crypto companies and other businesses is becoming less useful.
+"Wall Street and fintech companies now regularly launch products built on blockchains,” he wrote. “Does that make them crypto companies? The label matters less now."
+Dixon said he will lead the fund alongside a16z founders Marc Andreessen and Ben Horowitz and general partners Eddy Lazzarin and Guy Wuollet.
+
+Summary:

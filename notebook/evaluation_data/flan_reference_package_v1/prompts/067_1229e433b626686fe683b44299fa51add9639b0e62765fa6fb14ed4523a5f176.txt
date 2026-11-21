@@ -1,0 +1,41 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet. Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet
+Two subscriptions on Thursday nearly quadrupled the fund’s tokens on the network. The receiving wallet shares its authorized signers with the issuer.
+- Franklin Templeton added about $150 million in shares of its tokenized money market fund to the XRP Ledger, bringing the network’s total to nearly 193 million shares worth about $200 million.
+- All sgBENJI shares on the XRP Ledger remain in a single wallet that shares transaction signers with Franklin’s issuing account, though it is unclear whether the wallet represents one investor or multiple clients.
+- The fund invests in short-term dollar debt and money-market instruments, and its XRP Ledger holdings can be approved, frozen or recovered by Franklin.
+Franklin Templeton added $150 million worth of shares in its tokenized money market fund to the XRP Ledger earlier Friday, with every new share went to one wallet which now holds the fund’s entire token balance on the network.
+That wallet and Franklin’s issuing account authorize the identical eight signing addresses. Any two can jointly approve a transaction, according to CoinDesk’s review of ledger records.
+The wallet holds nearly 193 million sgBENJI shares, up from about 48 million before Thursday. At the $1.039 share price recorded in the transactions, that is worth about $200 million.
+RWA.xyz ranks Franklin second in its XRP Ledger table of tokenized asset platforms, behind Ripple’s RLUSD stablecoin at about $930 million and ahead of Ondo at $185 million.
+Each token represents a share of the Singapore-domiciled Franklin OnChain U.S. Dollar Short-Term Money Market Fund. It invests in short-term dollar debt and money-market instruments, including government paper, commercial paper and bank deposits. Returns accumulate in the share price.
+On Wednesday, Franklin’s issuing account wrote two subscription receipts onto the ledger. Each recorded a $75 million cash subscription and carried its own reference code.
+Two batches of just over 72,184,793 shares followed at 02:58 and 04:13 UTC Thursday, each carrying a matching receipt code and a $1.039 share price.
+The receipts leave the investors, funding source and any connection to existing holdings on Stellar, the other blockchain the fund uses, undisclosed.
+RWA.xyz lists Franklin’s XRP Ledger position at about $193 million, matching the share count at a dollar each. Thursday’s recorded share price puts its value nearly $8 million higher.
+Why one wallet
+Brokers and custodians routinely hold shares for many clients in one account, tracking individual ownership separately.
+Franklin’s fund documents describe a register combining blockchain entries with records held outside the network, including information “which links the wallet addresses of the entries on the distributed ledger to their real-world identities.”
+Whether this particular wallet represents one investor or several remains unclear.
+CoinDesk asked Franklin whether it is an omnibus account, how many investors funded the subscriptions and whether they or their custodians will receive tokens in separate addresses. The firm had not responded as of Asia morning hours on Saturday.
+Franklin and DBS announced the fund’s Singapore-authorized structure in November 2025 with a $20 minimum investment. Initially available to wealth and accredited clients, retail access was expected in early 2026.
+Their September 2025 agreement with Ripple outlined plans for eligible DBS Digital Exchange clients to switch between sgBENJI and RLUSD. DBS also said it would explore lending against the fund tokens.
+Holding sgBENJI directly on XRPL requires Franklin’s approval. Its settings also allow the issuer to freeze balances and recover tokens.
+Thursday’s transactions nearly quadrupled the number of sgBENJI shares on the XRP Ledger. The number of wallets holding any of them stayed at one.
+Read More: Ripple, Franklin Templeton and DBS to offer token lending and trading
+
+Summary:

@@ -1,0 +1,37 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains. Bitcoin traded around $82,500, up about 0.4% since midnight UTC, extending a rebound from Sunday’s dip to roughly $80,700.
+The CoinDesk 80 gained 0.9%, triple the CoinDesk 5’s 0.e5% rise, with all six members of the DeFi index higher and arbitrum adding 6.7%.
+Nasdaq 100 futures rose more than 1% and Asian stocks advanced after China’s third-quarter GDP growth beat expectations and oil prices eased.
+Bitcoin BTC$81.895,05 is trading around $82,500, up around 0.5% since midnight UTC, extending a bounce from Sunday’s dip to roughly $80,700 and comfortably above Thursday’s brief break below $80,000.
+Altcoins outpaced the largest cryptocurrency, with ether ETH$2.398,34 adding 0.75% to near $2,430 and the CoinDesk 80 (CD80) gaining 0.9%, triple the 0.35% rise in the bitcoin-heavy CoinDesk 5 (CD5). DeFi led the CoinDesk benchmarks with a 0.81% gain, with all six members of the DFX sector index higher.
+The rebound follows a rough week for U.S. tech. The Nasdaq fell 4.5% in its worst weekly decline since June as worries over AI spending and debt hit stocks such as CoreWeave (CRWV), which fell 25%. On Monday, Nasdaq 100 futures advanced more than 1% alongside gains in Asian stocks after China’s third-quarter GDP growth of 4.5% beat expectations and oil prices eased, with earnings from Meta Platforms META$700,68 and Tesla TSLA$368,09 due this week.
+Derivatives positioning
+Volume jumps, positioning doesn't: Total 24-hour crypto futures volume rose 51% to $146 billion, while open interest (OI) edged up just 1.25% to $141 billion as traders churned through more contracts without adding much net exposure. Liquidations were $329 million, little changed from a day earlier, and the taker long-short volume ratio is balanced, so neither side is forcing the other out.
+Majors rally with more leverage than spot buying: BTC, ETH, SOL and XRP all gained, and their notional OI grew faster than their prices in a sign that fresh capital is entering the contracts. Annualized perpetual funding is positive on all four, so longs are paying to hold. The 24-hour OI-adjusted cumulative volume delta (CVD) is flat to negative, though, meaning aggressive selling at least matched aggressive buying. The gains look position-led, and that makes them more fragile.
+DOGE, UNI and crude oil perps see positions unwind: OI fell in all three despite flat-to-negative price action. Traders are closing positions and pulling capital out, not adding to bets on the downside.
+ADA's bounce meets bearish positioning: ADA rose almost 1% in 24 hours, yet its annualized perp funding is -8%, the only negative print among the majors. Shorts are paying to stay short, and CVD is negative too. If the bounce continues, that crowded short side could become a source of buying.
+Crypto volatility gauges stay calm as the VIX spikes: Bitcoin's and ether's 30-day implied volatility indexes, BVIV and EVIV, still signal calm, even as Wall Street's equivalent, VIX, surged on Friday. VIX history points to a likely normalization on Monday.
+Bitcoin put-buyers dominate Deribit: The five most traded options on Deribit over the past 24 hours were all bitcoin puts at strikes below the current market price. Traders use puts to hedge long exposure against spot declines, so some are insuring gains. Ether flows look mixed.
+Token talk
+Arbitrum ARB$0.1939, an Ethereum layer-2 token, rose 6.7% to about $0.20, with the rally stemming from the Arbitrum Foundation’s Stablecoin Growth Program, announced on Thursday. The program sets aside 2 million ARB for the first 10 teams to hold $10 million in USDG, a dollar-pegged stablecoin issued by Paxos Digital Singapore. ARB has risen by 16.45% since the announcement.
+Pump.fun PUMP$0.004465, the token of the Solana memecoin launchpad, jumped 7.6%, recouping part of a weekend slide that took it to about $0.0039 on Sunday. While there was no news catalyst for the move, 24-hour trading volume doubled to $215 million.
+DeFi tokens advanced across the board, with uniswap (UNI) up 3.2% to around $7.42, while lido LDO$0.3964 and ethena (ENA) rose by 2.5% and 1.6% respectively as the sector recovers from last month’s Clarity Act delay and shrinking yields.
+Celestia (TIA) gave back 3.9% to about 61 cents after Friday’s 16% jump, while starknet STRK$0.06013 slipped 1.0% to 6 cents. STRK’s market value has fallen about a quarter since Friday morning, according to CoinDesk data.
+The larger cryptocurrencies were mostly higher, with solana (SOL) rising 1.6% to about $106, XRP gaining 0.6% and BNB adding 0.36%. Cardano ADA$0.2170 slipped 0.15% and hedera HBAR$0.08273 fell 0.83%.
+The “Altcoin Season” index is at 56/100, tumbling from last week’s high of 63/100, the 2026 record.
+
+Summary:

@@ -1,0 +1,41 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Bitcoin risk management grows more popular as the 'just bet on price' era fades. Bitcoin risk management grows more popular as the 'just bet on price' era fades
+Your day-ahead look for Oct. 21, 2026
+This is an excerpt from CoinDesk newsletter 'Daybook.' Sign up here, if you haven't already.
+Bitcoin 
+According to Volmex, the issuer of the bitcoin volatility index BVIV, options accounted for just under 60% of open interest among all bitcoin derivatives last week. That’s up from around 50% at the start of the year.
+Open interest is the total value of contracts that traders have opened and not yet closed. The market encompasses bitcoin futures, perpetual futures and both bitcoin-native and ETF-based options.
+Volmex called the growth a structural shift in bitcoin markets, a sign that trading bitcoin is now about managing risk, not just betting on direction.
+Options allow investors to hedge their holdings, earn additional income or bet on a big move without borrowing, so positions can last longer than a leveraged perpetual bet. They are also priced on expected volatility, which is what gauges like Vomex’s BVIV track.
+Options are derivative contracts with a fixed expiry date that let traders bet on three things at once. They can bet on the direction of the price, on how big the swings will be and on timing, meaning by when a move will or won't happen.
+As of Friday, the bitcoin derivatives market looked like this: Options tied to U.S. bitcoin exchange-traded funds had about $36 billion in open interest, with BlackRock’s IBIT accounting for nearly $35 billion of the total. Add in options on crypto-native platforms, and the figure rises to roughly $76 billion. When bitcoin futures, including perpetual futures and dated contracts, are taken into account, the overall market reaches about $129 billion.
+ETF options alone are now about 47% of the bitcoin options market, which is mainly owned by Deribit. IBIT options have tripled since January 2025, when open interest was about $11 billion.
+The growth in options is consistent with the pattern seen on U.S. equities, where options tied to the S&P 500 Index accounted for nearly 75% of all derivatives linked to the index and index equivalents as of last year.
+The growing use of options is also visible in BlackRock’s expanding lineup of bitcoin-related funds. In June, the world’s largest asset manager introduced the iShares Bitcoin Premium Income ETF (BITA), which seeks monthly income by selling call options on a portion of its IBIT holdings, sacrificing some upside in exchange for option premiums. This week, it filed to offer a bitcoin buffer ETF that uses options to limit losses during a downturn, while also capping potential gains.
+All of this suggests bitcoin’s volatility could continue to decline, a trend that has been underway since spot bitcoin ETFs debuted in early 2024. Stay alert!
+Read more: For analysis of today's activity in altcoins and derivatives, see Crypto Markets Today . For a comprehensive list of events this week, see CoinDesk's "Crypto Week Ahead."
+What’s trending
+- SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin (CoinDesk): Elon Musk said independent committees are assessing a potential merger that would combine the companies’ 30,221 BTC.
+- Solana’s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday (CoinDesk): Solana’s upgrade is scheduled to cut transaction finality from roughly six seconds to about 150 milliseconds by moving validator voting off-chain.
+- Zcash developers confirm November date for upgrade that triples payment speed (CoinDesk): Developers selected an activation point around Nov. 5 for NU7, which would cut block times to 25 seconds from 75 seconds. The change still requires integration into deployment specifications and node software.
+- JPMorgan sees 10% annual bitcoin returns, topping stocks, bonds and gold over next decade (CoinDesk): JPMorgan put a number on bitcoin returns for the first time, forecasting about 10% a year over the next decade. The bank remains cautious about BTC’s role in portfolios.
+Today’s signal
+The chart shows bitcoin’s daily price swings in candlestick format. Overlaid is the Ichimoku cloud, an indicator used to identify support and resistance and momentum, and the 50-day average price.
+Bitcoin looks to have bounced off support at the Ichimoku cloud. For chart analysts, staying above the cloud and the 50-day moving average would signal that the bullish bias is still in place.
+The immediate resistance is around $87,500, the recent high, followed by $90,000, a level with large options open interest on Deribit.
+
+Summary:

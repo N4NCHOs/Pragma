@@ -1,0 +1,37 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin. Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin
+Institutions can trade through Ripple Prime and post RLUSD as collateral. Finding enough buyers and sellers for large positions could prove harder.
+- Ripple Prime now allows institutional clients to trade swaps tied to more than 100 stock, commodity and currency markets around the clock, using its RLUSD stablecoin as collateral.
+- HSBC called the offering “evolutionary, not revolutionary,” warning that limited liquidity could constrain large trades and initially favor market makers, proprietary traders and hedge funds.
+- The risks of weekend trading surfaced when nearly $52 million in leveraged chip-stock positions were liquidated within 10 minutes while the underlying shares were not trading.
+Ripple is giving institutions a way to bet on stocks, gold and oil over the weekend through its brokerage business, but HSBC says thin trading could limit how much money follows them in.
+Daragh Maher, head of digital assets research at HSBC, called the launch an “evolutionary, not revolutionary” step in a note to clients on Monday, a copy of which was shared with CoinDesk.
+“This is a rapidly growing market but not a very big one when compared to the Trad Fi markets they are tracking,” Maher wrote. “The stronger case for the product comes once there is sufficient depth for investors to express views and adjust risk when conventional markets are closed.”
+Ripple Prime, the brokerage formerly known as Hidden Road, now lets clients trade swaps tied to more than 100 markets, including shares, commodities and currencies. A swap is a contract that pays out according to price movements, letting a client take a position without buying the underlying asset. Trading firm Virtu is already using the service, Ripple said in its Oct. 15 announcement.
+The swaps track perpetual futures listed by Trade.xyz, a platform for stock and commodity contracts on Hyperliquid, a crypto derivatives exchange. Perpetuals have no expiry date and trade around the clock, letting a fund take a position on gold on Sunday while conventional markets are closed.
+Clients deal with Ripple Prime, which manages their collateral and risk across positions, and can use Ripple’s dollar-pegged RLUSD stablecoin to back their trades. Ripple had already connected its brokerage to Hyperliquid in February.
+But a fund looking to trade millions of dollars still needs someone willing to take the other side at an acceptable price, and Saturday showed how quickly weekend positions can unravel.
+Nearly $52 million in leveraged chip-stock positions were forcibly closed in 10 minutes as selling spread from Binance to Hyperliquid. The shares themselves weren’t trading, leaving the contracts without fresh stock-market prices to follow, and exposing risks of participating in these newfound markets.
+Read More: Chip-stock bets lost $52 million in 10 minutes with Wall Street shut
+Meanwhile, HSBC expects early activity to lean toward firms trading price differences between markets.
+“Until that depth develops, though, activity is more likely to be concentrated among market makers, proprietary traders, and hedge funds pursuing basis trades than among institutions seeking strategic hedges,” Maher wrote. Basis trades try to profit from price gaps between related positions, such as a contract and the asset it tracks.
+The bank said Ripple’s success would depend on whether the service is cheaper, simpler and makes better use of clients’ collateral than existing brokers and venues.
+Ripple is already earning fees financing leveraged stock bets, as CoinDesk reported this month, expanding into a business long dominated by banks.
+The new swaps are offered through Ripple Prime’s British Virgin Islands license, with more jurisdictions planned. Ripple has named an early customer but hasn’t disclosed how much the service has traded.
+Read More: Ripple is earning fees financing leveraged stock bets, a business long run by banks
+
+Summary:

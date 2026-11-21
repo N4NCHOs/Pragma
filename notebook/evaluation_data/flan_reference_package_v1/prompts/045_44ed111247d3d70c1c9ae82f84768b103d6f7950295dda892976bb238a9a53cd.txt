@@ -1,0 +1,37 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+Solana’s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday. Solana’s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday
+Alpenglow will replace the voting system Solana has used since 2020, targeting roughly 150-millisecond finality after months of testing that included a failed migration and rollback.
+- Solana’s Alpenglow upgrade is expected to reduce transaction finality to about 150 milliseconds from roughly six seconds by moving validator voting off-chain.
+- Faster finality could make trading and payments feel more like those on centralized exchanges, while validator costs are expected to fall by about 60 percent.
+- The upgrade is scheduled to activate Wednesday after six test-network restarts and a failed migration that was later successfully completed.
+Solana transactions could soon become irreversible in just 150 milliseconds, or roughly 40 times faster than today, as the network switches on its Alpenglow upgrade on Wednesday.
+The upgrade changes how validators, the computers that process transactions and vote on which ones are valid, agree with each other.
+Today, every validator writes its votes straight onto the blockchain like any other transaction, and a payment isn’t locked in until enough of them stack up — which takes about six seconds.
+Alpenglow pulls that voting off the chain and bundles votes into certificates that can lock in a transaction in one or two rounds. If the 150-millisecond target holds up on mainnet, a Solana transaction would be settled in less time than it takes to blink.
+Six seconds is a long time in a fast market, where a price can move before a trade is locked in, and exchanges and payment apps make users wait before treating a deposit as done.
+But cutting that to a fraction of a second gets Solana much closer to the feel of a card payment or a trade on a centralized exchange (Ethereum, by comparison, takes roughly 13 minutes to reach full finality).
+"Solana's transaction count is going to look a lot lower this week, and people will ask if something's wrong. It isn't,” shared Robin Nordnes, CEO and founder of Raiku, which builds trading infrastructure on Solana, in an email.. “Most of what got counted before was validators voting, and that's off-chain now. The trading's all still there.”
+“For desks, faster finality is nice, but it was never the bottleneck. Being close to where the block is built still is,” he added.
+Read More: Solana is about to halve its block times as final 200-millisecond upgrade nears
+Validators also get a cheaper bill. They currently burn through about 2 SOL a day on vote fees, a cost that doubled after Solana recently cut its slot times, the window each block gets, to about 200 milliseconds.
+Alpenglow scraps those fees in favor of a flat entry charge called a validator admission ticket, set at 0.8 SOL per epoch, a period of about 24 hours. That’s roughly 60% cheaper.
+Getting here wasn’t smooth.
+The test network was wiped and restarted from scratch six times since launching in early May, and one attempt to migrate to the new system failed network-wide and had to be rolled back, according to a post from Galaxy Digital, one of roughly 100 validator operators on the test network. A later migration went through, clearing the way for Wednesday’s launch.
+None of that put real money at risk, since it all happened on a network built for exactly that kind of breakage.
+The switch is set for the start of epoch 1064 on Wednesday, with the actual change at slot 459,653,000 after a 5,000-slot transition.
+
+Summary:

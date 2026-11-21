@@ -1,0 +1,36 @@
+Summarize the following cryptocurrency news for a beginner with no financial background.
+
+Write 1-2 concise, clear sentences covering the main event and its most important supporting facts.
+
+Rephrase complex financial and cryptocurrency jargon in everyday language without changing its meaning. If an essential technical term must be retained, briefly explain it in simple words.
+
+Preserve the asset names, organization names, and numbers necessary to understand the event. Preserve uncertainty and attribution: do not present opinions, allegations, or possibilities as established facts.
+
+Mention an implication or consequence only if it is explicitly stated in the article.
+
+Use the article as the only source of claims about the news. Brief, neutral definitions of technical terms are allowed, but do not introduce new event details or infer unstated consequences.
+
+Remain objective and factual. Do not give investment advice or predict future prices.
+
+Article:
+BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash. BlackRock seeks to shield bitcoin investors from losses after rival fund weathers 50% crash
+BlackRock's proposed fund follows similar products from Calamos that helped investors avoid steep losses during bitcoin's selloff.
+- BlackRock filed Monday to offer a bitcoin-linked ETF that seeks to limit losses while allowing investors to benefit from price gains.
+- Calamos' protected bitcoin ETF lost just 1% since October 2025, even as bitcoin tumbled more than 50% from its peak.
+- The filing follows BlackRock's June introduction of a bitcoin income ETF as the firm expands beyond funds that track bitcoin's price.
+While bitcoin 
+The Naperville, Illinois-based firm's Bitcoin Structured Alt Protection ETF – October (CBOO) dropped just 1% since the start of its one-year protection period in October 2025, according to a Calamos spokesperson. The largest cryptocurrency, in contrast, tumbled as much as 52% from its record high of roughly $126,000.
+Now BlackRock (BLK), the world's largest asset manager, wants to offer investors a similar way to protect themselves from bitcoin's price swings.
+On Monday, the firm filed to introduce the iShares Bitcoin Managed Protect ETF, which would give investors exposure to bitcoin's gains while seeking to limit losses when the cryptocurrency falls.
+"The Fund seeks to provide upside exposure to the iShares Bitcoin Trust ETF and/or similar bitcoin exposure up to an approximate limit, while seeking to provide a level of downside protection," BlackRock said in the filing.
+The proposed fund would build on BlackRock's flagship iShares Bitcoin Trust (IBIT), which manages more than $65 billion in assets and is the largest of the U.S. spot bitcoin ETFs introduced in 2024.
+BlackRock, based in New York City, isn't breaking new ground.
+Calamos debuted its first three protected bitcoin ETFs in early 2025, offering investors a choice between full downside protection and funds that limit losses to 10% or 20% over a set period.
+BlackRock’s filing did not provide details on how much downside protection the proposed fund would offer, nor how much of bitcoin's upside investors could capture.
+Calamos puts roughly 90% of the funds' assets into U.S. Treasuries and uses the rest to buy bitcoin-linked options. The structure allows investors to benefit when bitcoin rises, up to a set cap, while limiting losses over a defined period.
+The strategy has found an audience. Matt Kaufman, Calamos' head of ETFs, said in May that the protected bitcoin funds had attracted between $10 million and $15 million over several weeks, even as spot bitcoin ETFs saw outflows.
+BlackRock has also been looking beyond funds that track bitcoin's price.
+In June, it launched the Bitcoin Premium Income Fund (BITA), which holds bitcoin and IBIT shares while selling call options on roughly 25% to 35% of its portfolio to generate monthly income.
+"There are investors across the spectrum ... looking to generate some amount of income off of still having a mostly large, mostly long position to bitcoin," Jay Jacobs, BlackRock's U.S. head of equity ETFs, told CoinDesk at the time.
+
+Summary:
